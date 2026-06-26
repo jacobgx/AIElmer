@@ -1,0 +1,16 @@
+* text=auto
+*.md text eol=lf
+*.ps1 text eol=crlf
+*.py text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.sif text eol=lf
+*.template text eol=lf
+*.geo text eol=lf
+
+*.mph binary
+*.vtu binary
+*.pvd binary
+*.result binary
+*.gif binary
+*.png binary

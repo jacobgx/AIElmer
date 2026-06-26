@@ -1,0 +1,6 @@
+InternalPartitioning	InternalPartitioning/part.sif	mesh_partitioning, postprocessing
+InternalPartitioning2	InternalPartitioning2/part.sif	mesh_partitioning, postprocessing
+InternalPartitioning3	InternalPartitioning3/part.sif	mesh_partitioning, postprocessing
+InternalPartitioning4	InternalPartitioning4/part.sif	mesh_partitioning, postprocessing
+InternalPartitioning5	InternalPartitioning5/part.sif	mesh_partitioning
+InternalPartitioning6	InternalPartitioning6/part.sif	mesh_partitioning

@@ -1,0 +1,330 @@
+a-posteriori-recovery-2D	a-posteriori-recovery-2D/recovery_adapt.sif	Heat Equation, Flux reconstruction
+adaptivity1	adaptivity1/Ldomain.sif	Heat Equation
+adaptivity1-mmg2d	adaptivity1-mmg2d/Ldomain.sif	Heat Equation
+adaptivity1-mmg3d	adaptivity1-mmg3d/case-par.sif	Heat Equation, SaveScalars
+adaptivity1-mmg3d	adaptivity1-mmg3d/case.sif	Heat Equation, SaveScalars
+adaptivity2	adaptivity2/Ldomain.sif	Heat Equation
+amultg	amultg/TempDist.sif	Heat Equation
+AnalyticalTest	AnalyticalTest/case.sif	HeatEq
+AngleMetisLayer	AngleMetisLayer/case.sif	HeatSolver, SaveScalars
+AnglePartitionLayer	AnglePartitionLayer/case.sif	HeatSolver, SaveScalars
+beamer3d_box	beamer3d_box/beamer3d.sif	Heat Equation, SaveScalars, SaveScalars2
+beamer3d_box2	beamer3d_box2/beamer3d.sif	Heat Equation, SaveScalars, SaveScalars2
+BlockDomainsFourHeaters	BlockDomainsFourHeaters/case.sif	Heat Equation, SaveScalars
+BlockDomainsFourHeaters	BlockDomainsFourHeaters/ref.sif	Heat Equation, SaveScalars
+BlockDomainsVtuParts	BlockDomainsVtuParts/case.sif	Heat Equation
+BlockRotatingBCPoisson3D	BlockRotatingBCPoisson3D/case.sif	MeshDeform, Heat Equation, SaveScalars, VtuOutput
+BoundaryFluxes	BoundaryFluxes/case.sif	Heat Equation, SaveScalars
+BoundaryFluxes2	BoundaryFluxes2/case.sif	Heat Equation, SaveScalars
+cmultg	cmultg/case.sif	Heat Equation
+CompressIdealGas	CompressIdealGas/case.sif	MeshSolver, Navier-Stokes, Heat Equation, SaveScalars
+ConstantBCTemperature	ConstantBCTemperature/case.sif	HeatEquation, SaveScalars
+ConstantParamFunc	ConstantParamFunc/case.sif	Heat Equation
+ContactFrictionHeating	ContactFrictionHeating/case.sif	Nonlinear elasticity, HeatEq
+ConvergenceControl	ConvergenceControl/case.sif	HeatEq
+CoordinateScaling	CoordinateScaling/case.sif	HeatSolver
+CoordinateTrans	CoordinateTrans/case.sif	Heat Equation, result output
+CoordinateTrans2	CoordinateTrans2/case.sif	Heat Equation, result output
+CoupledPoisson1b	CoupledPoisson1b/case.sif	HeatEq
+CoupledPoisson2b	CoupledPoisson2b/case.sif	HeatEq
+CoupledPoisson2c	CoupledPoisson2c/case.sif	HeatEq
+current_heat_control	current_heat_control/case.sif	Static Current, Heat
+CurvedPipeHalf	CurvedPipeHalf/case.sif	Navier-Stokes, Heat Equation
+DefaultIntExtBCs	DefaultIntExtBCs/case.sif	Heat Equation
+DgVariable	DgVariable/case.sif	Heat Equation, ShowScalars
+DgVariable2	DgVariable2/case.sif	Heat Equation, ShowScalars
+DirichletNeumann	DirichletNeumann/case.sif	HeatA, HeatB
+DirichletNeumannSlave	DirichletNeumannSlave/case.sif	HeatA, HeatB
+DirichletNeumannZoltan	DirichletNeumannZoltan/case.sif	HeatA, HeatB
+DisContBoundary	DisContBoundary/discont.sif	Heat Equation, ComputeFlux
+DisContBoundary3D	DisContBoundary3D/discont.sif	Heat Equation, ComputeFlux
+DisContBoundaryDouble	DisContBoundaryDouble/discont.sif	MeshDeform, Heat Equation, ComputeFlux
+DisContBoundaryDoubleMortar	DisContBoundaryDoubleMortar/discont.sif	MeshDeform, Heat Equation, ComputeFlux, result output
+DisContBoundaryDoubleNames	DisContBoundaryDoubleNames/discont.sif	MeshDeform, Heat Equation, ComputeFlux
+DisContBoundaryMortarCont	DisContBoundaryMortarCont/discont.sif	Heat Equation, ComputeFlux, result output
+DisContBoundaryMortarContElim	DisContBoundaryMortarContElim/discont.sif	Heat Equation, ComputeFlux, result output
+DisContBoundaryMortarJump	DisContBoundaryMortarJump/discont.sif	Heat Equation, SaveLine, result output
+DisContBoundaryMortarJumpB	DisContBoundaryMortarJumpB/discont.sif	Heat Equation, SaveLine
+DisContBoundaryMortarJumpC	DisContBoundaryMortarJumpC/discont.sif	Heat Equation, SaveLine, result output
+DisContBoundaryNodalJump	DisContBoundaryNodalJump/discont.sif	Heat Equation, ComputeFlux, SaveLine
+DisContBoundaryNodalJumpB	DisContBoundaryNodalJumpB/discont.sif	Heat Equation, ComputeFlux, SaveLine
+DisContBoundaryNodalProj	DisContBoundaryNodalProj/discont.sif	Heat Equation, ComputeFlux
+DiscontinuousTempSlabDG	DiscontinuousTempSlabDG/case.sif	MeshDeform, Heat Equation
+ElemVariable	ElemVariable/case.sif	Heat Equation, ShowScalars
+ElemVariable2	ElemVariable2/case.sif	Heat Equation, ShowScalars
+ElmerGridCloneZ	ElmerGridCloneZ/case.sif	HeatSolver
+ElmerGridConvertComsol	ElmerGridConvertComsol/case.sif	CheckMesh, Heat Equation
+ElmerGridConvertFvcom	ElmerGridConvertFvcom/case.sif	CheckMesh, Heat Equation
+ElmerGridConvertGmshBinary	ElmerGridConvertGmshBinary/case.sif	CheckMesh, Heat Equation
+ElmerGridConvertUnv	ElmerGridConvertUnv/case.sif	CheckMesh, Heat Equation
+ElmerGridExtrudeHelicity	ElmerGridExtrudeHelicity/case.sif	HeatSolver
+ElmerGridExtrudeMaterial	ElmerGridExtrudeMaterial/case.sif	HeatSolver
+ElmerGridExtrudeMaterial2	ElmerGridExtrudeMaterial2/case.sif	HeatSolver
+ElmerGridExtrudeOffset	ElmerGridExtrudeOffset/case.sif	HeatSolver
+ExpVariableDer	ExpVariableDer/case.sif	Heat Equation, ComputeFlux, MaxFluxVelo
+ExtrudedMesh2	ExtrudedMesh2/case.sif	Heat Equation, MapCoordinate
+ExtrudedMesh3	ExtrudedMesh3/case.sif	Heat Equation
+ExtrudedMesh4	ExtrudedMesh4/case.sif	Heat Equation
+ExtrudedMesh5	ExtrudedMesh5/map.sif	Heat Equation, MapCoordinate
+ExtrudedMesh6	ExtrudedMesh6/case.sif	Heat Equation
+ExtrudedMesh7	ExtrudedMesh7/case.sif	Heat Equation
+ExtrudedMesh8	ExtrudedMesh8/case.sif	Heat Equation
+ExtrudedMesh9	ExtrudedMesh9/case.sif	Heat Equation
+ExtrudedMeshBaseline1	ExtrudedMeshBaseline1/case_baseline.sif	Heat Equation, MapCoordinate, Poisson
+ExtrudedMeshSlices	ExtrudedMeshSlices/case.sif	Heat Equation, MapCoordinate
+FixPotentialLevels	FixPotentialLevels/case.sif	Heat Equation, SaveScalars
+FluxIntegralBCTemperature	FluxIntegralBCTemperature/case.sif	HeatEquation, SaveScalars
+fluxsolver	fluxsolver/flux.sif	Heat Equation, ComputeFlux, SaveLine
+fluxsolver-multimesh	fluxsolver-multimesh/flux.sif	Heat Equation, ComputeFlux
+fluxsolver2	fluxsolver2/flux2.sif	Heat Equation, ComputeFlux
+fluxsolver3	fluxsolver3/flux.sif	Heat Equation, ComputeFlux, ResultOutput
+gmultg	gmultg/TempDist.sif	Heat Equation
+HeatAndDiffusion	HeatAndDiffusion/case.sif	Heat Equation, Advection Diffusion, ComputeFlux
+HeatAniso	HeatAniso/case.sif	Heat Equation, ComputeFlux
+HeatAnisoMATC	HeatAnisoMATC/case.sif	Heat Equation, ComputeFlux
+HeatAnisoTable	HeatAnisoTable/case.sif	Heat Equation, ComputeFlux
+HeatAnisoUDF	HeatAnisoUDF/case.sif	Heat Equation, ComputeFlux
+HeatControl	HeatControl/case.sif	HeatSolver, SaveScalars
+HeatControl2	HeatControl2/case.sif	HeatSolver, SaveScalars
+HeatControlExplicit	HeatControlExplicit/case.sif	HeatSolver, SaveScalars
+heateq	heateq/a.sif	Heat Equation
+heateq	heateq/TempDist.sif	he1, he2
+heateq_bdf2	heateq_bdf2/TempDist.sif	heat, save scalars
+heateq_bdf3	heateq_bdf3/TempDist.sif	heat, save scalars
+heateq_infty	heateq_infty/case.sif	HeatEq
+heateq_newmark	heateq_newmark/TempDist.sif	heat, save scalars
+heateq_newmark_global	heateq_newmark_global/TempDist.sif	heat, save scalars
+heateq_resmode	heateq_resmode/TempDist.sif	heat, save scalars
+heateq_spline_table	heateq_spline_table/TempDist.sif	heat, save scalars
+heateq_steady_start	heateq_steady_start/TempDist.sif	heat, save scalars
+HeatEqExitCondition	HeatEqExitCondition/case.sif	heat, save scalars
+HeatGap	HeatGap/TempDist.sif	Heat Equation
+HeatSolveVecCondMatrix	HeatSolveVecCondMatrix/case.sif	HeatEq, SaveScalars
+HeatSolveVecDGandMortar	HeatSolveVecDGandMortar/case.sif	HeatSolve
+HeatSolveVecDGandMortarElim	HeatSolveVecDGandMortarElim/case.sif	HeatSolve
+HybridMeshMap	HybridMeshMap/case.sif	MeshSolver, MapCoordinate, Heat Equation, SaveScalars
+IncreaseOrderBrick	IncreaseOrderBrick/case.sif	Heat Equation
+IncreaseOrderPrism	IncreaseOrderPrism/case.sif	Heat Equation
+IncreaseOrderQuad	IncreaseOrderQuad/case.sif	Heat Equation
+IncreaseOrderTet	IncreaseOrderTet/case.sif	Heat Equation
+IncreaseOrderTri	IncreaseOrderTri/case.sif	Heat Equation
+InductionHeating2	InductionHeating2/crucible.sif	Potential Solver, heat equation, SaveFields
+IntegralConstraintPoisson	IntegralConstraintPoisson/case.sif	Heat Equation, SaveLine
+IntegralConstraintPoissonBF	IntegralConstraintPoissonBF/case.sif	Heat Equation, SaveLine
+InternalPartitioning	InternalPartitioning/case.sif	Heat Equation, ResultOutput
+InternalPartitioning2	InternalPartitioning2/case.sif	Heat Equation, ResultOutput
+InternalPartitioning3	InternalPartitioning3/case.sif	Heat Equation, ResultOutput
+InternalPartitioning4	InternalPartitioning4/case.sif	Heat Equation, ResultOutput
+IntersectionBCs	IntersectionBCs/case.sif	Heat Equation, SaveLine
+IntersectionBCs0D	IntersectionBCs0D/case.sif	Heat Equation
+IntersectionBody1D	IntersectionBody1D/case.sif	Heat Equation
+IntersectionBody1Ddiscont	IntersectionBody1Ddiscont/case.sif	Heat Equation
+IpVariable	IpVariable/case.sif	Heat Equation, ShowScalars
+IpVariable2	IpVariable2/case.sif	Heat Equation, ShowScalars
+IpVariable3	IpVariable3/case.sif	Heat Equation, ShowScalars
+IpVariable4	IpVariable4/case.sif	Heat Equation
+IsolineGmsh	IsolineGmsh/case.sif	Heat Equation, isoline
+IsolineGmsh	IsolineGmsh/case3d.sif	Heat Equation, isoline
+IsosurfaceSTL	IsosurfaceSTL/case3d.sif	Heat Equation, isoline
+LimitTemperature	LimitTemperature/case.sif	HeatSolver
+LimitTemperature2	LimitTemperature2/case.sif	HeatSolver
+LimitTemperature3	LimitTemperature3/case.sif	HeatSolver
+LimitTemperature_MPRGP1	LimitTemperature_MPRGP1/case.sif	HeatSolver
+LimitTemperature_MPRGP2	LimitTemperature_MPRGP2/case.sif	HeatSolver
+LinControlCoordHeat	LinControlCoordHeat/case.sif	HeatSolver
+LinControlFourHeaters	LinControlFourHeaters/case.sif	HeatSolver
+LinControlMaxHeat	LinControlMaxHeat/case.sif	HeatSolver
+linearsolvers	linearsolvers/TempDist.sif	Heat Equation
+LinearSystemNamespace	LinearSystemNamespace/case.sif	Heat Equation
+LinearSystemNamespace2	LinearSystemNamespace2/case.sif	Heat Equation
+marangoni	marangoni/skeleton.sif	Navier-Stokes, Heat Equation
+MarchingODE2	MarchingODE2/case.sif	Heat Equation, MarchingOde
+MarchingODE4	MarchingODE4/case.sif	Heat, MarchingOde
+MatDepMat	MatDepMat/case.sif	Heat Equation, SaveMaterial
+MeshLevelsRestart	MeshLevelsRestart/case.sif	Energy
+MeshLevelsRestart	MeshLevelsRestart/init.sif	Energy
+MeshSplitLevelset2d	MeshSplitLevelset2d/case.sif	Heat
+MeshSwap1	MeshSwap1/case.sif	heat, save scalars
+MinimalExample	MinimalExample/case.sif	Heat Equation
+MinpackControlFourHeaters	MinpackControlFourHeaters/case.sif	HeatSolver
+MonolithicSlave	MonolithicSlave/case.sif	HeatB, HeatA
+MonolithicSlave2	MonolithicSlave2/case.sif	HeatB, HeatA
+MortarAndPeriodicPoisson2D	MortarAndPeriodicPoisson2D/case.sif	Heat Equation, SaveScalars, VtuOutput
+MortarMixedDimensions	MortarMixedDimensions/case.sif	Heat Equation, SaveScalars, VtuOutput
+MortarPoisson2D	MortarPoisson2D/case.sif	Heat Equation, SaveScalars, VtuOutput
+MortarPoisson2D	MortarPoisson2D/ref.sif	Heat Equation, SaveScalars
+MortarPoisson2Dpriority	MortarPoisson2Dpriority/case.sif	Heat Equation, SaveScalars, VtuOutput
+MortarPoisson2Dsum	MortarPoisson2Dsum/case.sif	Heat Equation, SaveScalars, VtuOutput
+MortarPoisson2Dsum	MortarPoisson2Dsum/ref.sif	Heat Equation, SaveScalars, VtuOutput
+MortarPoissonPartz3D	MortarPoissonPartz3D/case.sif	MeshDeform, Heat Equation, SaveScalars, VtuOutput
+MortarPoissonZoltan3D	MortarPoissonZoltan3D/case.sif	MeshDeform, Heat Equation, SaveScalars
+MortarSaveProjection	MortarSaveProjection/case.sif	Heat Equation, SaveProject
+multimesh	multimesh/multimesh.sif	refHeat, globalHeat, localHeat
+NaturalConvection	NaturalConvection/case.sif	Heat Equation, Navier-Stokes
+NaturalConvection2	NaturalConvection2/case.sif	Heat Equation, N-S
+NaturalConvection3	NaturalConvection3/case.sif	Heat Equation, N-S
+NaturalConvectionRestart	NaturalConvectionRestart/case.sif	Energy, Flow
+NaturalConvectionRestart	NaturalConvectionRestart/init.sif	Energy, Flow
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/case.sif	Energy, Flow, ModelPDE
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/init.sif	Energy, Flow, ModelPDE
+NonconformingRestart	NonconformingRestart/coarse.sif	Heat Equation
+NonconformingRestart	NonconformingRestart/fine.sif	Heat Equation, CoarseRestart
+NonconformingRestart3	NonconformingRestart3/case.sif	Heat Equation, ISolverA, ISolverB
+NonconformingRestart3	NonconformingRestart3/case_a.sif	Heat Equation
+NonconformingRestart3	NonconformingRestart3/case_b.sif	Heat Equation
+NonconformingRestart4	NonconformingRestart4/case.sif	Heat Equation, Init Guess
+NonconformingRestart4	NonconformingRestart4/plane.sif	Heat Equation
+NonconformingRestartStructmap	NonconformingRestartStructmap/case.sif	InterpSolver, MapCoordinates, Heat Equation
+NonconformingRestartStructmap	NonconformingRestartStructmap/init.sif	HeatA, HeatB
+NonlinControlFourHeaters	NonlinControlFourHeaters/case.sif	HeatSolver
+NormalizeBC	NormalizeBC/case.sif	Heat Equation, SaveScalars
+NormalizeBF	NormalizeBF/case.sif	Heat Equation, SaveScalars
+NormalizeMaterial	NormalizeMaterial/case.sif	Heat Equation, SaveScalars
+normals	normals/normals.sif	Heat Equation, ComputeNormals
+OptimizeBobyqaFourHeaters	OptimizeBobyqaFourHeaters/case.sif	Heat Equation
+OptimizeNewuoaFourHeaters	OptimizeNewuoaFourHeaters/case.sif	Heat Equation
+OptimizeSimplexFourHeaters	OptimizeSimplexFourHeaters/case.sif	Optimize, Heat Equation
+OptimizeSimplexFourHeatersInt	OptimizeSimplexFourHeatersInt/case.sif	Heat Equation
+OtherMeshResults	OtherMeshResults/case.sif	Heat Equation, ResultOutput, SaveScalars
+Outlet2InletBC	Outlet2InletBC/case_a.sif	HeatSolver, GmshOutput
+Outlet2InletBC	Outlet2InletBC/case_b.sif	HeatSolver, result output
+Outlet2InletBCv2	Outlet2InletBCv2/case_a.sif	HeatSolver, GmshOutput
+Outlet2InletBCv2	Outlet2InletBCv2/case_b.sif	HeatSolver, result output
+ParallelBoundaryMapGmsh	ParallelBoundaryMapGmsh/case_a.sif	HeatSolver, GmshOutput
+ParallelBoundaryMapGmsh	ParallelBoundaryMapGmsh/case_b.sif	HeatSolver, result output
+ParallelSlices	ParallelSlices/case.sif	MeshDeform, Heat Equation
+ParamFourHeaters	ParamFourHeaters/case.sif	Heat Equation
+ParticleHeating	ParticleHeating/case.sif	ParticleDynamics, HeatSolver, ResultOutput
+PartitioningDirectionalQuads	PartitioningDirectionalQuads/case.sif	Heat Equation, ResultOutput
+PartitioningUniformQuads	PartitioningUniformQuads/case.sif	Heat Equation, ResultOutput
+PartitioningZoltanQuads	PartitioningZoltanQuads/case.sif	Heat Equation, ResultOutput
+passive	passive/temp.sif	heat equation
+periodic1	periodic1/test.sif	Heat Equation
+periodic2	periodic2/test.sif	Heat Equation
+periodic3	periodic3/case.sif	Heat Equation
+periodic_explicit	periodic_explicit/case.sif	Navier-Stokes, HeatSolver
+periodic_homogenize	periodic_homogenize/case.sif	Heat Equation, SaveScalars
+periodic_nonconforming	periodic_nonconforming/test.sif	Heat Equation
+periodic_offset	periodic_offset/test.sif	Heat Equation
+PeriodicTime	PeriodicTime/case.sif	heat, save scalars
+PhaseChange	PhaseChange/PhaseChange.sif	Heat Equation
+PhaseChange2	PhaseChange2/PhaseChangeSS.sif	Mesh Update, Heat Equation, Phase Surface, SaveLine, SaveScalars
+PhaseChange3	PhaseChange3/PhaseChangeTrans.sif	Mesh Update, Heat Equation, Phase Surface, SaveLine, SaveScalars
+PhaseChange4	PhaseChange4/PhaseChangeTrans.sif	Mesh Update, Heat Equation, Phase Surface, SaveLine, SaveScalars
+PhaseChangeB	PhaseChangeB/PhaseChange.sif	Heat Equation, SaveScalars
+poisson_steady_conforming	poisson_steady_conforming/case.sif	HeatEq
+poisson_steady_conforming	poisson_steady_conforming/ref.sif	HeatEq
+poisson_steady_conforming_anti	poisson_steady_conforming_anti/case.sif	HeatEq
+poisson_steady_conforming_anti	poisson_steady_conforming_anti/ref.sif	HeatEq
+poisson_transient_conforming_anti	poisson_transient_conforming_anti/case.sif	HeatEq
+poisson_transient_conforming_anti	poisson_transient_conforming_anti/ref.sif	HeatEq
+PoissonBEM	PoissonBEM/PoissonBEM.sif	PoissonBEM
+PoissonToroid3D	PoissonToroid3D/case.sif	Heat Equation
+PrevValuesKeyword	PrevValuesKeyword/case.sif	heat, save scalars
+ProfileBCTemperature	ProfileBCTemperature/case.sif	HeatEquation, SaveScalars
+ProfileBCTemperatureRobin	ProfileBCTemperatureRobin/case.sif	HeatEquation, SaveScalars
+quadratic_prisms	quadratic_prisms/case.sif	Heat
+radiation	radiation/radiation.sif	Heat Equation
+radiation2	radiation2/radiation2.sif	Heat Equation
+radiation2d	radiation2d/radiation.sif	Heat Equation
+radiation2d_deform	radiation2d_deform/radiation.sif	Heat Equation, MeshDeform
+radiation2d_spectral	radiation2d_spectral/case.sif	Heat Equation, SaveScalars
+radiation2dAA	radiation2dAA/radiation.sif	Heat Equation
+radiation2dsymm	radiation2dsymm/radiation.sif	Heat Equation
+radiation3d	radiation3d/radiation.sif	Heat Equation
+radiation_bin	radiation_bin/radiation.sif	Heat Equation
+radiation_box_in_box	radiation_box_in_box/case.sif	Heat Equation, SaveScalars, SaveScalars2, MeshRotate
+radiation_dg	radiation_dg/radiation.sif	Heat Equation
+radiator2d	radiator2d/radiator.sif	Heat Equation
+radiator3d	radiator3d/radiator3d.sif	Heat Equation
+radiator3d_box	radiator3d_box/radiator3d.sif	Heat Equation, SaveScalars
+radiator3d_box2	radiator3d_box2/radiator3d.sif	Heat Equation, SaveScalars
+radiator3d_open	radiator3d_open/radiator3d.sif	Heat Equation, SaveTotalFlux
+radiator3d_radiosity	radiator3d_radiosity/radiator3d.sif	Heat Equation, SaveScalars
+radiator3d_spectral	radiator3d_spectral/radiator3d.sif	Heat Equation, SaveScalars
+radiator3d_symm	radiator3d_symm/full.sif	Heat Equation
+radiator3d_symm	radiator3d_symm/half.sif	Heat Equation
+RenameRestart	RenameRestart/case.sif	Heat Equation, ComputeFlux, TestInt
+RenameRestart	RenameRestart/init.sif	Heat Equation, ComputeFlux
+ResultOutputBCs	ResultOutputBCs/case.sif	Heat Equation, ResultOutput
+ResultOutputBulk	ResultOutputBulk/case.sif	Heat Equation, ResultOutput
+ResultOutputMaskName	ResultOutputMaskName/case.sif	Heat Equation, ResultOutput
+ResultOutputMaskSphere	ResultOutputMaskSphere/case.sif	Heat Equation, ResultOutput
+RigidMeshMapper1	RigidMeshMapper1/case.sif	MeshDeform, HeatSolver
+RigidMeshMapper2	RigidMeshMapper2/case.sif	MeshDeform, HeatSolver
+RigidMeshMapperCatenary	RigidMeshMapperCatenary/case.sif	MeshDeform, HeatSolver
+RotatingBCPoisson2D	RotatingBCPoisson2D/case.sif	MeshDeform, Heat Equation, SaveScalars
+RotatingBCPoisson2D	RotatingBCPoisson2D/case_ref.sif	Heat Equation, SaveScalars
+RotatingBCPoisson2D	RotatingBCPoisson2D/case_steady.sif	MeshDeform, Heat Equation, SaveScalars
+RotatingBCPoisson2Dnormal	RotatingBCPoisson2Dnormal/case.sif	MeshDeform, Heat Equation, SaveScalars, VtuOutput
+RotatingBCPoisson2Dp2	RotatingBCPoisson2Dp2/case.sif	MeshDeform, Poisson Equation, SaveScalars, VtuOutput
+RotatingBCPoisson3D	RotatingBCPoisson3D/case.sif	MeshDeform, Heat Equation, SaveScalars
+RotatingBCPoisson3Daxial	RotatingBCPoisson3Daxial/case.sif	MeshDeform, Heat Equation, SaveScalars
+RotatingBCPoisson3DGeneric	RotatingBCPoisson3DGeneric/case.sif	MeshDeform, Heat Equation, SaveScalars, SaveLine, VtuOutput
+RotatingBCPoisson3DGenericTets	RotatingBCPoisson3DGenericTets/case.sif	MeshDeform, Heat Equation, SaveScalars, SaveLine, VtuOutput
+RotatingBCPoisson3DNT	RotatingBCPoisson3DNT/case.sif	MeshDeform, Heat Equation, SaveScalars
+RotatingBCPoisson3DSymmSkew	RotatingBCPoisson3DSymmSkew/case.sif	MeshDeform, Heat Equation, SaveScalars, SaveLine, VtuOutput
+RotatingBCPoisson3DSymmSkew	RotatingBCPoisson3DSymmSkew/level_strong.sif	MeshDeform, Heat Equation, SaveScalars, SaveLine, VtuOutput
+RotatingBCPoisson3DSymmSkew	RotatingBCPoisson3DSymmSkew/level_weak.sif	MeshDeform, Heat Equation, SaveScalars, SaveLine, VtuOutput
+RotatingBCPoissonNitsche	RotatingBCPoissonNitsche/case.sif	MeshDeform, Heat Equation, SaveScalars
+RotatingBCPoissonNitsche	RotatingBCPoissonNitsche/ref.sif	MeshDeform, Heat Equation, SaveScalars
+RotatingBlockRemeshMMG2D	RotatingBlockRemeshMMG2D/case.sif	MeshDeform, Heat
+RotatingBlockRemeshMMG2D_H	RotatingBlockRemeshMMG2D_H/case.sif	MeshH, MeshDeform, Heat
+RotatingBlockRemeshMMG2Dtransient	RotatingBlockRemeshMMG2Dtransient/case.sif	MeshDeform, Heat
+RotatingBlockRemeshMMG3D	RotatingBlockRemeshMMG3D/case.sif	MeshDeform, Heat
+RotatingHT2D	RotatingHT2D/case.sif	MeshDeform, N-S, Heat Equation, ComputeFlux
+RunControlStructured	RunControlStructured/case.sif	MapTemperature, HeatEq
+SaveCircle	SaveCircle/case.sif	Heat Equation, SaveLine
+SaveDependence	SaveDependence/case.sif	Heat Equation, SaveDep
+SaveLine	SaveLine/case.sif	Heat Equation, SaveScalars
+savescalars	savescalars/case.sif	Heat Equation, SaveScalars
+savescalars_boundary	savescalars_boundary/case.sif	Heat Equation, SaveScalars
+savescalars_flux	savescalars_flux/case.sif	Heat Equation, SaveScalars
+savescalars_many	savescalars_many/case.sif	Heat Equation, SaveScalars1, SaveScalars2, SaveScalars3, SaveScalars4
+savescalars_mask	savescalars_mask/case.sif	Heat Equation, SaveScalars
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/case.sif	Energy, Flow, ModelPDE
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/init.sif	Energy, Flow, ModelPDE
+SD_Step_stokes_heat_vec	SD_Step_stokes_heat_vec/Step.sif	NS-Vec, Heat
+SD_structmap_p2	SD_structmap_p2/map.sif	Heat Equation, MapCoordinate, MaxTemp, result output
+SensTemperature	SensTemperature/case.sif	MeshDeform, HeatSolver
+staged_sim	staged_sim/disp.sif	heat equation, thermal stress
+Step_stokes_heat	Step_stokes_heat/Step.sif	Navier-Stokes, Heat
+Step_stokes_heat_vec	Step_stokes_heat_vec/Step.sif	NS-Vec, Heat
+structmap	structmap/map.sif	Heat Equation, MapCoordinate
+structmap2	structmap2/case.sif	Heat Equation, MapCoordinate
+structmap3	structmap3/case.sif	MapCoordinate, Heat Equation, result output
+structmap4	structmap4/case.sif	MapCoordinates, HeatA, HeatB
+structmap5	structmap5/case.sif	MapCoordinates, HeatA, HeatB, HeightDepth
+structmap6	structmap6/case.sif	MapCoordinates, HeatA, HeatB, HeightDepth
+structmap7	structmap7/case.sif	MapCoordinates, HeatA, HeatB, HeightDepth
+structmap8	structmap8/case.sif	Heat, HeightDepth
+structmap_meshupdate	structmap_meshupdate/map.sif	Heat Equation, MapCoordinate
+structmap_multilayer	structmap_multilayer/case.sif	MapCoordinate, Heat Equation
+structmap_p2	structmap_p2/map.sif	Heat Equation, MapCoordinate, MaxTemp, result output
+StructuredHeightDepth	StructuredHeightDepth/case.sif	Heat Equation, HeightDepth, result output
+StructuredSpread	StructuredSpread/case.sif	Heat Equation, HeightDepth
+TemperatureCyclic	TemperatureCyclic/case.sif	Heat Equation, VtuOutput
+TemperatureCyclicParallel	TemperatureCyclicParallel/case.sif	Heat Equation, VtuOutput
+TemperatureFromOpenFOAM	TemperatureFromOpenFOAM/case.sif	ElmerToOpenFOAM
+ThermalActuator	ThermalActuator/thermal_actuator.sif	Stat Current Solver, HeatEq, Stress Analysis, SaveScalars
+ThermalBiMetal2	ThermalBiMetal2/case.sif	HeatSolver, LinearDisp, SaveScalars
+ThermalCompress	ThermalCompress/ThermalCompress.sif	Heat Equation, Navier-Stokes
+ThermalPipe2D	ThermalPipe2D/case.sif	Heat Equation
+ThermalPipe3D	ThermalPipe3D/case3d.sif	Heat Equation
+ThermoElectric	ThermoElectric/ptest.sif	ThermoElectric
+TimeAdapt	TimeAdapt/TempDist.sif	Heat Equation
+TimeFunc	TimeFunc/case.sif	HeatSolver
+TimeProfileBC	TimeProfileBC/case.sif	Heat Equation, SaveBC, SaveLine
+TopoOptHeat2DCompMin	TopoOptHeat2DCompMin/case.sif	HeatEq, TopoOpt, SaveScalars
+TopoOptHeat2DCompMin2	TopoOptHeat2DCompMin2/case2.sif	HeatEq, TopoOpt, SaveScalars
+TransientCostFourHeaters	TransientCostFourHeaters/case.sif	Heat Equation, TransientCost
+TransientCostFourHeaters	TransientCostFourHeaters/ref.sif	Heat Equation, SaveScalars
+TravellingHeater	TravellingHeater/case.sif	Heat Equation, SaveLine
+TravellingHeater2	TravellingHeater2/case2.sif	Heat Equation, SaveLine
+TwelveSolvers2D	TwelveSolvers2D/case.sif	Heat Equation, Navier-Stokes, flux compute, streamlines, vorticity, div, ShearrateSolver, isoline, result output, SaveGrid, save line, save scalars
+WeightComputation	WeightComputation/case.sif	Heat Equation, SaveLine, SaveScalars
+wildcardsize	wildcardsize/case.sif	Heat Equation
+WinkelPoissonMetisKwayDual	WinkelPoissonMetisKwayDual/case.sif	HeatSolver, SaveScalars
+WinkelPoissonMetisKwayNodal	WinkelPoissonMetisKwayNodal/case.sif	HeatSolver, SaveScalars
+WinkelPoissonPartitionRecursive	WinkelPoissonPartitionRecursive/case.sif	HeatSolver, SaveScalars
+WinkelPoissonPartitionUniform	WinkelPoissonPartitionUniform/case.sif	HeatSolver, SaveScalars

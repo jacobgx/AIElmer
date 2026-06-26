@@ -1,0 +1,4 @@
+channel_v2f	channel_v2f/channel_v2f.sif	navier_stokes, postprocessing
+diffuser_v2f	diffuser_v2f/diffuser_v2f.sif	navier_stokes, postprocessing
+Step_ke	Step_ke/Step_ke.sif	navier_stokes
+Step_v2f	Step_v2f/Step_v2f.sif	navier_stokes, postprocessing

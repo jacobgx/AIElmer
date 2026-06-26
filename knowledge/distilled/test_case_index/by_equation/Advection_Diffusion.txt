@@ -1,0 +1,6 @@
+adv_diff1	adv_diff1/ad1.sif	advection_diffusion
+adv_diff2	adv_diff2/ad2.sif	advection_diffusion
+adv_diff3	adv_diff3/ad3.sif	navier_stokes, advection_diffusion
+adv_diff4	adv_diff4/ad4.sif	navier_stokes, advection_diffusion
+AdvDiffFCT	AdvDiffFCT/case.sif	advection_diffusion, postprocessing
+HeatAndDiffusion	HeatAndDiffusion/case.sif	heat, advection_diffusion

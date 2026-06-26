@@ -1,0 +1,10 @@
+DirichletNeumann	DirichletNeumann/case.sif	heat
+DirichletNeumannSlave	DirichletNeumannSlave/case.sif	heat
+DirichletNeumannZoltan	DirichletNeumannZoltan/case.sif	heat, mesh_partitioning
+MonolithicSlave	MonolithicSlave/case.sif	heat
+MonolithicSlave2	MonolithicSlave2/case.sif	heat
+NonconformingRestartStructmap	NonconformingRestartStructmap/init.sif	heat
+structmap4	structmap4/case.sif	heat
+structmap5	structmap5/case.sif	heat
+structmap6	structmap6/case.sif	heat
+structmap7	structmap7/case.sif	heat

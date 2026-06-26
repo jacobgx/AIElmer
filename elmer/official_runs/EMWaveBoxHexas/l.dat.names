@@ -1,0 +1,24 @@
+Metadata for SaveLine file: ./l.dat
+Elmer version: 26.2
+Elmer compilation date: 2026-06-21
+Solver input file: emwave.sif
+File started at: 2026/06/26 17:20:25
+Number of data nodes for each step
+  bc nodes: 0
+  polyline nodes: 201
+  circle nodes: 0
+  isocurve nodes: 0
+Data on different columns
+  1: Timestep
+  2: Call count
+  3: Boundary condition
+  4: Node index
+  5: coordinate 1
+  6: coordinate 2
+  7: coordinate 3
+  8: e {e} 1
+  9: e {e} 2
+ 10: e {e} 3
+ 11: elfield 1
+ 12: elfield 2
+ 13: elfield 3

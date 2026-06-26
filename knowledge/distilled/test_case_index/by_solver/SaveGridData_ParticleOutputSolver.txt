@@ -1,0 +1,6 @@
+ParticleElstat	ParticleElstat/case.sif	electrostatics_current, particles, postprocessing
+ParticleElstatMag	ParticleElstatMag/case.sif	electrostatics_current, particles, postprocessing
+ParticleFalling	ParticleFalling/case.sif	particles, postprocessing
+ParticleFalling3	ParticleFalling3/case.sif	particles, postprocessing
+ParticleFallingBlock	ParticleFallingBlock/case.sif	navier_stokes, particles, postprocessing
+ParticleFallingPathIntegral	ParticleFallingPathIntegral/case.sif	particles, postprocessing

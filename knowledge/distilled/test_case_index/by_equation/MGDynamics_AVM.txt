@@ -1,0 +1,1 @@
+mgdyn_harmonic_wire_Cgauge	mgdyn_harmonic_wire_Cgauge/case.sif	electromagnetics, acoustics_wave, postprocessing

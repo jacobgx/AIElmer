@@ -1,0 +1,2 @@
+RotatingBCPoisson3Dp2	RotatingBCPoisson3Dp2/case.sif	poisson
+SD_RotatingBCPoisson3Dp2	SD_RotatingBCPoisson3Dp2/case.sif	poisson

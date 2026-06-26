@@ -1,0 +1,10 @@
+CurvedBndryPFEM	CurvedBndryPFEM/ptest.sif	poisson, postprocessing
+CurvedBndryPFEM2	CurvedBndryPFEM2/ptest.sif	fsi, poisson, postprocessing
+pmultg	pmultg/TempDist.sif	poisson, linear_solver_benchmark
+PoissonThreaded	PoissonThreaded/ttest.sif	poisson
+PoissonThreaded2	PoissonThreaded2/ttest.sif	poisson
+PoissonThreaded3	PoissonThreaded3/ttest.sif	poisson
+PoissonThreaded_rocalution	PoissonThreaded_rocalution/ttest.sif	poisson
+SD_CurvedBndryPFEM	SD_CurvedBndryPFEM/ptest.sif	poisson, postprocessing
+SD_CurvedBndryPFEM2	SD_CurvedBndryPFEM2/ptest.sif	fsi, poisson, postprocessing
+SD_pmultg	SD_pmultg/TempDist.sif	poisson

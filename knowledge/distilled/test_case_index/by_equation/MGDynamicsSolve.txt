@@ -1,0 +1,1 @@
+mgdyn_steady_wire_conforming	mgdyn_steady_wire_conforming/case.sif	electromagnetics

@@ -1,0 +1,4 @@
+ShoeboxFsiEigen2D	ShoeboxFsiEigen2D/case.sif	elasticity, acoustics_wave, postprocessing
+ShoeboxFsiHarmonic	ShoeboxFsiHarmonic/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+ShoeboxFsiHarmonic2D	ShoeboxFsiHarmonic2D/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+ShoeboxFsiStatic	ShoeboxFsiStatic/case.sif	elasticity, postprocessing

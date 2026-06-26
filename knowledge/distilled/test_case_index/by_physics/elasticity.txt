@@ -1,0 +1,173 @@
+adaptivity4	adaptivity4/stress.sif	Stress Analysis
+adaptivity5	adaptivity5/stress.sif	ElasticSolve
+amultg2	amultg2/stress_amg.sif	Stress Analysis
+ArteryOutlet	ArteryOutlet/case.sif	Artery Outlet Solver, Navier-Stokes, Elasticity Solver, Mesh Update, SaveScalars, ResultOutput
+beam-springs	beam-springs/beam.sif	Stress Analysis
+BeamSolidSolidCoupling	BeamSolidSolidCoupling/case.sif	LinElastA, LinElastB, SaveScalars
+BeamSolidSolidCoupling	BeamSolidSolidCoupling/ref.sif	LinElast, SaveScalars
+BeamSolidSolidCouplingEigen	BeamSolidSolidCouplingEigen/case.sif	LinElastA, LinElastB, SaveScalars
+BeamSolidSolidCouplingEigen	BeamSolidSolidCouplingEigen/ref.sif	LinElast, SaveScalars
+BeamSolidSolidCouplingMono	BeamSolidSolidCouplingMono/case.sif	LinElastA, LinElastB, SaveScalars
+BeamSolidSolidCouplingMono	BeamSolidSolidCouplingMono/ref.sif	LinElast, SaveScalars
+BlockLinElast2	BlockLinElast2/case.sif	lin.elast
+BlockLinElast2b	BlockLinElast2b/case.sif	lin.elast
+BlockLinElast2bMany	BlockLinElast2bMany/case.sif	lin.elast, nonlin.elast
+BlockLinElast3	BlockLinElast3/gcr_amg_sgs.sif	lin.elast
+BlockLinElast3	BlockLinElast3/ref.sif	lin.elast
+BlockLinElast3b	BlockLinElast3b/gcr_cmg_sgs.sif	lin.elast
+BlockLinElast3c	BlockLinElast3c/gcr_bicgstab_ilu2.sif	lin.elast
+BlockLinElast3d	BlockLinElast3d/gs_cmg_sgs.sif	lin.elast
+buckling	buckling/buckling.sif	Stress Analysis, SaveScalars
+ConformingDisplacementCube	ConformingDisplacementCube/case.sif	Linear elasticity
+ConstantBCDisplacement	ConstantBCDisplacement/case.sif	ElasticSolve
+ContactBlunt2D	ContactBlunt2D/case.sif	NonlinElast, SaveLine, result output
+ContactBlunt2Delim	ContactBlunt2Delim/case.sif	NonlinElast, SaveLine, result output
+ContactBlunt2Djump	ContactBlunt2Djump/case.sif	NonlinElast, SaveLine, result output
+ContactBlunt2Dresmode	ContactBlunt2Dresmode/case.sif	NonlinElast, SaveLine, result output
+ContactBlunt2Dslide	ContactBlunt2Dslide/case.sif	NonlinElast, SaveLine, SaveScalars, result output
+ContactBlunt2Dstick	ContactBlunt2Dstick/case.sif	NonlinElast, SaveLine, result output
+ContactBlunt3DLevelProj	ContactBlunt3DLevelProj/case.sif	NonlinElast, result output
+ContactBlunt3DNormalProj	ContactBlunt3DNormalProj/case.sif	NonlinElast, result output
+ContactFriction	ContactFriction/case.sif	Linear elasticity
+ContactFriction	ContactFriction/implicit.sif	Linear elasticity
+ContactFrictionHeating	ContactFrictionHeating/case.sif	Nonlinear elasticity, HeatEq
+ContactFrictionNonlin	ContactFrictionNonlin/implicit.sif	Nonlinear elasticity
+ContactFrictionNonlin	ContactFrictionNonlin/nonlin.sif	Nonlinear elasticity
+ContactPatch2D	ContactPatch2D/case.sif	Nonlinear elasticity, SaveLine
+ContactPatch2Delim	ContactPatch2Delim/case.sif	Nonlinear elasticity, SaveLine
+ContactPatch2DIncompressible	ContactPatch2DIncompressible/case.sif	Nonlinear elasticity, SaveLine
+ContactPatch2Dnt	ContactPatch2Dnt/case.sif	MeshDeform, Nonlinear elasticity, SaveLine
+ContactPatch2DntQuadratic	ContactPatch2DntQuadratic/case.sif	MeshDeform, Nonlinear elasticity, SaveLine
+ContactPatch2Dtie	ContactPatch2Dtie/case.sif	Nonlinear elasticity, SaveLine, result output
+ContactPatch2Dtwo	ContactPatch2Dtwo/case.sif	MeshDeform, Nonlinear elasticity, SaveLine
+ContactPatch2Dtwo	ContactPatch2Dtwo/stick.sif	NonlinElast, SaveLine, result output
+ContactPatch3D	ContactPatch3D/case.sif	Elasticity, SaveLine
+ContactPatch3Delim	ContactPatch3Delim/case.sif	Nonlinear elasticity, SaveLine
+ContactPatch3DNames	ContactPatch3DNames/case.sif	Elasticity, SaveLine
+ContactPatch3DNamesAndAutonum	ContactPatch3DNamesAndAutonum/case.sif	Elasticity, SaveLine
+ContactPatch3DNamesAndAutonum2	ContactPatch3DNamesAndAutonum2/case.sif	Elasticity, SaveLine
+ContactPatch3DNamesAndAutonum3	ContactPatch3DNamesAndAutonum3/case.sif	Elasticity, SaveLine
+ContactPatch3DNormalProj	ContactPatch3DNormalProj/case.sif	Elasticity, SaveLine
+ContactPatch3DZoltan	ContactPatch3DZoltan/case.sif	Elasticity, SaveLine
+ContractElasticCube	ContractElasticCube/case.sif	Linear elasticity
+ContractElasticCube2	ContractElasticCube2/case.sif	Linear elasticity
+CooksMembrane	CooksMembrane/cooksmembrane.sif	Elasticity Solver, SaveScalars
+CooksMembrane3D	CooksMembrane3D/cooksmembrane.sif	Elasticity Solver, SaveScalars, result output
+CylComAxi	CylComAxi/case.sif	Linear elasticity, result output
+CylComStruct	CylComStruct/case.sif	Linear elasticity, result output
+DisplacementPlaneBC	DisplacementPlaneBC/case.sif	Linear elasticity
+DisplacementPlaneBC	DisplacementPlaneBC/ref.sif	Linear elasticity
+ElastElstat1DBeam	ElastElstat1DBeam/case.sif	LinearDisp, SaveScalars
+ElastElstatBeam	ElastElstatBeam/case.sif	StatElecSolver, Electric Force, LinearDisp, SaveScalars
+ElastElstatBeamNodal	ElastElstatBeamNodal/case.sif	StatElecSolver, Electric Force, LinearDisp, SaveScalars
+ElasticBeam2DDampingBeta	ElasticBeam2DDampingBeta/case.sif	StressSolver, ElasticitySolver
+ElasticBeam2DDampingBetaP2	ElasticBeam2DDampingBetaP2/case.sif	StressSolver, ElasticitySolver
+ElasticBeamHinged	ElasticBeamHinged/hinge.sif	Displacement analysis
+ElasticBeamHinged2	ElasticBeamHinged2/hinge.sif	Displacement analysis
+ElasticBeamHinged3D	ElasticBeamHinged3D/hinge.sif	Displacement analysis
+ElasticBeamRestart	ElasticBeamRestart/ref.sif	Stress Analysis
+ElasticBeamRestart	ElasticBeamRestart/restart.sif	Stress Analysis
+ElasticBlockDamping	ElasticBlockDamping/case.sif	StressSolver, ElasticitySolver
+ElasticBlockDampingAlpha	ElasticBlockDampingAlpha/case.sif	StressSolver, ElasticitySolver
+ElasticBlockInertia	ElasticBlockInertia/case.sif	StressSolver, ElasticitySolver
+elasticity	elasticity/elasticity.sif	Elasticity Solver
+elasticity_with_springs	elasticity_with_springs/with_springs.sif	Elasticity Solver, Assemble Springs
+ElasticLubrication	ElasticLubrication/case.sif	Navier-Stokes, Elasticity Solver, Mesh Update, SaveScalars, ResultOutput
+ElastPelem	ElastPelem/case.sif	Linear elasticity, result output
+ElastPelem2dPmultg	ElastPelem2dPmultg/case.sif	Linear elasticity, save line, result output
+ElastPelem2dPmultgBoomer	ElastPelem2dPmultgBoomer/case.sif	Linear elasticity, save line, result output
+ElastPelem2dPmultgMumps	ElastPelem2dPmultgMumps/case.sif	Linear elasticity, save line, result output
+ElastPelem2dQuad	ElastPelem2dQuad/case.sif	Linear elasticity, save line, result output
+ElastPelem2dTri	ElastPelem2dTri/case.sif	Linear elasticity, save line, result output
+elmer_earth_2d_2layer	elmer_earth_2d_2layer/2layer.sif	Elasticity Analysis
+FilmFlow2DFsi	FilmFlow2DFsi/case.sif	FilmFlow, Linear elasticity
+FrictionElasticCube	FrictionElasticCube/case.sif	Linear elasticity
+fsi_beam	fsi_beam/fsi.sif	Navier-Stokes, Elasticity Solver, Mesh Update
+fsi_beam_nodalforce	fsi_beam_nodalforce/fsi.sif	Navier-Stokes, Elasticity Solver, Mesh Update
+fsi_beam_optimize	fsi_beam_optimize/case.sif	Navier-Stokes, Elasticity Solver, Optimize, MeshU, SaveCost, SaveLine, ResultOutput
+fsi_box	fsi_box/box.sif	Navier-Stokes, Elasticity Solver, Mesh Update, CompressibilityScale, SaveData
+fsi_box2	fsi_box2/ac.sif	Elasticity Solver, Mesh Update, CompressibilitySolve, SaveData
+fsi_box2	fsi_box2/box.sif	Navier-Stokes, Elasticity Solver, Mesh Update, ArtificialCompressibilitySolve, SaveData
+geomstiff	geomstiff/geomstiff.sif	Stress Analysis, SaveScalars
+HeatPlateSym	HeatPlateSym/case.sif	Linear elasticity
+HelmholtzStructure	HelmholtzStructure/case.sif	Stress Analysis, Helmholtz, SaveScalars
+HelmholtzStructure2	HelmholtzStructure2/case.sif	Stress Analysis, Helmholtz, SaveScalars
+HelmholtzStructure3	HelmholtzStructure3/case.sif	Stress Analysis, Helmholtz, SaveScalars
+L2norm	L2norm/case.sif	Linear elasticity, Linear elasticity two, Difference
+LimitDisplacement	LimitDisplacement/case.sif	Linear elasticity
+LimitDisplacement2	LimitDisplacement2/case.sif	Linear elasticity
+LimitDisplacement2Mesh	LimitDisplacement2Mesh/case.sif	Linear elasticity, AllocateBC, InterpolateSolver
+LimitDisplacement3	LimitDisplacement3/case.sif	Linear elasticity
+LimitDisplacement4MeshTrans	LimitDisplacement4MeshTrans/case.sif	Linear elasticity, AllocateBC, MeshDeform, InterpolateSolver
+LimitDisplacementAdjoint	LimitDisplacementAdjoint/case.sif	Linear elasticity, SaveScalars
+LinControlCoordDisp	LinControlCoordDisp/case.sif	Linear elasticity
+LinControlLoadDisp	LinControlLoadDisp/case.sif	Linear elasticity
+NeoHookean2D	NeoHookean2D/cooksmembrane.sif	Elasticity Solver, SaveScalars
+NormalTangentialDisplacement	NormalTangentialDisplacement/case.sif	MeshDeform, ElasticSolve
+NormalTangentialDisplacement	NormalTangentialDisplacement/ref.sif	MeshDeform, ElasticSolve
+NormalTangentialDisplacement2	NormalTangentialDisplacement2/case.sif	MeshDeform, ElasticSolve
+NtCartesianBC	NtCartesianBC/case.sif	NonlinElast, result output
+piezo	piezo/piezo.sif	Electrostatics, Stress Analysis
+ProfileBCDisplacement	ProfileBCDisplacement/case.sif	ElasticSolve
+rgdblock	rgdblock/rigidblock.sif	Stress Analysis
+rot_aniso	rot_aniso/beam.sif	Stress Analysis
+RotatingBCNavier2D	RotatingBCNavier2D/case.sif	MeshDeform, StessEq, SaveScalars
+SD_CooksMembrane3D	SD_CooksMembrane3D/cooksmembrane.sif	Elasticity Solver, SaveScalars, result output
+SD_CylComStruct	SD_CylComStruct/case.sif	Linear elasticity, result output
+SD_ElasticBeam2DDampingBetaP2	SD_ElasticBeam2DDampingBetaP2/case.sif	StressSolver, ElasticitySolver
+SD_ElastPelem2dPmultg	SD_ElastPelem2dPmultg/case.sif	Linear elasticity, save line, result output
+SD_ElastPelem2dQuad	SD_ElastPelem2dQuad/case.sif	Linear elasticity, save line, result output
+SD_elmer_earth_2d_2layer	SD_elmer_earth_2d_2layer/2layer.sif	Elasticity Analysis
+SD_FrictionElasticCube	SD_FrictionElasticCube/case.sif	Linear elasticity
+SD_SinPlane	SD_SinPlane/case.sif	Linear elasticity, SaveScalars
+SD_ViscoElasticMaxwell	SD_ViscoElasticMaxwell/case.sif	Elasticity Analysis, SaveVtu
+Shell_And_Solid	Shell_And_Solid/coupling.sif	Shell equations, 3D Elasticity Equations, Save Scalars
+Shell_And_Solid2	Shell_And_Solid2/coupling.sif	3D Elasticity Equations, Shell equations, Save Scalars
+Shell_with_Solid_Beam	Shell_with_Solid_Beam/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_Beam	Shell_with_Solid_Beam/mono.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_Beam	Shell_with_Solid_Beam/ref.sif	LinElast, SaveScalars
+Shell_with_Solid_Beam_Eigen	Shell_with_Solid_Beam_Eigen/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_Beam_EigenComplex	Shell_with_Solid_Beam_EigenComplex/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_Beam_Par	Shell_with_Solid_Beam_Par/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_BenchmarkCase1	Shell_with_Solid_BenchmarkCase1/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_BenchmarkCase1	Shell_with_Solid_BenchmarkCase1/eigenanalysis.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_BenchmarkCase1b	Shell_with_Solid_BenchmarkCase1b/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_BenchmarkCase2	Shell_with_Solid_BenchmarkCase2/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_Eigenanalysis	Shell_with_Solid_Eigenanalysis/eigenanalysis.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_EigenanalysisPar	Shell_with_Solid_EigenanalysisPar/eigenanalysis.sif	Navier Equations, Shell equations, SaveScalars
+ShoeboxFsiEigen2D	ShoeboxFsiEigen2D/case.sif	WaveEq, Navier Solver, SaveScalars
+ShoeboxFsiHarmonic	ShoeboxFsiHarmonic/case.sif	Helmholtz, Navier Solver, SaveScalars
+ShoeboxFsiHarmonic2D	ShoeboxFsiHarmonic2D/case.sif	Helmholtz, Navier Solver, SaveScalars
+ShoeboxFsiStatic	ShoeboxFsiStatic/case.sif	Container, Navier Solver, SaveScalars
+SinPlane	SinPlane/case.sif	Linear elasticity, SaveScalars
+SolidCylinderSymmConf	SolidCylinderSymmConf/case.sif	LinElast
+SolidCylinderSymmConf	SolidCylinderSymmConf/ref.sif	LinElast
+staged_sim	staged_sim/disp.sif	heat equation, thermal stress
+StrainCalculation01	StrainCalculation01/levy.sif	Displacement analysis
+StrainCalculation02	StrainCalculation02/levy.sif	Displacement analysis
+StrainCalculation03	StrainCalculation03/plate.sif	Displacement analysis, ResultOutput
+stress	stress/esim1.sif	Crack Propagation, Elasticity Analysis, Compute Energy Release Rate
+StressConstraintModes	StressConstraintModes/case.sif	Stress Analysis, result output
+StressConstraintModes2	StressConstraintModes2/case.sif	Stress Analysis, result output
+StressConstraintModes3	StressConstraintModes3/case.sif	Stress Analysis, result output, SaveScalars, CB
+StressEigen	StressEigen/case.sif	Stress Analysis, result output, SaveScalars
+StressEigen3D	StressEigen3D/block.sif	Stress Analysis, result output, SaveScalars
+TankAst	TankAst/tank.sif	Linear elasticity
+ThermalActuator	ThermalActuator/thermal_actuator.sif	Stat Current Solver, HeatEq, Stress Analysis, SaveScalars
+ThermalBiMetal	ThermalBiMetal/case.sif	LinearDisp, SaveScalars
+ThermalBiMetal2	ThermalBiMetal2/case.sif	HeatSolver, LinearDisp, SaveScalars
+TopoOptElast2DCompMin	TopoOptElast2DCompMin/case.sif	LinearElasticity, TopoOpt, SaveScalars
+TopoOptElast2DCompMin2	TopoOptElast2DCompMin2/case.sif	LinearElasticity, TopoOpt, SaveScalars
+TopoOptElast2DCompMin3	TopoOptElast2DCompMin3/case.sif	LinearElasticity, TopoOpt, SaveScalars
+TopoOptElast2DCompMin3	TopoOptElast2DCompMin3/case3d.sif	LinearElasticity, TopoOpt, SaveScalars
+TopoOptForceInverter	TopoOptForceInverter/case.sif	LinearElasticity, TopoOpt, SaveScalars
+tresca	tresca/Tresca.sif	Stresses, Tresca stress calculation
+UMAT_linear_isotropic_2D	UMAT_linear_isotropic_2D/elasticity.sif	Elasticity Solver
+UMAT_StVenant_2D	UMAT_StVenant_2D/elasticity.sif	Elasticity With UMAT
+UMAT_StVenant_axials	UMAT_StVenant_axials/elasticity.sif	Nonlinear Elasticity
+ViscoElasticMaxwell	ViscoElasticMaxwell/case.sif	Elasticity Analysis
+WinkelBmNavierHypreBiCGStabBoomer	WinkelBmNavierHypreBiCGStabBoomer/case.sif	LinElast, SaveScalars
+WinkelBmNavierInternalFETI	WinkelBmNavierInternalFETI/case.sif	LinElast, SaveScalars
+WinkelBmNavierMumps	WinkelBmNavierMumps/case.sif	LinElast, SaveScalars
+WinkelBmNavierPermon	WinkelBmNavierPermon/case.sif	LinElast, SaveScalars
+WinkelNavierPelem	WinkelNavierPelem/case.sif	LinElast, save line

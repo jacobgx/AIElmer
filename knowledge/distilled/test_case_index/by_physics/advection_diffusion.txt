@@ -1,0 +1,9 @@
+adv_diff1	adv_diff1/ad1.sif	Advection Diffusion
+adv_diff2	adv_diff2/ad2.sif	Advection Diffusion
+adv_diff3	adv_diff3/ad3.sif	Advection Diffusion, Navier-Stokes
+adv_diff4	adv_diff4/ad4.sif	Advection Diffusion, Navier-Stokes
+AdvDiffFCT	AdvDiffFCT/case.sif	Advection Diffusion, result output, saverange
+AdvDiffFluxes	AdvDiffFluxes/case.sif	Navier-Stokes, AdvDiff, saverange
+Electrokinetics	Electrokinetics/inject.sif	Stat Elec Solver, Navier-Stokes, Analyte transfer
+HeatAndDiffusion	HeatAndDiffusion/case.sif	Heat Equation, Advection Diffusion, ComputeFlux
+reload	reload/ad.sif	restarting, Mass transfer, Navier-Stokes

@@ -1,0 +1,2 @@
+TEAM30a_3ph_transient	TEAM30a_3ph_transient/TEAM30a_3ph_harmonic.sif	electromagnetics, postprocessing
+TEAM30a_3ph_transient_par	TEAM30a_3ph_transient_par/TEAM30a_3ph_harmonic.sif	electromagnetics, postprocessing

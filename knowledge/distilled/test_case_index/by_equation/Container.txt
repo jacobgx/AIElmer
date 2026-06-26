@@ -1,0 +1,3 @@
+ShoeboxFsiStatic	ShoeboxFsiStatic/case.sif	elasticity, postprocessing
+ShoeboxFsiStaticPlate	ShoeboxFsiStaticPlate/case.sif	beam_shell_plate, postprocessing
+ShoeboxFsiStaticShell	ShoeboxFsiStaticShell/case.sif	beam_shell_plate, postprocessing

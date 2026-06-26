@@ -1,0 +1,4 @@
+ModelPDEhandle	ModelPDEhandle/case.sif	other
+ModelPDEipadapt	ModelPDEipadapt/case.sif	other
+ModelPDEipsplit	ModelPDEipsplit/case.sif	postprocessing
+ModelPDEipsplit	ModelPDEipsplit/ref.sif	postprocessing

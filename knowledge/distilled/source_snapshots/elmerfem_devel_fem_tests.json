@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/ElmerCSC/elmerfem.git",
+  "branch": "devel",
+  "commit": "4a05b99b2cf548198eae1140973bf33ccf630229",
+  "path": "tmp/elmerfem_remote_tree/fem/tests",
+  "generated_at_utc": "2026-06-26T10:42:06.895286+00:00"
+}

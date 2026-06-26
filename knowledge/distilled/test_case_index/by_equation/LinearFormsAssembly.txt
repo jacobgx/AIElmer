@@ -1,0 +1,2 @@
+LinearFormsAssembly	LinearFormsAssembly/linearftest.sif	other
+SD_LinearFormsAssembly	SD_LinearFormsAssembly/linearftest.sif	other

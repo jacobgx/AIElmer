@@ -1,0 +1,9 @@
+CurvedBoundaryCylH	CurvedBoundaryCylH/case.sif	electrostatics_current, postprocessing
+CurvedBoundaryCylHquadratic	CurvedBoundaryCylHquadratic/case.sif	electrostatics_current, postprocessing
+CurvedBoundaryCylP	CurvedBoundaryCylP/case.sif	electrostatics_current, postprocessing
+CurvedBoundaryCylPH	CurvedBoundaryCylPH/case.sif	electrostatics_current, postprocessing
+CurvedBoundaryP	CurvedBoundaryP/case.sif	electrostatics_current, postprocessing
+CurvedBoundaryPatchH	CurvedBoundaryPatchH/case.sif	electrostatics_current, postprocessing
+el_adaptivity	el_adaptivity/adap.sif	electrostatics_current
+elstat_source	elstat_source/elstat_s.sif	electrostatics_current
+piezo	piezo/piezo.sif	elasticity, electrostatics_current

@@ -1,0 +1,11 @@
+BeamSolidSolidCoupling	BeamSolidSolidCoupling/ref.sif	elasticity, beam_shell_plate, postprocessing
+BeamSolidSolidCouplingEigen	BeamSolidSolidCouplingEigen/ref.sif	elasticity, beam_shell_plate, postprocessing
+BeamSolidSolidCouplingMono	BeamSolidSolidCouplingMono/ref.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_Beam	Shell_with_Solid_Beam/ref.sif	elasticity, beam_shell_plate, postprocessing
+SolidCylinderSymmConf	SolidCylinderSymmConf/case.sif	elasticity
+SolidCylinderSymmConf	SolidCylinderSymmConf/ref.sif	elasticity
+WinkelBmNavierHypreBiCGStabBoomer	WinkelBmNavierHypreBiCGStabBoomer/case.sif	elasticity, postprocessing, linear_solver_benchmark
+WinkelBmNavierInternalFETI	WinkelBmNavierInternalFETI/case.sif	elasticity, postprocessing, linear_solver_benchmark
+WinkelBmNavierMumps	WinkelBmNavierMumps/case.sif	elasticity, postprocessing, linear_solver_benchmark
+WinkelBmNavierPermon	WinkelBmNavierPermon/case.sif	elasticity, postprocessing, linear_solver_benchmark
+WinkelNavierPelem	WinkelNavierPelem/case.sif	elasticity, postprocessing, linear_solver_benchmark

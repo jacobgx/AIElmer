@@ -1,0 +1,10 @@
+levelset3	levelset3/case.sif	navier_stokes, particles, levelset_free_surface, postprocessing
+levelset3b	levelset3b/case.sif	navier_stokes, particles, levelset_free_surface, postprocessing
+ParticleAdvector	ParticleAdvector/case.sif	navier_stokes, particles, postprocessing
+ParticleAdvector2	ParticleAdvector2/case.sif	navier_stokes, particles
+ParticleAdvector3	ParticleAdvector3/case.sif	navier_stokes, particles, postprocessing
+ParticleAdvector3dg	ParticleAdvector3dg/case.sif	navier_stokes, particles
+ParticleAdvector3elemental	ParticleAdvector3elemental/case.sif	navier_stokes, particles
+ParticleAdvector3ip	ParticleAdvector3ip/case.sif	navier_stokes, particles
+ParticleAdvectorPathIntegral	ParticleAdvectorPathIntegral/case.sif	particles, postprocessing
+ParticleAdvectorZalesak	ParticleAdvectorZalesak/zalesak.sif	particles, levelset_free_surface, postprocessing

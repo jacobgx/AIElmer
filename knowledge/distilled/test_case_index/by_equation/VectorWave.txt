@@ -1,0 +1,4 @@
+EMWaveBoxHexas	EMWaveBoxHexas/emwave.sif	electromagnetics, postprocessing
+EMWaveBoxHexasEigen	EMWaveBoxHexasEigen/emwave.sif	electromagnetics, postprocessing
+EMWaveBoxHexasPiola	EMWaveBoxHexasPiola/emwave.sif	electromagnetics, postprocessing
+EMWaveBoxHexasQuad	EMWaveBoxHexasQuad/emwave.sif	electromagnetics, postprocessing

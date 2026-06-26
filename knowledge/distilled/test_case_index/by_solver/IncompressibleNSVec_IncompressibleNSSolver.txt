@@ -1,0 +1,10 @@
+FixTangentVelo	FixTangentVelo/case.sif	navier_stokes
+NonnewtonianChannelFlow_vec	NonnewtonianChannelFlow_vec/case.sif	navier_stokes, postprocessing
+SD_NonnewtonianChannelFlow_vec	SD_NonnewtonianChannelFlow_vec/case.sif	navier_stokes
+SD_Step_stokes_heat_vec	SD_Step_stokes_heat_vec/Step.sif	navier_stokes, heat
+SD_Step_stokes_vec	SD_Step_stokes_vec/Step.sif	navier_stokes
+SD_Step_stokes_vec_blockprec	SD_Step_stokes_vec_blockprec/Step.sif	navier_stokes
+Step_RockSaddlePrec	Step_RockSaddlePrec/Step.sif	other
+Step_stokes_heat_vec	Step_stokes_heat_vec/Step.sif	navier_stokes, heat
+Step_stokes_vec	Step_stokes_vec/Step.sif	navier_stokes
+Step_stokes_vec_blockprec	Step_stokes_vec_blockprec/Step.sif	navier_stokes

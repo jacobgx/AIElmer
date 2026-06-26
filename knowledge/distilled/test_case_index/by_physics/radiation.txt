@@ -1,0 +1,20 @@
+radiation	radiation/radiation.sif	Heat Equation
+radiation2	radiation2/radiation2.sif	Heat Equation
+radiation2d	radiation2d/radiation.sif	Heat Equation
+radiation2d_deform	radiation2d_deform/radiation.sif	Heat Equation, MeshDeform
+radiation2d_spectral	radiation2d_spectral/case.sif	Heat Equation, SaveScalars
+radiation2dAA	radiation2dAA/radiation.sif	Heat Equation
+radiation2dsymm	radiation2dsymm/radiation.sif	Heat Equation
+radiation3d	radiation3d/radiation.sif	Heat Equation
+radiation_bin	radiation_bin/radiation.sif	Heat Equation
+radiation_box_in_box	radiation_box_in_box/case.sif	Heat Equation, SaveScalars, SaveScalars2, MeshRotate
+radiation_dg	radiation_dg/radiation.sif	Heat Equation
+radiator2d	radiator2d/radiator.sif	Heat Equation
+radiator3d	radiator3d/radiator3d.sif	Heat Equation
+radiator3d_box	radiator3d_box/radiator3d.sif	Heat Equation, SaveScalars
+radiator3d_box2	radiator3d_box2/radiator3d.sif	Heat Equation, SaveScalars
+radiator3d_open	radiator3d_open/radiator3d.sif	Heat Equation, SaveTotalFlux
+radiator3d_radiosity	radiator3d_radiosity/radiator3d.sif	Heat Equation, SaveScalars
+radiator3d_spectral	radiator3d_spectral/radiator3d.sif	Heat Equation, SaveScalars
+radiator3d_symm	radiator3d_symm/full.sif	Heat Equation
+radiator3d_symm	radiator3d_symm/half.sif	Heat Equation

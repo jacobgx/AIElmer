@@ -1,0 +1,1 @@
+mgdyn_wave_harmonic	mgdyn_wave_harmonic/case.sif	poisson, electromagnetics

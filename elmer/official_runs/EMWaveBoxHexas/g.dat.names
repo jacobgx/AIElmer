@@ -1,0 +1,9 @@
+Metadata for SaveScalars file: ./g.dat
+Elmer version: 26.2
+Elmer compilation date: 2026-06-21
+Solver input file: emwave.sif
+File started at: 2026/06/26 17:20:25
+ 
+Variables in columns of matrix: 
+   1: min: e
+   2: max: e

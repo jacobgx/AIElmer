@@ -1,0 +1,1 @@
+mgdyn_airgap_force	mgdyn_airgap_force/case.sif	electromagnetics, postprocessing

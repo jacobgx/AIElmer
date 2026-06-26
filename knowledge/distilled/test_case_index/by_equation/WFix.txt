@@ -1,0 +1,1 @@
+circuits_harmonic_foil_wvector	circuits_harmonic_foil_wvector/sif/6459.sif	electromagnetics, postprocessing

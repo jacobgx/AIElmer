@@ -1,0 +1,31 @@
+CoilSolver1	CoilSolver1/case.sif	electromagnetics
+CoilSolver2	CoilSolver2/case.sif	electromagnetics
+CoilSolver3	CoilSolver3/case.sif	electromagnetics
+CoilSolver4	CoilSolver4/case.sif	electromagnetics
+CoilSolver5	CoilSolver5/case.sif	electromagnetics
+CoilSolver6	CoilSolver6/case.sif	electromagnetics
+CoilSolverTwoLoops	CoilSolverTwoLoops/case.sif	electromagnetics
+DisContBoundary	DisContBoundary/discont.sif	heat
+DisContBoundary3D	DisContBoundary3D/discont.sif	heat
+DisContBoundaryDouble	DisContBoundaryDouble/discont.sif	heat
+DisContBoundaryDoubleMortar	DisContBoundaryDoubleMortar/discont.sif	heat, postprocessing
+DisContBoundaryDoubleNames	DisContBoundaryDoubleNames/discont.sif	heat
+DisContBoundaryMortarCont	DisContBoundaryMortarCont/discont.sif	heat, postprocessing
+DisContBoundaryMortarContElim	DisContBoundaryMortarContElim/discont.sif	heat, postprocessing
+DisContBoundaryNodalJump	DisContBoundaryNodalJump/discont.sif	heat, postprocessing
+DisContBoundaryNodalJumpB	DisContBoundaryNodalJumpB/discont.sif	heat, postprocessing
+DisContBoundaryNodalProj	DisContBoundaryNodalProj/discont.sif	heat
+ExpVariableDer	ExpVariableDer/case.sif	heat, postprocessing
+fluxsolver	fluxsolver/flux.sif	heat, postprocessing
+fluxsolver-multimesh	fluxsolver-multimesh/flux.sif	heat
+fluxsolver2	fluxsolver2/flux2.sif	heat
+fluxsolver3	fluxsolver3/flux.sif	heat, postprocessing
+HeatAndDiffusion	HeatAndDiffusion/case.sif	heat, advection_diffusion
+HeatAniso	HeatAniso/case.sif	heat
+HeatAnisoMATC	HeatAnisoMATC/case.sif	heat
+HeatAnisoTable	HeatAnisoTable/case.sif	heat
+HeatAnisoUDF	HeatAnisoUDF/case.sif	heat
+RenameRestart	RenameRestart/case.sif	heat, postprocessing
+RenameRestart	RenameRestart/init.sif	heat
+RotatingHT2D	RotatingHT2D/case.sif	navier_stokes, heat, postprocessing
+TwelveSolvers2D	TwelveSolvers2D/case.sif	navier_stokes, heat, postprocessing

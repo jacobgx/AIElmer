@@ -1,0 +1,20 @@
+﻿! oscillating_fsi - copy to a named .sif only after G2/G3 approval.
+! All values below are placeholders. This file is intentionally not runnable.
+
+Header
+  CHECK KEYWORDS Warn
+  Mesh DB "." "mesh"
+End
+
+Simulation
+  Coordinate System = "TODO"
+  Simulation Type = "TODO"
+  ! TODO: time integration and output policy
+End
+
+! Add blocks in this order:
+! Constants -> Body -> Equation -> Solver -> Material -> Body Force
+! -> Initial Condition -> Boundary Condition
+! Every Target Boundaries value must be verified against mesh.boundary.
+
+

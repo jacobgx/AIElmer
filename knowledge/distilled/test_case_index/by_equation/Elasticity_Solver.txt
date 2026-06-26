@@ -1,0 +1,15 @@
+ArteryOutlet	ArteryOutlet/case.sif	fsi, navier_stokes, elasticity, postprocessing
+CooksMembrane	CooksMembrane/cooksmembrane.sif	elasticity, postprocessing
+CooksMembrane3D	CooksMembrane3D/cooksmembrane.sif	elasticity, postprocessing
+elasticity	elasticity/elasticity.sif	elasticity
+elasticity_with_springs	elasticity_with_springs/with_springs.sif	elasticity
+ElasticLubrication	ElasticLubrication/case.sif	fsi, navier_stokes, elasticity, postprocessing
+fsi_beam	fsi_beam/fsi.sif	fsi, navier_stokes, elasticity, beam_shell_plate
+fsi_beam_nodalforce	fsi_beam_nodalforce/fsi.sif	fsi, navier_stokes, elasticity, beam_shell_plate
+fsi_beam_optimize	fsi_beam_optimize/case.sif	navier_stokes, elasticity, beam_shell_plate, optimization_control, postprocessing
+fsi_box	fsi_box/box.sif	fsi, navier_stokes, elasticity, postprocessing
+fsi_box2	fsi_box2/ac.sif	fsi, elasticity, postprocessing
+fsi_box2	fsi_box2/box.sif	fsi, navier_stokes, elasticity, postprocessing
+NeoHookean2D	NeoHookean2D/cooksmembrane.sif	elasticity, postprocessing
+SD_CooksMembrane3D	SD_CooksMembrane3D/cooksmembrane.sif	elasticity, postprocessing
+UMAT_linear_isotropic_2D	UMAT_linear_isotropic_2D/elasticity.sif	elasticity

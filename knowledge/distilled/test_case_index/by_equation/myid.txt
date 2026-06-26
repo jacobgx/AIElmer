@@ -1,0 +1,1 @@
+MagnetoDynamicsNodalPrec	MagnetoDynamicsNodalPrec/case.sif	electromagnetics, postprocessing

@@ -1,0 +1,6 @@
+mgdyn_steady_quad_extruded_restart	mgdyn_steady_quad_extruded_restart/case.sif	electromagnetics, postprocessing
+NonconformingRestartStructmap	NonconformingRestartStructmap/case.sif	heat
+structmap4	structmap4/case.sif	heat
+structmap5	structmap5/case.sif	heat
+structmap6	structmap6/case.sif	heat
+structmap7	structmap7/case.sif	heat

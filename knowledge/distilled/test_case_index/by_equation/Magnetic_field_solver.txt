@@ -1,0 +1,3 @@
+IntegralConstraintHartmann	IntegralConstraintHartmann/case.sif	navier_stokes, postprocessing
+mhd	mhd/mhd.sif	navier_stokes
+mhd2	mhd2/mhd2.sif	navier_stokes

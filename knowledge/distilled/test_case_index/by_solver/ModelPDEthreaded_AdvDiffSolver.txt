@@ -1,0 +1,3 @@
+Lua	Lua/case.sif	other
+ModelPDEthreaded	ModelPDEthreaded/case.sif	other
+SD_ModelPDEthreaded	SD_ModelPDEthreaded/case.sif	other

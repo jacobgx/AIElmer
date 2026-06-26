@@ -1,0 +1,2 @@
+mgdyn2D_steady_wire	mgdyn2D_steady_wire/case.sif	electromagnetics, postprocessing
+mgdyn_steady_quad_extruded_restart	mgdyn_steady_quad_extruded_restart/case2d.sif	electromagnetics, postprocessing

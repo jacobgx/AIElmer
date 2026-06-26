@@ -1,0 +1,4 @@
+bentonite	bentonite/Bentonite.sif	Bentonite
+PorousPipe	PorousPipe/Pipe.sif	Navier-Stokes
+RichardsDyke	RichardsDyke/richards.sif	RichardsSolver, RichardsFlux
+RichardsDyke2	RichardsDyke2/richards.sif	MeshDeform, RichardsSolver, RichardsFlux

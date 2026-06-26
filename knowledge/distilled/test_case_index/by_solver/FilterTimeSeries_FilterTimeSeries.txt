@@ -1,0 +1,3 @@
+DNS_WaveSimulation	DNS_WaveSimulation/dns.sif	other
+RotatingHT2D	RotatingHT2D/case.sif	navier_stokes, heat, postprocessing
+SD_DNS_WaveSimulation	SD_DNS_WaveSimulation/dns.sif	other

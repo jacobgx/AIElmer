@@ -1,0 +1,3 @@
+StatCurrentVec	StatCurrentVec/case.sif	electrostatics_current
+StatCurrentVecAniso	StatCurrentVecAniso/case.sif	electrostatics_current
+StatCurrentVecFarfield	StatCurrentVecFarfield/case.sif	electrostatics_current

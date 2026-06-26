@@ -1,0 +1,19 @@
+coating	coating/coat.sif	Navier-Stokes, Free Surface Reduced, Mesh Update, Fluidic Force, SaveScalars, SaveLine
+freesurf	freesurf/Free.sif	Navier-Stokes, Free, Mesh Update
+freesurf_axi	freesurf_axi/Free.sif	Navier-Stokes
+freesurf_int	freesurf_int/Free.sif	Navier-Stokes
+freesurf_ltd	freesurf_ltd/Free_ltd.sif	Navier-Stokes, Free, Mesh Update
+freesurf_maxd	freesurf_maxd/Free_maxd.sif	Free, Mesh Update
+freesurf_maxd_local	freesurf_maxd_local/Free_maxd_local.sif	Free, Mesh Update
+freesurf_sloshing_2d	freesurf_sloshing_2d/case.sif	Mesh Update, N-S, FreeSurf, SaveFree, SaveLine
+freesurf_sloshing_2d	freesurf_sloshing_2d/case_iterative.sif	Stokes, FreeSurf, Mesh Update, SaveFree
+levelset1	levelset1/round.sif	Level Set, Reinitialize, Integrate, Curvature, Navier-Stokes, SaveScalars
+levelset2	levelset2/fill.sif	Level Set, Reinitialize, Navier-Stokes
+levelset3	levelset3/case.sif	Level Set, ParticleAdvector, Reinitialize, Navier-Stokes, ResultOutput
+levelset3b	levelset3b/case.sif	Level Set, ParticleAdvector, Reinitialize, Navier-Stokes, ResultOutput
+LevelsetFallingDrop	LevelsetFallingDrop/drop.sif	Level Set, Reinitialize, Integrate, Curvature, Navier-Stokes, SaveScalars
+MeshSplitLevelset2d	MeshSplitLevelset2d/case.sif	Heat
+ParallelRemeshParmetis	ParallelRemeshParmetis/parallelremesh.sif	Levelset, ResultOutputPreRemesh, Remesh, SaveScalars
+ParallelRemeshZoltan	ParallelRemeshZoltan/parallelremesh.sif	Levelset, ResultOutputPreRemesh, Remesh, SaveScalars
+ParticleAdvectorZalesak	ParticleAdvectorZalesak/zalesak.sif	Level Set, ParticleAdvector, Reinitialize, Integrate, SaveScalars, result output
+PredictorCorrector	PredictorCorrector/case.sif	Free Surface Top, MapCoordinate, Navier-Stokes

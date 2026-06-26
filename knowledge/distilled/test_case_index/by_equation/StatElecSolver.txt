@@ -1,0 +1,12 @@
+ElastElstatBeam	ElastElstatBeam/case.sif	elasticity, beam_shell_plate, electrostatics_current, postprocessing
+ElastElstatBeamNodal	ElastElstatBeamNodal/case.sif	elasticity, beam_shell_plate, electrostatics_current, postprocessing
+ParticleElstat	ParticleElstat/case.sif	electrostatics_current, particles, postprocessing
+ParticleElstatMag	ParticleElstatMag/case.sif	electrostatics_current, particles, postprocessing
+PoissonBoltzmann	PoissonBoltzmann/pbe.sif	navier_stokes, electrostatics_current
+StatElecSolveMMG2D	StatElecSolveMMG2D/case-ref.sif	electrostatics_current, postprocessing
+StatElecSolveMMG2D	StatElecSolveMMG2D/case.sif	electrostatics_current, postprocessing
+StatElecSolveMMG3D	StatElecSolveMMG3D/case.sif	electrostatics_current, postprocessing
+StatElecSolveParMMG3D	StatElecSolveParMMG3D/case.sif	electrostatics_current, postprocessing
+StatElecSolveParMMG3D	StatElecSolveParMMG3D/serial.sif	electrostatics_current, postprocessing
+StatElecSolveVecMMG2D	StatElecSolveVecMMG2D/case-ref.sif	electrostatics_current, postprocessing
+StatElecSolveVecMMG3D	StatElecSolveVecMMG3D/case.sif	electrostatics_current

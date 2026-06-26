@@ -1,0 +1,7 @@
+freesurf	freesurf/Free.sif	fsi, navier_stokes, levelset_free_surface
+freesurf_ltd	freesurf_ltd/Free_ltd.sif	fsi, navier_stokes, levelset_free_surface
+freesurf_maxd	freesurf_maxd/Free_maxd.sif	fsi, levelset_free_surface
+freesurf_maxd_local	freesurf_maxd_local/Free_maxd_local.sif	fsi, levelset_free_surface
+freesurf_sloshing_2d	freesurf_sloshing_2d/case.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+freesurf_sloshing_2d	freesurf_sloshing_2d/case_iterative.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+PredictorCorrector	PredictorCorrector/case.sif	navier_stokes, levelset_free_surface

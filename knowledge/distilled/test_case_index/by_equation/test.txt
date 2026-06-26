@@ -1,0 +1,6 @@
+ElementUnitTest_edge	ElementUnitTest_edge/case.sif	other
+ElementUnitTest_edge_piola	ElementUnitTest_edge_piola/case.sif	other
+ElementUnitTest_edge_quadratic	ElementUnitTest_edge_quadratic/case.sif	other
+ElementUnitTest_h1	ElementUnitTest_h1/case.sif	other
+ElementUnitTest_p1	ElementUnitTest_p1/case.sif	other
+SD_ElementUnitTest_p1	SD_ElementUnitTest_p1/case.sif	other

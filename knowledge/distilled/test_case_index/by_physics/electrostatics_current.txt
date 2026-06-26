@@ -1,0 +1,70 @@
+bodydir	bodydir/test.sif	Stat Elec Solver
+bodyload	bodyload/test.sif	Stat Elec Solver
+CapacitanceMatrix	CapacitanceMatrix/case.sif	Stat Elec Solver
+CapacitanceMatrix2	CapacitanceMatrix2/case.sif	Stat Elec Solver, result output
+CapacitanceMatrix3	CapacitanceMatrix3/case.sif	Stat Elec Solver, result output, SaveScalars
+CapacitanceMatrix4	CapacitanceMatrix4/case.sif	Stat Elec Solver, result output, SaveScalars
+ComponentResistance	ComponentResistance/case.sif	StatCurrent, SaveScalars
+ConstantUnknownPotStatCurrent	ConstantUnknownPotStatCurrent/case.sif	StatCurrent, SaveScalars
+ConstantUnknownPotStatCurrent2	ConstantUnknownPotStatCurrent2/case.sif	StatCurrent, SaveScalars
+current	current/stat_curr.sif	Static Current
+current_heat_control	current_heat_control/case.sif	Static Current, Heat
+CurvedBoundaryCylH	CurvedBoundaryCylH/case.sif	Electrostatics, SaveScalars
+CurvedBoundaryCylHquadratic	CurvedBoundaryCylHquadratic/case.sif	Electrostatics, SaveScalars
+CurvedBoundaryCylP	CurvedBoundaryCylP/case.sif	Electrostatics, SaveScalars
+CurvedBoundaryCylPH	CurvedBoundaryCylPH/case.sif	Electrostatics, SaveScalars
+CurvedBoundaryP	CurvedBoundaryP/case.sif	Electrostatics, SaveScalars
+CurvedBoundaryPatchH	CurvedBoundaryPatchH/case.sif	Electrostatics, SaveScalars
+DisContBoundaryFullAngle	DisContBoundaryFullAngle/case.sif	Elstat
+el_adaptivity	el_adaptivity/adap.sif	Electrostatics
+ElastElstatBeam	ElastElstatBeam/case.sif	StatElecSolver, Electric Force, LinearDisp, SaveScalars
+ElastElstatBeamNodal	ElastElstatBeamNodal/case.sif	StatElecSolver, Electric Force, LinearDisp, SaveScalars
+Electrokinetics	Electrokinetics/inject.sif	Stat Elec Solver, Navier-Stokes, Analyte transfer
+elstat	elstat/elstatics.sif	Stat Elec Solver, Electric Force, SaveScalars
+elstat_infty	elstat_infty/selfcapacitance.sif	Stat Elec Solver, Electric Force, SaveScalars
+elstat_source	elstat_source/elstat_s.sif	Electrostatics
+JouleHeatToOpenFOAM	JouleHeatToOpenFOAM/case.sif	Static Current, ElmerToOpenFOAM
+mgdyn_bh	mgdyn_bh/case.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, ResultOutput, scalars
+mgdyn_bh	mgdyn_bh/with_projection.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, ResultOutput, scalars, Helmholtz projection, Remove kernel component
+mgdyn_bh_gauge	mgdyn_bh_gauge/case.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, resultoutput, scalars, scalars2
+mgdyn_bh_gauge	mgdyn_bh_gauge/with_projection.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, ResultOutput, scalars, Helmholtz projection, Remove kernel component
+mgdyn_bh_gauge2	mgdyn_bh_gauge2/block.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, resultoutput, scalars, scalars2
+mgdyn_bh_relfun	mgdyn_bh_relfun/case.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, ResultOutput, scalars, lines
+MortarMovingObjects	MortarMovingObjects/case.sif	MeshDeform, PotSolver, SaveScalars
+ParticleElstat	ParticleElstat/case.sif	StatElecSolver, ParticleDynamics, FitData, ResultOutput, ParticleOutput
+ParticleElstatMag	ParticleElstatMag/case.sif	StatElecSolver, ParticleDynamics, FitData, ResultOutput, ParticleOutput
+piezo	piezo/piezo.sif	Electrostatics, Stress Analysis
+pointdir	pointdir/test.sif	Stat Elec Solver
+pointload	pointload/test.sif	Stat Elec Solver
+PoissonBoltzmann	PoissonBoltzmann/pbe.sif	PBE, StatElecSolver, Navier-Stokes
+SD_CapacitanceMatrix3	SD_CapacitanceMatrix3/case.sif	Stat Elec Solver, result output, SaveScalars
+StatCurr_adaptivity	StatCurr_adaptivity/adap.sif	StatCurrent
+StatCurrentVec	StatCurrentVec/case.sif	StaticCurrent
+StatCurrentVec2	StatCurrentVec2/case.sif	StaticCurrentA, StaticCurrentB
+StatCurrentVecAniso	StatCurrentVecAniso/case.sif	StaticCurrent
+StatCurrentVecFarfield	StatCurrentVecFarfield/case.sif	StaticCurrent
+StatCurrentVecResMatrix	StatCurrentVecResMatrix/case.sif	StatCurrent, SaveScalars
+StatCurrentVecResMatrix2	StatCurrentVecResMatrix2/case.sif	StatCurrent, SaveScalars
+StatCurrentVecResMatrix3	StatCurrentVecResMatrix3/case.sif	StatCurrent, SaveScalars
+StatElecSolveMMG2D	StatElecSolveMMG2D/case-ref.sif	StatElecSolver, SaveScalars
+StatElecSolveMMG2D	StatElecSolveMMG2D/case.sif	StatElecSolver, SaveScalars
+StatElecSolveMMG3D	StatElecSolveMMG3D/case.sif	StatElecSolver, SaveScalars
+StatElecSolveParMMG3D	StatElecSolveParMMG3D/case.sif	StatElecSolver, SaveScalars
+StatElecSolveParMMG3D	StatElecSolveParMMG3D/serial.sif	StatElecSolver, SaveScalars
+StatElecSolveVecMMG2D	StatElecSolveVecMMG2D/case-ref.sif	StatElecSolver, SaveScalars
+StatElecSolveVecMMG2D	StatElecSolveVecMMG2D/case.sif	Electro Statics, SaveScalars
+StatElecSolveVecMMG3D	StatElecSolveVecMMG3D/case.sif	StatElecSolver
+ThermalActuator	ThermalActuator/thermal_actuator.sif	Stat Current Solver, HeatEq, Stress Analysis, SaveScalars
+WinkelBmPoissonAMGX	WinkelBmPoissonAMGX/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonCgIlu0	WinkelBmPoissonCgIlu0/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonHypreBiCGStabBoomer	WinkelBmPoissonHypreBiCGStabBoomer/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonHypreBiCGStabIlu0	WinkelBmPoissonHypreBiCGStabIlu0/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonHypreBiCGStabIlu1	WinkelBmPoissonHypreBiCGStabIlu1/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonHypreBoomer	WinkelBmPoissonHypreBoomer/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonHypreCgIlu0	WinkelBmPoissonHypreCgIlu0/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonHypreFlexGMResILU0	WinkelBmPoissonHypreFlexGMResILU0/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonHypreGMResBoomer	WinkelBmPoissonHypreGMResBoomer/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonHypreGMResILU0	WinkelBmPoissonHypreGMResILU0/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonIdrsIlu0	WinkelBmPoissonIdrsIlu0/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonInternalFETI	WinkelBmPoissonInternalFETI/case.sif	PotSolver, SaveTimings
+WinkelBmPoissonMumps	WinkelBmPoissonMumps/case.sif	PotSolver, SaveTimings

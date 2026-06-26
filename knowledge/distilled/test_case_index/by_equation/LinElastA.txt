@@ -1,0 +1,3 @@
+BeamSolidSolidCoupling	BeamSolidSolidCoupling/case.sif	elasticity, beam_shell_plate, postprocessing
+BeamSolidSolidCouplingEigen	BeamSolidSolidCouplingEigen/case.sif	elasticity, beam_shell_plate, postprocessing
+BeamSolidSolidCouplingMono	BeamSolidSolidCouplingMono/case.sif	elasticity, beam_shell_plate, postprocessing

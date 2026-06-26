@@ -1,0 +1,10 @@
+BlockLinElast1	BlockLinElast1/case.sif	other
+BlockLinElast2	BlockLinElast2/case.sif	elasticity
+BlockLinElast2b	BlockLinElast2b/case.sif	elasticity
+BlockLinElast2bMany	BlockLinElast2bMany/case.sif	elasticity
+BlockLinElast3	BlockLinElast3/gcr_amg_sgs.sif	elasticity
+BlockLinElast3	BlockLinElast3/ref.sif	elasticity
+BlockLinElast3b	BlockLinElast3b/gcr_cmg_sgs.sif	elasticity
+BlockLinElast3c	BlockLinElast3c/gcr_bicgstab_ilu2.sif	elasticity
+BlockLinElast3d	BlockLinElast3d/gs_cmg_sgs.sif	elasticity
+SD_BlockLinElast1	SD_BlockLinElast1/case.sif	other

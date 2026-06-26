@@ -1,0 +1,53 @@
+case_id: oscillating_fsi
+status: BASELINE_RUN_COMPLETED_NOT_MATCHED
+source:
+  model: <reference-model-path>
+  documentation: <reference-documentation-path>
+  reference_version: 6.3.0
+dimension: 2
+simulation: transient
+geometry_m:
+  channel: [2.5, 0.41]
+  cylinder_center: [0.2, 0.2]
+  cylinder_radius: 0.05
+  beam_effective_length: 0.35
+  beam_height: 0.02
+materials:
+  fluid: {density_kg_m3: 1000.0, dynamic_viscosity_Pa_s: 1.0}
+  solid: {density_kg_m3: 1000.0, youngs_modulus_Pa: 5.6e6, poisson_ratio: 0.4}
+boundary_conditions:
+  inlet: parabolic_mean_2_m_s_smooth_step_at_0.5_s
+  outlet: pressure_0_Pa
+  walls: no_slip_fixed_mesh
+  cylinder: no_slip_fixed_mesh
+  beam_root: fixed_displacement
+  fsi_interface: traction_velocity_and_displacement_continuity
+trigger:
+  location_m: [0.595, 0.2]
+  direction: y
+  peak_force_N: 1.0
+  gaussian_center_s: 1.5
+  gaussian_sigma_s: 0.05
+time:
+  start_s: 0.0
+  end_s: 5.0
+  mvp_dt_s: 0.01
+  baseline_dt_s: 0.01
+  refinement_dt_s: 0.005
+  output_dt_s: 0.05
+baseline_result:
+  method: partitioned_ale_fsi
+  run_mode: staged_restart_0_1_1_2_2_5_s
+  result_csv: results_raw/fsi_0to5_summary.csv
+  clean_logs:
+    - logs/fsi_1to2.log
+    - logs/fsi_2to5.log
+  notes:
+    - The 0-1 s pilot completed with coupled-iteration warnings in part of the run but no mesh degeneration.
+    - The 1-2 s and 2-5 s restart runs completed without warning/error/degenerate log matches.
+    - Current Elmer response is stable but under-predicts the COMSOL benchmark amplitudes; further calibration is required.
+targets:
+  tip_x_mm: {mean: -2.69, amplitude: 2.53, frequency_Hz: 10.9}
+  tip_y_mm: {mean: 1.48, amplitude: 34.38, frequency_Hz: 5.3}
+  drag_N: {mean: 457.3, amplitude: 22.66, frequency_Hz: 10.9}
+  lift_N: {mean: 2.22, amplitude: 149.78, frequency_Hz: 5.3}

@@ -1,0 +1,32 @@
+beamer3d_box	beamer3d_box/beamer3d.sif	heat, beam_shell_plate, postprocessing
+beamer3d_box2	beamer3d_box2/beamer3d.sif	heat, beam_shell_plate, postprocessing
+DiscontinuousTempSlabDG	DiscontinuousTempSlabDG/case.sif	heat
+HeatSolveVecCondMatrix	HeatSolveVecCondMatrix/case.sif	heat, postprocessing
+HeatSolveVecDGandMortar	HeatSolveVecDGandMortar/case.sif	heat
+HeatSolveVecDGandMortarElim	HeatSolveVecDGandMortarElim/case.sif	heat
+IpVariable4	IpVariable4/case.sif	heat
+LinControlCoordHeat	LinControlCoordHeat/case.sif	heat, optimization_control
+LinControlFourHeaters	LinControlFourHeaters/case.sif	heat, optimization_control
+LinControlMaxHeat	LinControlMaxHeat/case.sif	heat, optimization_control
+MarchingODE4	MarchingODE4/case.sif	heat
+MinpackControlFourHeaters	MinpackControlFourHeaters/case.sif	heat, optimization_control
+quadratic_prisms	quadratic_prisms/case.sif	heat
+radiation2d_deform	radiation2d_deform/radiation.sif	heat, radiation
+radiation2d_spectral	radiation2d_spectral/case.sif	heat, radiation, postprocessing
+radiation3d	radiation3d/radiation.sif	heat, radiation
+radiation_box_in_box	radiation_box_in_box/case.sif	heat, radiation, postprocessing
+radiation_dg	radiation_dg/radiation.sif	heat, radiation
+radiator2d	radiator2d/radiator.sif	heat, radiation
+radiator3d	radiator3d/radiator3d.sif	heat, radiation
+radiator3d_box	radiator3d_box/radiator3d.sif	heat, radiation, postprocessing
+radiator3d_box2	radiator3d_box2/radiator3d.sif	heat, radiation, postprocessing
+radiator3d_open	radiator3d_open/radiator3d.sif	heat, radiation, postprocessing
+radiator3d_radiosity	radiator3d_radiosity/radiator3d.sif	heat, radiation, postprocessing
+radiator3d_spectral	radiator3d_spectral/radiator3d.sif	heat, radiation, postprocessing
+radiator3d_symm	radiator3d_symm/full.sif	heat, radiation
+radiator3d_symm	radiator3d_symm/half.sif	heat, radiation
+SD_Step_stokes_heat_vec	SD_Step_stokes_heat_vec/Step.sif	navier_stokes, heat
+Step_stokes_heat_vec	Step_stokes_heat_vec/Step.sif	navier_stokes, heat
+structmap8	structmap8/case.sif	heat
+TopoOptHeat2DCompMin	TopoOptHeat2DCompMin/case.sif	heat, optimization_control, postprocessing
+TopoOptHeat2DCompMin2	TopoOptHeat2DCompMin2/case2.sif	heat, optimization_control, postprocessing

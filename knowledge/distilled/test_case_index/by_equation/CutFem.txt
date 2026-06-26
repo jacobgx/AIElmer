@@ -1,0 +1,5 @@
+CutFEMPoisson1	CutFEMPoisson1/case.sif	postprocessing
+CutFEMPoisson1Lib	CutFEMPoisson1Lib/case.sif	postprocessing
+CutFEMPoisson1LibLim	CutFEMPoisson1LibLim/case.sif	postprocessing
+CutFEMPoisson2	CutFEMPoisson2/case.sif	postprocessing
+CutFEMPoisson3	CutFEMPoisson3/case.sif	postprocessing

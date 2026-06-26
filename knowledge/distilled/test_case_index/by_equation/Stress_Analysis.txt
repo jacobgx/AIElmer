@@ -1,0 +1,19 @@
+adaptivity4	adaptivity4/stress.sif	elasticity
+amultg2	amultg2/stress_amg.sif	elasticity
+beam-springs	beam-springs/beam.sif	elasticity, beam_shell_plate
+buckling	buckling/buckling.sif	elasticity, postprocessing
+ElasticBeamRestart	ElasticBeamRestart/ref.sif	elasticity, beam_shell_plate
+ElasticBeamRestart	ElasticBeamRestart/restart.sif	elasticity, beam_shell_plate
+geomstiff	geomstiff/geomstiff.sif	elasticity, postprocessing
+HelmholtzStructure	HelmholtzStructure/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+HelmholtzStructure2	HelmholtzStructure2/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+HelmholtzStructure3	HelmholtzStructure3/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+piezo	piezo/piezo.sif	elasticity, electrostatics_current
+rgdblock	rgdblock/rigidblock.sif	elasticity
+rot_aniso	rot_aniso/beam.sif	elasticity, beam_shell_plate
+StressConstraintModes	StressConstraintModes/case.sif	elasticity, postprocessing
+StressConstraintModes2	StressConstraintModes2/case.sif	elasticity, postprocessing
+StressConstraintModes3	StressConstraintModes3/case.sif	elasticity, postprocessing
+StressEigen	StressEigen/case.sif	elasticity, postprocessing
+StressEigen3D	StressEigen3D/block.sif	elasticity, postprocessing
+ThermalActuator	ThermalActuator/thermal_actuator.sif	heat, elasticity, electrostatics_current, postprocessing

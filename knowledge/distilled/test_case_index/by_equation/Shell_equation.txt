@@ -1,0 +1,8 @@
+Classical2DShell	Classical2DShell/cylindrical_shell.sif	beam_shell_plate, postprocessing
+p-FEM_two_solvers	p-FEM_two_solvers/two_solvers.sif	beam_shell_plate
+p-FEM_with_varying_p	p-FEM_with_varying_p/cylindrical_shell.sif	beam_shell_plate, postprocessing
+SD_Classical2DShell	SD_Classical2DShell/cylindrical_shell.sif	beam_shell_plate, postprocessing
+SD_p-FEM_two_solvers	SD_p-FEM_two_solvers/two_solvers.sif	beam_shell_plate
+SD_p-FEM_with_varying_p	SD_p-FEM_with_varying_p/cylindrical_shell.sif	beam_shell_plate, postprocessing
+SD_Shell_BenchmarkCase2_High_Order	SD_Shell_BenchmarkCase2_High_Order/shell_cartesian.sif	beam_shell_plate, postprocessing
+Shell_BenchmarkCase2_High_Order	Shell_BenchmarkCase2_High_Order/shell_cartesian.sif	beam_shell_plate, postprocessing

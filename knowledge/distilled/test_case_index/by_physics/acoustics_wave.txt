@@ -1,0 +1,65 @@
+a-posteriori-recovery-2D	a-posteriori-recovery-2D/recovery_adapt.sif	Heat Equation, Flux reconstruction
+EM_port_eigen_3D	EM_port_eigen_3D/case.sif	Port mode, VectorHelmholtz, calcfields, result output, SaveScalars
+EM_port_eigen_3D	EM_port_eigen_3D/port_eigenanalysis_3D.sif	Port mode, postprocess, VectorHelmholtz, calcfields, result output, SaveScalars
+EM_port_eigen_3D	EM_port_eigen_3D/with_potentials.sif	Port mode, VectorHelmholtz, calcfields, result output, SaveScalars
+EM_port_eigen_3D_prisms	EM_port_eigen_3D_prisms/case.sif	Port mode, VectorHelmholtz, calcfields, result output, SaveScalars, VectorHelmholtzNodal, Complex Poisson
+EM_port_eigen_3D_prisms	EM_port_eigen_3D_prisms/port_3D_nodalprec.sif	Port mode, postprocess, VectorHelmholtz, calcfields, result output, SaveScalars, VectorHelmholtzNodal, Complex Poisson
+EMWavePiola2D	EMWavePiola2D/emwave_harmonic.sif	Vectorial Helmholtz, calcfields, result output
+HarmonicNS	HarmonicNS/tube.sif	Harmonic NS, ResultOutput
+HelmholtzBEM	HelmholtzBEM/HelmholtzBEM.sif	Helmholtz
+HelmholtzEdge	HelmholtzEdge/Hrot.sif	Hrot
+HelmholtzFace	HelmholtzFace/Htest.sif	Vector Helmholtz
+HelmholtzFEM	HelmholtzFEM/HelmholtzFEM.sif	Helmholtz
+HelmholtzPlaneWaves	HelmholtzPlaneWaves/case.sif	Helmholtz, SaveScalars, SaveLine
+HelmholtzPlaneWavesAxis	HelmholtzPlaneWavesAxis/case.sif	Helmholtz, SaveScalars, SaveLine
+HelmholtzPlaneWavesParam	HelmholtzPlaneWavesParam/case.sif	Helmholtz, SaveScalars
+HelmholtzPlaneWavesScan	HelmholtzPlaneWavesScan/case.sif	Helmholtz, SaveScalars
+HelmholtzSolveImpMatrix	HelmholtzSolveImpMatrix/case.sif	Helmholtz
+HelmholtzStructure	HelmholtzStructure/case.sif	Stress Analysis, Helmholtz, SaveScalars
+HelmholtzStructure2	HelmholtzStructure2/case.sif	Stress Analysis, Helmholtz, SaveScalars
+HelmholtzStructure3	HelmholtzStructure3/case.sif	Stress Analysis, Helmholtz, SaveScalars
+linearsolvers_cmplx	linearsolvers_cmplx/HelmholtzFEM.sif	Helmholtz
+mgdyn_bh	mgdyn_bh/with_projection.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, ResultOutput, scalars, Helmholtz projection, Remove kernel component
+mgdyn_bh_gauge	mgdyn_bh_gauge/with_projection.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, ResultOutput, scalars, Helmholtz projection, Remove kernel component
+mgdyn_faraday_disc	mgdyn_faraday_disc/with_projection.sif	mgdyn, MGDynamicsCalc, result output, Helmholtz projection, Remove kernel component
+mgdyn_faraday_disc_transient	mgdyn_faraday_disc_transient/transient_with_projection.sif	MeshDeform, mgdyn, MGDynamicsCalc, result output, Helmholtz projection, Remove kernel component
+mgdyn_faraday_wheel	mgdyn_faraday_wheel/with_projection.sif	MGDynamics, MGDynamicsCalc, result output, Helmholtz projection, Remove kernel component
+mgdyn_harmonic_wire_Cgauge	mgdyn_harmonic_wire_Cgauge/case.sif	MGDynamics, MGDynamics P, MGDynamics AVM, MGDynamicsCalc, ResultOutput, SaveLine, SaveScalars
+SD_HarmonicNS	SD_HarmonicNS/tube.sif	Harmonic NS, ResultOutput
+ShoeboxFsiEigen2D	ShoeboxFsiEigen2D/case.sif	WaveEq, Navier Solver, SaveScalars
+ShoeboxFsiHarmonic	ShoeboxFsiHarmonic/case.sif	Helmholtz, Navier Solver, SaveScalars
+ShoeboxFsiHarmonic2D	ShoeboxFsiHarmonic2D/case.sif	Helmholtz, Navier Solver, SaveScalars
+ShoeboxFsiHarmonicPlate	ShoeboxFsiHarmonicPlate/case.sif	Helmholtz, Plate Solver, SaveScalars
+ShoeboxFsiHarmonicPlateMonolithic	ShoeboxFsiHarmonicPlateMonolithic/case.sif	Helmholtz, Plate Solver, SaveScalars
+VectorHelmholtzImpMatrix	VectorHelmholtzImpMatrix/case2.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzImpMatrix	VectorHelmholtzImpMatrix/case3.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzImpMatrix	VectorHelmholtzImpMatrix/case4.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide	VectorHelmholtzWaveguide/av_gauged.sif	VectorHelmholtz, calcfields, SaveScalars, result output
+VectorHelmholtzWaveguide	VectorHelmholtzWaveguide/nested.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide	VectorHelmholtzWaveguide/vectorhelmholtz_av.sif	VectorHelmholtz, calcfields, SaveScalars, result output
+VectorHelmholtzWaveguide	VectorHelmholtzWaveguide/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars, result output
+VectorHelmholtzWaveguide2	VectorHelmholtzWaveguide2/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide3	VectorHelmholtzWaveguide3/nested.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide3	VectorHelmholtzWaveguide3/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide4	VectorHelmholtzWaveguide4/horver.sif	
+VectorHelmholtzWaveguide4	VectorHelmholtzWaveguide4/nodalprec_curlcurlform.sif	VectorHelmholtz, VectorHelmholtzNodal, calcfields, VtuOutput
+VectorHelmholtzWaveguide4	VectorHelmholtzWaveguide4/nodalprec_pec_walls.sif	VectorHelmholtz, VectorHelmholtzNodal, calcfields, VtuOutput
+VectorHelmholtzWaveguide4	VectorHelmholtzWaveguide4/pmult.sif	
+VectorHelmholtzWaveguide4	VectorHelmholtzWaveguide4/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide5	VectorHelmholtzWaveguide5/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide_TM	VectorHelmholtzWaveguide_TM/waveguideTM.sif	VectorHelmholtz, calcfields, SaveScalars, result output
+VectorHelmholtzWaveguide_TM	VectorHelmholtzWaveguide_TM/waveguideTM_block.sif	VectorHelmholtz, calcfields, SaveScalars, result output
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/edge.sif	VectorHelmholtz, calcfields
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/mono.sif	VectorHelmholtzNodal, MeshDeform
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/nodal.sif	VectorHelmholtzNodal
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/nodalprec_additive.sif	VectorHelmholtz, VectorHelmholtzNodal, Complex Poisson, calcfields, VtuOutput
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/nodalprec_pec_walls.sif	VectorHelmholtz, VectorHelmholtzNodal, calcfields, VtuOutput
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/block.sif	
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/block4.sif	
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/pmult.sif	
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/ref.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/reim.sif	
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars
+WaveEqu	WaveEqu/ptest.sif	Wave Equation
+WaveEquEigen	WaveEquEigen/case.sif	WaveEq, result output, SaveScalars
+WaveEquEigenDampedDirect	WaveEquEigenDampedDirect/case.sif	WaveEq, result output, SaveScalars

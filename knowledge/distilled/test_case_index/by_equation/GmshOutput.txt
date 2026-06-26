@@ -1,0 +1,3 @@
+Outlet2InletBC	Outlet2InletBC/case_a.sif	heat, postprocessing
+Outlet2InletBCv2	Outlet2InletBCv2/case_a.sif	heat, postprocessing
+ParallelBoundaryMapGmsh	ParallelBoundaryMapGmsh/case_a.sif	heat, postprocessing

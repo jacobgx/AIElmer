@@ -1,0 +1,52 @@
+1dtests	1dtests/1d.sif	Poisson
+1dtests_MeshLevels	1dtests_MeshLevels/1d.sif	Poisson
+BDM2D	BDM2D/BDM.sif	Mixed Poisson, Compute Error
+BDM3D	BDM3D/BDM.sif	Mixed Poisson, Compute Error
+BlockPoisson1	BlockPoisson1/case.sif	Poisson
+BlockPoisson2	BlockPoisson2/case.sif	Poisson
+BlockPoisson3	BlockPoisson3/case.sif	Poisson
+circuits2D_harmonic_foil	circuits2D_harmonic_foil/sif/1383-components-foilwinding.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output
+circuits2D_harmonic_massive	circuits2D_harmonic_massive/sif/1381-components-massive.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output
+circuits2D_harmonic_stranded	circuits2D_harmonic_stranded/sif/1381-components-stranded.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output
+circuits2D_harmonic_stranded_explicit_coil_resistance	circuits2D_harmonic_stranded_explicit_coil_resistance/sif/1381-components-stranded.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output
+CoupledPoisson1	CoupledPoisson1/case.sif	Poisson
+CoupledPoisson2	CoupledPoisson2/case.sif	Poisson
+CurvedBndryPFEM	CurvedBndryPFEM/ptest.sif	Poisson, result output
+CurvedBndryPFEM2	CurvedBndryPFEM2/ptest.sif	Mesh Update, Poisson, result output
+dft-water	dft-water/H2O.sif	Poisson, EigenProblem, Charge density calculation
+EM_port_eigen_3D_prisms	EM_port_eigen_3D_prisms/case.sif	Port mode, VectorHelmholtz, calcfields, result output, SaveScalars, VectorHelmholtzNodal, Complex Poisson
+EM_port_eigen_3D_prisms	EM_port_eigen_3D_prisms/port_3D_nodalprec.sif	Port mode, postprocess, VectorHelmholtz, calcfields, result output, SaveScalars, VectorHelmholtzNodal, Complex Poisson
+ExtrudedMesh	ExtrudedMesh/ptest.sif	Poisson
+ExtrudedMeshBaseline1	ExtrudedMeshBaseline1/case_baseline.sif	Heat Equation, MapCoordinate, Poisson
+FourierLoss	FourierLoss/case.sif	Poisson, Fourier, SaveScalars
+mgdyn2D_compute_average_b	mgdyn2D_compute_average_b/sif/6801.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output, sv
+mgdyn2D_compute_bodycurrent	mgdyn2D_compute_bodycurrent/sif/6801.sif	Direction, Circuits, Mag, CompB, Circuits Output, sv, ResultOutput
+mgdyn2D_compute_complex_power	mgdyn2D_compute_complex_power/sif/6801.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output, sv
+mgdyn2D_harmonic_anisotropic_permeability	mgdyn2D_harmonic_anisotropic_permeability/sif/7557.sif	Direction, Mag, CompB, ResultOutput
+mgdyn2D_scan_homogenization_elementary_solutions	mgdyn2D_scan_homogenization_elementary_solutions/sif/6801.sif	Direction, Circuits, Mag, CompB, Circuits Output, sv, ResultOutput
+mgdyn_wave_harmonic	mgdyn_wave_harmonic/case.sif	Poisson, Poisson2
+MixedPoisson2D	MixedPoisson2D/mixed_fem.sif	Mixed Poisson
+MixedPoisson3D	MixedPoisson3D/mixed_nedelec1st.sif	Mixed Poisson
+MixedPoisson3D	MixedPoisson3D/mixed_nedelec2nd.sif	Mixed Poisson
+MixedPoisson3D_Brick	MixedPoisson3D_Brick/mixed.sif	Mixed Poisson
+pmultg	pmultg/TempDist.sif	T
+PoissonDB	PoissonDB/case.sif	Poisson DG, result output
+PoissonDG	PoissonDG/PoissonDG.sif	Poisson DG, result output
+PoissonML	PoissonML/ptest.sif	Poisson
+PoissonPFEM	PoissonPFEM/ptest.sif	Poisson
+PoissonThreaded	PoissonThreaded/ttest.sif	Poisson
+PoissonThreaded2	PoissonThreaded2/ttest.sif	Poisson
+PoissonThreaded3	PoissonThreaded3/ttest.sif	Poisson
+PoissonThreaded_rocalution	PoissonThreaded_rocalution/ttest.sif	Poisson
+RaviartThomas2D	RaviartThomas2D/RT.sif	Mixed Poisson, Compute Error
+RaviartThomas3D	RaviartThomas3D/RT.sif	Mixed Poisson, Compute Error
+RotatingBCPoisson2Dp2	RotatingBCPoisson2Dp2/case.sif	MeshDeform, Poisson Equation, SaveScalars, VtuOutput
+RotatingBCPoisson3Dp2	RotatingBCPoisson3Dp2/case.sif	MeshDeform, HE
+SD_CurvedBndryPFEM	SD_CurvedBndryPFEM/ptest.sif	Poisson, result output
+SD_CurvedBndryPFEM2	SD_CurvedBndryPFEM2/ptest.sif	Mesh Update, Poisson, result output
+SD_pmultg	SD_pmultg/TempDist.sif	T
+SD_PoissonPFEM	SD_PoissonPFEM/ptest.sif	Poisson
+SD_RotatingBCPoisson3Dp2	SD_RotatingBCPoisson3Dp2/case.sif	MeshDeform, HE
+SD_SolverSpecificMeshes	SD_SolverSpecificMeshes/ptest.sif	Poissona, Poissonb, Poissonc
+SolverSpecificMeshes	SolverSpecificMeshes/ptest.sif	Poissona, Poissonb, Poissonc
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/nodalprec_additive.sif	VectorHelmholtz, VectorHelmholtzNodal, Complex Poisson, calcfields, VtuOutput

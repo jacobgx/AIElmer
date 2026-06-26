@@ -1,0 +1,7 @@
+ContactPatch3D	ContactPatch3D/case.sif	elasticity, contact, postprocessing
+ContactPatch3DNames	ContactPatch3DNames/case.sif	elasticity, contact, postprocessing
+ContactPatch3DNamesAndAutonum	ContactPatch3DNamesAndAutonum/case.sif	elasticity, contact, postprocessing
+ContactPatch3DNamesAndAutonum2	ContactPatch3DNamesAndAutonum2/case.sif	elasticity, contact, postprocessing
+ContactPatch3DNamesAndAutonum3	ContactPatch3DNamesAndAutonum3/case.sif	elasticity, contact, postprocessing
+ContactPatch3DNormalProj	ContactPatch3DNormalProj/case.sif	elasticity, contact, postprocessing
+ContactPatch3DZoltan	ContactPatch3DZoltan/case.sif	elasticity, contact, mesh_partitioning, postprocessing

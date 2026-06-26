@@ -1,0 +1,6 @@
+adaptivity5	adaptivity5/stress.sif	elasticity
+ConstantBCDisplacement	ConstantBCDisplacement/case.sif	elasticity, postprocessing
+NormalTangentialDisplacement	NormalTangentialDisplacement/case.sif	elasticity, postprocessing
+NormalTangentialDisplacement	NormalTangentialDisplacement/ref.sif	elasticity, postprocessing
+NormalTangentialDisplacement2	NormalTangentialDisplacement2/case.sif	elasticity, postprocessing
+ProfileBCDisplacement	ProfileBCDisplacement/case.sif	elasticity, postprocessing

@@ -1,0 +1,91 @@
+#!/usr/bin/env bash
+# run_on_remote.sh.template — Generic ElmerFEM remote execution template
+#
+# Usage:
+#   1. Copy this file to your remote machine and rename (e.g. run_my_case.sh).
+#   2. Fill in the paths in the "User configuration" section below.
+#   3. Run: bash run_my_case.sh
+#
+# This template is provided as documentation of the batch-execution pattern used
+# during the oscillating-FSI development.  It does NOT contain any hostnames,
+# IP addresses, or user-specific paths from the original development runs.
+
+set -euo pipefail
+
+# ============================================================================
+# User configuration — edit these paths to match your environment
+# ============================================================================
+
+# Path to the ElmerFEM installation directory (e.g. /opt/elmer-26.2)
+ELMER_HOME="${ELMER_HOME:-/opt/elmer-26.2}"
+
+# Path to the Elmer case directory (the one containing case.sif, mesh/, etc.)
+CASE_ROOT="${CASE_ROOT:-$PWD}"
+
+# Optional: MPI installation prefix (required if Elmer was built with MPI)
+# OPAL_PREFIX="${OPAL_PREFIX:-/usr/lib/openmpi}"
+
+# Optional: extra library paths needed by the Elmer binaries
+# LD_LIBRARY_PATH_EXTRA="${LD_LIBRARY_PATH_EXTRA:-}"
+
+# ============================================================================
+# Derived environment — normally no edits needed below this line
+# ============================================================================
+
+export ELMER_HOME
+export PATH="$ELMER_HOME/bin:$PATH"
+
+if [ -n "${OPAL_PREFIX:-}" ]; then
+  export OPAL_PREFIX
+fi
+
+if [ -n "${LD_LIBRARY_PATH_EXTRA:-}" ]; then
+  export LD_LIBRARY_PATH="$ELMER_HOME/lib/elmersolver:$ELMER_HOME/lib:$LD_LIBRARY_PATH_EXTRA:${LD_LIBRARY_PATH:-}"
+else
+  export LD_LIBRARY_PATH="$ELMER_HOME/lib/elmersolver:$ELMER_HOME/lib:${LD_LIBRARY_PATH:-}"
+fi
+
+# ============================================================================
+# Sanity checks
+# ============================================================================
+
+echo "=== HOST $(hostname) ==="
+echo "=== START $(basename "$0") $(date -Is) ==="
+echo "ElmerSolver = $(command -v ElmerSolver || echo 'NOT FOUND')"
+echo "ElmerGrid   = $(command -v ElmerGrid || echo 'NOT FOUND')"
+
+if ! command -v ElmerSolver >/dev/null 2>&1; then
+  echo "ERROR: ElmerSolver not found in PATH. Check ELMER_HOME."
+  exit 1
+fi
+
+echo "--- ElmerSolver version ---"
+ElmerSolver --version 2>&1 || true
+
+echo "--- missing libraries (ldd) ---"
+ldd "$(command -v ElmerSolver)" 2>/dev/null | grep "not found" || echo "(none)"
+
+# ============================================================================
+# Execute
+# ============================================================================
+
+cd "$CASE_ROOT"
+mkdir -p logs results_raw
+
+CASE_NAME="${1:-case}"
+
+echo "=== RUN $CASE_NAME $(date -Is) ==="
+
+set +e
+timeout 300m ElmerSolver "$CASE_NAME.sif" > "logs/$CASE_NAME.log" 2> "logs/$CASE_NAME.stderr.log"
+status=$?
+set -e
+
+echo "$status" > "logs/$CASE_NAME.exitcode"
+echo "=== SOLVER_EXIT $CASE_NAME status=$status $(date -Is) ==="
+
+if [ $status -ne 0 ]; then
+  echo "WARNING: ElmerSolver exited with non-zero status $status"
+fi
+
+echo "=== ALL_DONE $(date -Is) ==="

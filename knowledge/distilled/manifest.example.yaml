@@ -1,0 +1,26 @@
+schema_version: 1
+name: elmer-ai-distilled-knowledge
+status: DRAFT
+
+source_snapshots:
+  elmer_runtime:
+    version: TODO
+    command: ElmerSolver --version
+    captured_at: TODO
+  upstream_github:
+    repository: https://github.com/ElmerCSC/elmerfem
+    branch_or_tag: TODO
+    commit: TODO
+  local_project:
+    repository: TODO
+    commit_or_timestamp: TODO
+
+indexes:
+  keywords: keyword_index/solver_keywords.json
+  tests: test_case_index/cases.jsonl
+  solvers: solver_index/
+  physics_cards: physics_cards/
+
+default_quality_gate: RUNNABLE
+notes:
+  - Do not treat RAW or INDEXED entries as default modeling recommendations.

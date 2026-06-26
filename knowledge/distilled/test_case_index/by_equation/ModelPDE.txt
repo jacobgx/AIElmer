@@ -1,0 +1,21 @@
+a-posteriori-recovery-2D	a-posteriori-recovery-2D/bar.sif	other
+ModelPDE	ModelPDE/case.sif	other
+ModelPDEhandle	ModelPDEhandle/case.sif	other
+ModelPDEipadapt	ModelPDEipadapt/case.sif	other
+ModelPDEipsplit	ModelPDEipsplit/case.sif	postprocessing
+ModelPDEipsplit	ModelPDEipsplit/ref.sif	postprocessing
+ModelPDEsplitted	ModelPDEsplitted/case.sif	other
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/case.sif	navier_stokes, heat
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/init.sif	navier_stokes, heat
+p-FEM_two_solvers	p-FEM_two_solvers/two_solvers.sif	beam_shell_plate
+QuadraturesBrick	QuadraturesBrick/case.sif	other
+QuadraturesWedge	QuadraturesWedge/case.sif	other
+SD_ModelPDE	SD_ModelPDE/case.sif	other
+SD_ModelPDEsplitted	SD_ModelPDEsplitted/case.sif	other
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/case.sif	navier_stokes, heat
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/init.sif	navier_stokes, heat
+SD_p-FEM_two_solvers	SD_p-FEM_two_solvers/two_solvers.sif	beam_shell_plate
+SD_QuadraturesBrick	SD_QuadraturesBrick/case.sif	other
+SD_QuadraturesWedge	SD_QuadraturesWedge/case.sif	other
+SlaveSolverSlots	SlaveSolverSlots/case.sif	other
+SlaveSolverSlotsScan	SlaveSolverSlotsScan/case.sif	other

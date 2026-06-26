@@ -1,0 +1,7 @@
+DgVariable	DgVariable/case.sif	heat, postprocessing
+DgVariable2	DgVariable2/case.sif	heat, postprocessing
+ElemVariable	ElemVariable/case.sif	heat, postprocessing
+ElemVariable2	ElemVariable2/case.sif	heat, postprocessing
+IpVariable	IpVariable/case.sif	heat, postprocessing
+IpVariable2	IpVariable2/case.sif	heat, postprocessing
+IpVariable3	IpVariable3/case.sif	heat, postprocessing

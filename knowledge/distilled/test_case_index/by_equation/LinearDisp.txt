@@ -1,0 +1,5 @@
+ElastElstat1DBeam	ElastElstat1DBeam/case.sif	elasticity, beam_shell_plate, postprocessing
+ElastElstatBeam	ElastElstatBeam/case.sif	elasticity, beam_shell_plate, electrostatics_current, postprocessing
+ElastElstatBeamNodal	ElastElstatBeamNodal/case.sif	elasticity, beam_shell_plate, electrostatics_current, postprocessing
+ThermalBiMetal	ThermalBiMetal/case.sif	elasticity, postprocessing
+ThermalBiMetal2	ThermalBiMetal2/case.sif	heat, elasticity, postprocessing

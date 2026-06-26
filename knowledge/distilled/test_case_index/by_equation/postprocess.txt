@@ -1,0 +1,4 @@
+EM_port_eigen	EM_port_eigen/port_eigenanalysis.sif	postprocessing
+EM_port_eigen_2ndorder	EM_port_eigen_2ndorder/port_eigenanalysis.sif	postprocessing
+EM_port_eigen_3D	EM_port_eigen_3D/port_eigenanalysis_3D.sif	electromagnetics, acoustics_wave, postprocessing
+EM_port_eigen_3D_prisms	EM_port_eigen_3D_prisms/port_3D_nodalprec.sif	poisson, electromagnetics, acoustics_wave, postprocessing

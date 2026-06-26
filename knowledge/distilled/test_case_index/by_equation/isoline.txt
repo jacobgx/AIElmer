@@ -1,0 +1,4 @@
+IsolineGmsh	IsolineGmsh/case.sif	heat
+IsolineGmsh	IsolineGmsh/case3d.sif	heat
+IsosurfaceSTL	IsosurfaceSTL/case3d.sif	heat
+TwelveSolvers2D	TwelveSolvers2D/case.sif	navier_stokes, heat, postprocessing

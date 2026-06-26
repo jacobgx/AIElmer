@@ -1,0 +1,8 @@
+NaturalConvectionRestart	NaturalConvectionRestart/case.sif	navier_stokes, heat
+NaturalConvectionRestart	NaturalConvectionRestart/init.sif	navier_stokes, heat
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/case.sif	navier_stokes, heat
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/init.sif	navier_stokes, heat
+ParticleAdvector	ParticleAdvector/case.sif	navier_stokes, particles, postprocessing
+ParticleFallingBlock	ParticleFallingBlock/case.sif	navier_stokes, particles, postprocessing
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/case.sif	navier_stokes, heat
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/init.sif	navier_stokes, heat

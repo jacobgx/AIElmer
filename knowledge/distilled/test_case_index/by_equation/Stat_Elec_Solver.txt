@@ -1,0 +1,12 @@
+bodydir	bodydir/test.sif	electrostatics_current
+bodyload	bodyload/test.sif	electrostatics_current
+CapacitanceMatrix	CapacitanceMatrix/case.sif	electrostatics_current
+CapacitanceMatrix2	CapacitanceMatrix2/case.sif	electrostatics_current, postprocessing
+CapacitanceMatrix3	CapacitanceMatrix3/case.sif	electrostatics_current, postprocessing
+CapacitanceMatrix4	CapacitanceMatrix4/case.sif	electrostatics_current, postprocessing
+Electrokinetics	Electrokinetics/inject.sif	navier_stokes, advection_diffusion, electrostatics_current
+elstat	elstat/elstatics.sif	electrostatics_current, postprocessing
+elstat_infty	elstat_infty/selfcapacitance.sif	electrostatics_current, postprocessing
+pointdir	pointdir/test.sif	electrostatics_current
+pointload	pointload/test.sif	electrostatics_current
+SD_CapacitanceMatrix3	SD_CapacitanceMatrix3/case.sif	electrostatics_current, postprocessing

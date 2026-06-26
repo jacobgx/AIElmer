@@ -1,0 +1,3 @@
+EM_port_eigen_3D_prisms	EM_port_eigen_3D_prisms/case.sif	poisson, electromagnetics, acoustics_wave, postprocessing
+EM_port_eigen_3D_prisms	EM_port_eigen_3D_prisms/port_3D_nodalprec.sif	poisson, electromagnetics, acoustics_wave, postprocessing
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/nodalprec_additive.sif	poisson, electromagnetics, acoustics_wave, postprocessing

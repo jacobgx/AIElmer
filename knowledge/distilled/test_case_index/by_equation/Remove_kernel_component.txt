@@ -1,0 +1,5 @@
+mgdyn_bh	mgdyn_bh/with_projection.sif	electrostatics_current, electromagnetics, acoustics_wave, postprocessing
+mgdyn_bh_gauge	mgdyn_bh_gauge/with_projection.sif	electrostatics_current, electromagnetics, acoustics_wave, postprocessing
+mgdyn_faraday_disc	mgdyn_faraday_disc/with_projection.sif	electromagnetics, acoustics_wave, postprocessing
+mgdyn_faraday_disc_transient	mgdyn_faraday_disc_transient/transient_with_projection.sif	electromagnetics, acoustics_wave, postprocessing
+mgdyn_faraday_wheel	mgdyn_faraday_wheel/with_projection.sif	electromagnetics, acoustics_wave, postprocessing

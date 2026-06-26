@@ -1,0 +1,8 @@
+BDM2D	BDM2D/BDM.sif	poisson
+BDM3D	BDM3D/BDM.sif	poisson
+MixedPoisson2D	MixedPoisson2D/mixed_fem.sif	poisson
+MixedPoisson3D	MixedPoisson3D/mixed_nedelec1st.sif	poisson
+MixedPoisson3D	MixedPoisson3D/mixed_nedelec2nd.sif	poisson
+MixedPoisson3D_Brick	MixedPoisson3D_Brick/mixed.sif	poisson
+RaviartThomas2D	RaviartThomas2D/RT.sif	poisson
+RaviartThomas3D	RaviartThomas3D/RT.sif	poisson

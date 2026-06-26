@@ -1,0 +1,7 @@
+FixTangentVelo	FixTangentVelo/case.sif	navier_stokes
+freesurf_sloshing_2d	freesurf_sloshing_2d/case_iterative.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+ParStokes_NormalTangentialBC	ParStokes_NormalTangentialBC/cavity_parstokes.sif	navier_stokes
+Q1Q0	Q1Q0/Q1Q0.sif	navier_stokes
+SD_Step_stokes_block	SD_Step_stokes_block/Step.sif	navier_stokes
+Step_stokes_block	Step_stokes_block/Step.sif	navier_stokes
+StokesPFEM	StokesPFEM/ptest.sif	navier_stokes

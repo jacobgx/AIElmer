@@ -1,0 +1,3 @@
+TwelveSolvers2D	TwelveSolvers2D/case.sif	navier_stokes, heat, postprocessing
+vortex2d	vortex2d/Step.sif	navier_stokes
+vortex3d	vortex3d/Step3d.sif	navier_stokes

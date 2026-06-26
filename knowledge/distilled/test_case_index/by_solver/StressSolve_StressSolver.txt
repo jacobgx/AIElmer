@@ -1,0 +1,101 @@
+BeamSolidSolidCoupling	BeamSolidSolidCoupling/case.sif	elasticity, beam_shell_plate, postprocessing
+BeamSolidSolidCoupling	BeamSolidSolidCoupling/ref.sif	elasticity, beam_shell_plate, postprocessing
+BeamSolidSolidCouplingEigen	BeamSolidSolidCouplingEigen/case.sif	elasticity, beam_shell_plate, postprocessing
+BeamSolidSolidCouplingEigen	BeamSolidSolidCouplingEigen/ref.sif	elasticity, beam_shell_plate, postprocessing
+BeamSolidSolidCouplingMono	BeamSolidSolidCouplingMono/case.sif	elasticity, beam_shell_plate, postprocessing
+BeamSolidSolidCouplingMono	BeamSolidSolidCouplingMono/ref.sif	elasticity, beam_shell_plate, postprocessing
+BlockLinElast2	BlockLinElast2/case.sif	elasticity
+BlockLinElast2b	BlockLinElast2b/case.sif	elasticity
+BlockLinElast2bMany	BlockLinElast2bMany/case.sif	elasticity
+BlockLinElast3	BlockLinElast3/gcr_amg_sgs.sif	elasticity
+BlockLinElast3	BlockLinElast3/ref.sif	elasticity
+BlockLinElast3b	BlockLinElast3b/gcr_cmg_sgs.sif	elasticity
+BlockLinElast3c	BlockLinElast3c/gcr_bicgstab_ilu2.sif	elasticity
+BlockLinElast3d	BlockLinElast3d/gs_cmg_sgs.sif	elasticity
+ConformingDisplacementCube	ConformingDisplacementCube/case.sif	elasticity
+ContactFriction	ContactFriction/case.sif	elasticity, contact
+ContactFriction	ContactFriction/implicit.sif	elasticity, contact
+ContractElasticCube	ContractElasticCube/case.sif	elasticity
+ContractElasticCube2	ContractElasticCube2/case.sif	elasticity
+CylComAxi	CylComAxi/case.sif	elasticity, postprocessing
+CylComStruct	CylComStruct/case.sif	elasticity, postprocessing
+DisplacementPlaneBC	DisplacementPlaneBC/case.sif	elasticity
+DisplacementPlaneBC	DisplacementPlaneBC/ref.sif	elasticity
+ElastElstat1DBeam	ElastElstat1DBeam/case.sif	elasticity, beam_shell_plate, postprocessing
+ElastElstatBeam	ElastElstatBeam/case.sif	elasticity, beam_shell_plate, electrostatics_current, postprocessing
+ElastElstatBeamNodal	ElastElstatBeamNodal/case.sif	elasticity, beam_shell_plate, electrostatics_current, postprocessing
+ElasticBeam2DDampingBeta	ElasticBeam2DDampingBeta/case.sif	elasticity, beam_shell_plate
+ElasticBeam2DDampingBetaP2	ElasticBeam2DDampingBetaP2/case.sif	elasticity, beam_shell_plate
+ElasticBeamHinged	ElasticBeamHinged/hinge.sif	elasticity, beam_shell_plate
+ElasticBeamHinged3D	ElasticBeamHinged3D/hinge.sif	elasticity, beam_shell_plate
+ElasticBlockDamping	ElasticBlockDamping/case.sif	elasticity
+ElasticBlockDampingAlpha	ElasticBlockDampingAlpha/case.sif	elasticity
+ElasticBlockInertia	ElasticBlockInertia/case.sif	elasticity
+ElastPelem	ElastPelem/case.sif	elasticity, postprocessing
+ElastPelem2dPmultg	ElastPelem2dPmultg/case.sif	elasticity, postprocessing
+ElastPelem2dPmultgBoomer	ElastPelem2dPmultgBoomer/case.sif	elasticity, postprocessing
+ElastPelem2dPmultgMumps	ElastPelem2dPmultgMumps/case.sif	elasticity, postprocessing
+ElastPelem2dQuad	ElastPelem2dQuad/case.sif	elasticity, postprocessing
+ElastPelem2dTri	ElastPelem2dTri/case.sif	elasticity, postprocessing
+elmer_earth_2d_2layer	elmer_earth_2d_2layer/2layer.sif	elasticity, postprocessing
+FilmFlow2DFsi	FilmFlow2DFsi/case.sif	navier_stokes, elasticity
+FrictionElasticCube	FrictionElasticCube/case.sif	elasticity, contact
+HeatPlateSym	HeatPlateSym/case.sif	elasticity, beam_shell_plate
+L2norm	L2norm/case.sif	elasticity
+LimitDisplacement	LimitDisplacement/case.sif	elasticity
+LimitDisplacement2	LimitDisplacement2/case.sif	elasticity
+LimitDisplacement2Mesh	LimitDisplacement2Mesh/case.sif	elasticity
+LimitDisplacement3	LimitDisplacement3/case.sif	elasticity
+LimitDisplacement4MeshTrans	LimitDisplacement4MeshTrans/case.sif	elasticity
+LimitDisplacementAdjoint	LimitDisplacementAdjoint/case.sif	elasticity, postprocessing
+LinControlCoordDisp	LinControlCoordDisp/case.sif	elasticity, optimization_control
+LinControlLoadDisp	LinControlLoadDisp/case.sif	elasticity, optimization_control
+RotatingBCNavier2D	RotatingBCNavier2D/case.sif	elasticity, postprocessing
+SD_CylComStruct	SD_CylComStruct/case.sif	elasticity, postprocessing
+SD_ElasticBeam2DDampingBetaP2	SD_ElasticBeam2DDampingBetaP2/case.sif	elasticity, beam_shell_plate
+SD_ElastPelem2dPmultg	SD_ElastPelem2dPmultg/case.sif	elasticity, postprocessing
+SD_ElastPelem2dQuad	SD_ElastPelem2dQuad/case.sif	elasticity, postprocessing
+SD_elmer_earth_2d_2layer	SD_elmer_earth_2d_2layer/2layer.sif	elasticity, postprocessing
+SD_FrictionElasticCube	SD_FrictionElasticCube/case.sif	elasticity, contact
+SD_SinPlane	SD_SinPlane/case.sif	elasticity, postprocessing
+SD_ViscoElasticMaxwell	SD_ViscoElasticMaxwell/case.sif	elasticity, postprocessing
+Shell_with_Solid_Beam	Shell_with_Solid_Beam/case.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_Beam	Shell_with_Solid_Beam/mono.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_Beam	Shell_with_Solid_Beam/ref.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_Beam_Eigen	Shell_with_Solid_Beam_Eigen/case.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_Beam_EigenComplex	Shell_with_Solid_Beam_EigenComplex/case.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_Beam_Par	Shell_with_Solid_Beam_Par/case.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_BenchmarkCase1	Shell_with_Solid_BenchmarkCase1/case.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_BenchmarkCase1	Shell_with_Solid_BenchmarkCase1/eigenanalysis.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_BenchmarkCase1b	Shell_with_Solid_BenchmarkCase1b/case.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_BenchmarkCase2	Shell_with_Solid_BenchmarkCase2/case.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_Eigenanalysis	Shell_with_Solid_Eigenanalysis/eigenanalysis.sif	elasticity, beam_shell_plate, postprocessing
+Shell_with_Solid_EigenanalysisPar	Shell_with_Solid_EigenanalysisPar/eigenanalysis.sif	elasticity, beam_shell_plate, postprocessing
+ShoeboxFsiEigen2D	ShoeboxFsiEigen2D/case.sif	elasticity, acoustics_wave, postprocessing
+ShoeboxFsiHarmonic	ShoeboxFsiHarmonic/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+ShoeboxFsiHarmonic2D	ShoeboxFsiHarmonic2D/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+ShoeboxFsiStatic	ShoeboxFsiStatic/case.sif	elasticity, postprocessing
+SinPlane	SinPlane/case.sif	elasticity, postprocessing
+SolidCylinderSymmConf	SolidCylinderSymmConf/case.sif	elasticity
+SolidCylinderSymmConf	SolidCylinderSymmConf/ref.sif	elasticity
+staged_sim	staged_sim/disp.sif	heat, elasticity
+StrainCalculation01	StrainCalculation01/levy.sif	elasticity
+StrainCalculation02	StrainCalculation02/levy.sif	elasticity
+StrainCalculation03	StrainCalculation03/plate.sif	elasticity, beam_shell_plate, postprocessing
+stress	stress/esim1.sif	elasticity
+TankAst	TankAst/tank.sif	elasticity
+ThermalActuator	ThermalActuator/thermal_actuator.sif	heat, elasticity, electrostatics_current, postprocessing
+ThermalBiMetal	ThermalBiMetal/case.sif	elasticity, postprocessing
+ThermalBiMetal2	ThermalBiMetal2/case.sif	heat, elasticity, postprocessing
+TopoOptElast2DCompMin	TopoOptElast2DCompMin/case.sif	elasticity, optimization_control, postprocessing
+TopoOptElast2DCompMin2	TopoOptElast2DCompMin2/case.sif	elasticity, optimization_control, postprocessing
+TopoOptElast2DCompMin3	TopoOptElast2DCompMin3/case.sif	elasticity, optimization_control, postprocessing
+TopoOptElast2DCompMin3	TopoOptElast2DCompMin3/case3d.sif	elasticity, optimization_control, postprocessing
+TopoOptForceInverter	TopoOptForceInverter/case.sif	elasticity, optimization_control, postprocessing
+tresca	tresca/Tresca.sif	elasticity
+ViscoElasticMaxwell	ViscoElasticMaxwell/case.sif	elasticity, postprocessing
+WinkelBmNavierHypreBiCGStabBoomer	WinkelBmNavierHypreBiCGStabBoomer/case.sif	elasticity, postprocessing, linear_solver_benchmark
+WinkelBmNavierInternalFETI	WinkelBmNavierInternalFETI/case.sif	elasticity, postprocessing, linear_solver_benchmark
+WinkelBmNavierMumps	WinkelBmNavierMumps/case.sif	elasticity, postprocessing, linear_solver_benchmark
+WinkelBmNavierPermon	WinkelBmNavierPermon/case.sif	elasticity, postprocessing, linear_solver_benchmark
+WinkelNavierPelem	WinkelNavierPelem/case.sif	elasticity, postprocessing, linear_solver_benchmark

@@ -1,0 +1,4 @@
+CompressIdealGas	CompressIdealGas/case.sif	fsi, navier_stokes, heat, postprocessing
+CompressIdealGas2	CompressIdealGas2/case.sif	fsi, navier_stokes, postprocessing
+HybridMeshMap	HybridMeshMap/case.sif	fsi, heat, postprocessing
+LubricationTunedForce	LubricationTunedForce/case.sif	fsi, navier_stokes, optimization_control, postprocessing

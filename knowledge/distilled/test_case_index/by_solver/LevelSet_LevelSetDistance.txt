@@ -1,0 +1,6 @@
+levelset1	levelset1/round.sif	navier_stokes, levelset_free_surface, postprocessing
+levelset2	levelset2/fill.sif	navier_stokes, levelset_free_surface
+levelset3	levelset3/case.sif	navier_stokes, particles, levelset_free_surface, postprocessing
+levelset3b	levelset3b/case.sif	navier_stokes, particles, levelset_free_surface, postprocessing
+LevelsetFallingDrop	LevelsetFallingDrop/drop.sif	navier_stokes, levelset_free_surface, postprocessing
+ParticleAdvectorZalesak	ParticleAdvectorZalesak/zalesak.sif	particles, levelset_free_surface, postprocessing

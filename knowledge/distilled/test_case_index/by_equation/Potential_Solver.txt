@@ -1,0 +1,2 @@
+InductionHeating	InductionHeating/crucible.sif	other
+InductionHeating2	InductionHeating2/crucible.sif	heat, postprocessing

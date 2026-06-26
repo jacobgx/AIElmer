@@ -1,0 +1,6 @@
+KeywordCompare	KeywordCompare/case.sif	other
+KeywordCompare2	KeywordCompare2/case.sif	other
+KeywordCompare3	KeywordCompare3/case.sif	other
+KeywordCompare4	KeywordCompare4/case.sif	other
+KeywordCompare5	KeywordCompare5/case.sif	other
+KeywordUnitTestLua	KeywordUnitTestLua/case.sif	other

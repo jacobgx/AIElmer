@@ -1,0 +1,3 @@
+Outlet2InletBC	Outlet2InletBC/case_b.sif	heat
+Outlet2InletBCv2	Outlet2InletBCv2/case_b.sif	heat
+ParallelBoundaryMapGmsh	ParallelBoundaryMapGmsh/case_b.sif	heat

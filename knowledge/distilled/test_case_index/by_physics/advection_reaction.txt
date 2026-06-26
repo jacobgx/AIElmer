@@ -1,0 +1,7 @@
+AdvReactDB	AdvReactDB/AdvReactDB.sif	AdvReact
+AdvReactDBmap	AdvReactDBmap/AdvReactDB.sif	AdvReact
+AdvReactDBmaster	AdvReactDBmaster/AdvReactDB.sif	AdvReact
+AdvReactDG	AdvReactDG/AdvReactDG.sif	AdvReact
+AdvReactDG_P	AdvReactDG_P/AdvReactDG.sif	AdvReact
+AdvReactDGZoltan	AdvReactDGZoltan/AdvReactDG.sif	AdvReact
+ExtrudedMeshDG	ExtrudedMeshDG/AdvReactDG.sif	AdvReact

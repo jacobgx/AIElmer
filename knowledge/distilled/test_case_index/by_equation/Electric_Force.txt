@@ -1,0 +1,4 @@
+ElastElstatBeam	ElastElstatBeam/case.sif	elasticity, beam_shell_plate, electrostatics_current, postprocessing
+ElastElstatBeamNodal	ElastElstatBeamNodal/case.sif	elasticity, beam_shell_plate, electrostatics_current, postprocessing
+elstat	elstat/elstatics.sif	electrostatics_current, postprocessing
+elstat_infty	elstat_infty/selfcapacitance.sif	electrostatics_current, postprocessing

@@ -1,0 +1,2 @@
+HarmonicNS	HarmonicNS/tube.sif	acoustics_wave, postprocessing
+SD_HarmonicNS	SD_HarmonicNS/tube.sif	acoustics_wave, postprocessing

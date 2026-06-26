@@ -1,0 +1,2 @@
+diffuser_sst	diffuser_sst/channel_sst.sif	navier_stokes, postprocessing
+diffuser_sst	diffuser_sst/diffuser_sst.sif	navier_stokes, postprocessing

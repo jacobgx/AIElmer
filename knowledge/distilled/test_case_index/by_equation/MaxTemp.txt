@@ -1,0 +1,2 @@
+SD_structmap_p2	SD_structmap_p2/map.sif	heat, postprocessing
+structmap_p2	structmap_p2/map.sif	heat, postprocessing

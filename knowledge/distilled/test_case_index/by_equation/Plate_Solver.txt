@@ -1,0 +1,12 @@
+LimitPlate	LimitPlate/case.sif	beam_shell_plate
+plates	plates/plates.sif	beam_shell_plate
+platesEigen	platesEigen/plates.sif	beam_shell_plate, postprocessing
+PlatesEigenComplex	PlatesEigenComplex/plates.sif	beam_shell_plate, postprocessing
+PlatesHarmonic	PlatesHarmonic/plates.sif	beam_shell_plate
+PlatesHarmonic2	PlatesHarmonic2/plates.sif	beam_shell_plate
+PlatesHarmonic3	PlatesHarmonic3/plates.sif	beam_shell_plate
+ShoeboxFsiHarmonicPlate	ShoeboxFsiHarmonicPlate/case.sif	beam_shell_plate, electromagnetics, acoustics_wave, postprocessing
+ShoeboxFsiHarmonicPlateMonolithic	ShoeboxFsiHarmonicPlateMonolithic/case.sif	beam_shell_plate, electromagnetics, acoustics_wave, postprocessing
+ShoeboxFsiStaticPlate	ShoeboxFsiStaticPlate/case.sif	beam_shell_plate, postprocessing
+ShoeboxHarmonicPlate	ShoeboxHarmonicPlate/case.sif	beam_shell_plate, postprocessing
+ShoeboxStaticPlate	ShoeboxStaticPlate/case.sif	beam_shell_plate, postprocessing

@@ -1,0 +1,1 @@
+a-posteriori-recovery-2D	a-posteriori-recovery-2D/recovery_adapt.sif	heat, electromagnetics, acoustics_wave

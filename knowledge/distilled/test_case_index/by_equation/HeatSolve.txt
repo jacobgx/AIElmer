@@ -1,0 +1,2 @@
+HeatSolveVecDGandMortar	HeatSolveVecDGandMortar/case.sif	heat
+HeatSolveVecDGandMortarElim	HeatSolveVecDGandMortarElim/case.sif	heat

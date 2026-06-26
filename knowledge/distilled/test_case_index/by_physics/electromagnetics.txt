@@ -1,0 +1,210 @@
+a-posteriori-recovery-2D	a-posteriori-recovery-2D/recovery_adapt.sif	Heat Equation, Flux reconstruction
+circuits2D_harmonic_foil	circuits2D_harmonic_foil/sif/1383-components-foilwinding.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output
+circuits2D_harmonic_london	circuits2D_harmonic_london/inductor/entities.sif	
+circuits2D_harmonic_london	circuits2D_harmonic_london/sif/london_harmonic.sif	Circuits, Mag, MGDynamicsCalc, ResultOutput, Circuits Output, sv
+circuits2D_harmonic_massive	circuits2D_harmonic_massive/sif/1381-components-massive.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output
+circuits2D_harmonic_stranded	circuits2D_harmonic_stranded/sif/1381-components-stranded.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output
+circuits2D_harmonic_stranded_explicit_coil_resistance	circuits2D_harmonic_stranded_explicit_coil_resistance/sif/1381-components-stranded.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output
+circuits2D_harmonic_stranded_homogenization	circuits2D_harmonic_stranded_homogenization/sif/2077.sif	Circuits, Mag, CompB, ResultOutput, Circuits Output, sv
+circuits2D_scan_harmonics	circuits2D_scan_harmonics/sif/6425.sif	Direction, Circuits, Mag, CompB, Treat Scan Fiealds, Circuits Output, ResultOutput, sv
+circuits2D_transient_foil	circuits2D_transient_foil/sif/1383-components-foilwinding.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output
+circuits2D_transient_london	circuits2D_transient_london/inductor/entities.sif	
+circuits2D_transient_london	circuits2D_transient_london/sif/london.sif	Circuits, Mag, MGDynamicsCalc, ResultOutput, Circuits Output, sv
+circuits2D_transient_massive	circuits2D_transient_massive/sif/1381-components-massive.sif	Circuits, Mag, CompB, ResultOutput, Circuits Output
+circuits2D_transient_stranded	circuits2D_transient_stranded/sif/1381-components-stranded.sif	Circuits, Mag, CompB, ResultOutput, Circuits Output, sv
+circuits2D_transient_variable_resistor	circuits2D_transient_variable_resistor/sif/variable_resistor.sif	Circuits, Mag, CompB, ResultOutput, Circuits Output, sv
+circuits2D_with_hysteresis	circuits2D_with_hysteresis/sif/37.sif	Direction, Circuits, Mag, calcfields, Circuits Output, ResultOutput, sv
+circuits2D_with_hysteresis_axi	circuits2D_with_hysteresis_axi/sif/37.sif	Direction, Circuits, Mag, calcfields, Circuits Output, ResultOutput, sv
+circuits_harmonic_foil	circuits_harmonic_foil/sif/6459.sif	Direction Alpha, Direction Beta, Transformation matrix, Wire direction, Circuits, MGDynamics, MGDynamicsCalc, Circuits Output, ResultOutput, sv
+circuits_harmonic_foil_anl_rotm	circuits_harmonic_foil_anl_rotm/sif/6459.sif	Direction Alpha, Direction Beta, Transformation matrix, Wire direction, Circuits, MGDynamics, MGDynamicsCalc, Circuits Output, ResultOutput, sv
+circuits_harmonic_foil_wvector	circuits_harmonic_foil_wvector/sif/6459.sif	Direction Alpha, Direction Beta, Transformation matrix, Wire direction, WFix, Circuits, MGDynamics, MGDynamicsCalc, Circuits Output, ResultOutput, sv, Divergence Solver
+circuits_harmonic_homogenization_coil_solver	circuits_harmonic_homogenization_coil_solver/2241/entities.sif	
+circuits_harmonic_homogenization_coil_solver	circuits_harmonic_homogenization_coil_solver/sif/2241.sif	CoilSolver, Transformation matrix, Circuits, MGDynamics, MGDynamicsCalc, ResultOutput, Circuits Output, sv
+circuits_harmonic_massive	circuits_harmonic_massive/sif/1962.sif	Wire direction, Circuits, MGDynamics, MGDynamicsCalc, ResultOutput, Circuits Output, sv
+circuits_harmonic_massive_flux_linkage	circuits_harmonic_massive_flux_linkage/sif/1962.sif	Wire direction, Circuits, MGDynamics, MGDynamicsCalc, ResultOutput, Circuits Output, sv
+circuits_harmonic_stranded	circuits_harmonic_stranded/2241/entities.sif	
+circuits_harmonic_stranded	circuits_harmonic_stranded/sif/2241.sif	Direction Alpha, Direction Beta, Transformation matrix, Wire direction, Circuits, MGDynamics, MGDynamicsCalc, ResultOutput, Circuits Output, sv
+circuits_harmonic_stranded_homogenization	circuits_harmonic_stranded_homogenization/2241/entities.sif	
+circuits_harmonic_stranded_homogenization	circuits_harmonic_stranded_homogenization/sif/2241.sif	Direction Alpha, Direction Beta, Transformation matrix, Wire direction, Circuits, MGDynamics, MGDynamicsCalc, ResultOutput, Circuits Output, sv
+circuits_transient_foil	circuits_transient_foil/sif/6479.sif	Direction Alpha, Direction Beta, Transformation matrix, Wire direction, Circuits, MGDynamics, MGDynamicsCalc, Circuits Output, ResultOutput, sv
+circuits_transient_massive	circuits_transient_massive/sif/6481.sif	Wire direction, Circuits, MGDynamics, MGDynamicsCalc, Circuits Output, ResultOutput, sv
+circuits_transient_stranded	circuits_transient_stranded/sif/6480.sif	Direction Alpha, Direction Beta, Transformation matrix, Wire direction, Circuits, MGDynamics, MGDynamicsCalc, Circuits Output, ResultOutput, sv
+circuits_transient_stranded_full_coil	circuits_transient_stranded_full_coil/coil/entities.sif	
+circuits_transient_stranded_full_coil	circuits_transient_stranded_full_coil/sif/coil.sif	CoilSolver, Circuits, MGDynamics, MGDynamicsCalc, Circuits Output, ResultOutput, sv
+circuits_transient_stranded_wvector	circuits_transient_stranded_wvector/sif/6480.sif	Direction Alpha, Direction Beta, Transformation matrix, Wire direction, Circuits, MGDynamics, MGDynamicsCalc, Circuits Output, ResultOutput, sv
+CoilSolver1	CoilSolver1/case.sif	CoilSolver, ComputeFlux, Divergence Solver
+CoilSolver2	CoilSolver2/case.sif	CoilSolver, ComputeFlux, Divergence Solver
+CoilSolver3	CoilSolver3/case.sif	CoilSolver, ComputeFlux, Divergence Solver
+CoilSolver4	CoilSolver4/case.sif	CoilSolver, ComputeFlux, Divergence Solver
+CoilSolver5	CoilSolver5/case.sif	CoilSolver, ComputeFlux, Divergence Solver
+CoilSolver6	CoilSolver6/case.sif	CoilSolver, ComputeFlux, Divergence Solver
+CoilSolverLoop	CoilSolverLoop/case.sif	CoilSolver, Divergence Solver
+CoilSolverTwoLoops	CoilSolverTwoLoops/case.sif	CoilSolver, ComputeFlux, Divergence Solver
+DistributeSourceMgdyn	DistributeSourceMgdyn/case.sif	DistributeSource, MGDynamics, MGDynamicsCalc
+EM_port_eigen_3D	EM_port_eigen_3D/case.sif	Port mode, VectorHelmholtz, calcfields, result output, SaveScalars
+EM_port_eigen_3D	EM_port_eigen_3D/port_eigenanalysis_3D.sif	Port mode, postprocess, VectorHelmholtz, calcfields, result output, SaveScalars
+EM_port_eigen_3D	EM_port_eigen_3D/with_potentials.sif	Port mode, VectorHelmholtz, calcfields, result output, SaveScalars
+EM_port_eigen_3D_prisms	EM_port_eigen_3D_prisms/case.sif	Port mode, VectorHelmholtz, calcfields, result output, SaveScalars, VectorHelmholtzNodal, Complex Poisson
+EM_port_eigen_3D_prisms	EM_port_eigen_3D_prisms/port_3D_nodalprec.sif	Port mode, postprocess, VectorHelmholtz, calcfields, result output, SaveScalars, VectorHelmholtzNodal, Complex Poisson
+EMWaveBoxHexas	EMWaveBoxHexas/emwave.sif	VectorWave, calcfields, save scalars, save line, result output
+EMWaveBoxHexasEigen	EMWaveBoxHexasEigen/emwave.sif	VectorWave, calcfields, save scalars, result output
+EMWaveBoxHexasPiola	EMWaveBoxHexasPiola/emwave.sif	VectorWave, calcfields, save scalars, save line, result output
+EMWaveBoxHexasQuad	EMWaveBoxHexasQuad/emwave.sif	VectorWave, calcfields, save scalars, save line, result output
+EMWavePiola2D	EMWavePiola2D/emwave.sif	Electromagnetic Wave, calcfields, result output
+EMWavePiola2D	EMWavePiola2D/emwave_harmonic.sif	Vectorial Helmholtz, calcfields, result output
+FluxIntegralBCInduction	FluxIntegralBCInduction/case.sif	MgDyn2DHarmonic, MgDynPost, SaveLine, SaveScalars
+HelmholtzBEM	HelmholtzBEM/HelmholtzBEM.sif	Helmholtz
+HelmholtzEdge	HelmholtzEdge/Hrot.sif	Hrot
+HelmholtzFace	HelmholtzFace/Htest.sif	Vector Helmholtz
+HelmholtzFEM	HelmholtzFEM/HelmholtzFEM.sif	Helmholtz
+HelmholtzPlaneWaves	HelmholtzPlaneWaves/case.sif	Helmholtz, SaveScalars, SaveLine
+HelmholtzPlaneWavesAxis	HelmholtzPlaneWavesAxis/case.sif	Helmholtz, SaveScalars, SaveLine
+HelmholtzPlaneWavesParam	HelmholtzPlaneWavesParam/case.sif	Helmholtz, SaveScalars
+HelmholtzPlaneWavesScan	HelmholtzPlaneWavesScan/case.sif	Helmholtz, SaveScalars
+HelmholtzSolveImpMatrix	HelmholtzSolveImpMatrix/case.sif	Helmholtz
+HelmholtzStructure	HelmholtzStructure/case.sif	Stress Analysis, Helmholtz, SaveScalars
+HelmholtzStructure2	HelmholtzStructure2/case.sif	Stress Analysis, Helmholtz, SaveScalars
+HelmholtzStructure3	HelmholtzStructure3/case.sif	Stress Analysis, Helmholtz, SaveScalars
+InductionHeating3	InductionHeating3/crucible.sif	VecPotSol, CalcFields
+InductionHeating4	InductionHeating4/crucible.sif	VecPotSol, CalcFields
+linearsolvers_cmplx	linearsolvers_cmplx/HelmholtzFEM.sif	Helmholtz
+MagnetoDynamicsNodalPrec	MagnetoDynamicsNodalPrec/case.sif	$myid, MeshDeform, CoilSolver, MGDynamics, MGDynamicsCalc, ResultOutput, SaveLine, MagnetodDynamicsNodal
+MagnetoDynamicsNodalPrec	MagnetoDynamicsNodalPrec/linsys_nodalprec.sif	
+mgdyn2D_bh_relfun	mgdyn2D_bh_relfun/case.sif	MGDynamics, MGDynamicsCalc
+mgdyn2D_compute_average_b	mgdyn2D_compute_average_b/sif/6801.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output, sv
+mgdyn2D_compute_bodycurrent	mgdyn2D_compute_bodycurrent/sif/6801.sif	Direction, Circuits, Mag, CompB, Circuits Output, sv, ResultOutput
+mgdyn2D_compute_complex_power	mgdyn2D_compute_complex_power/sif/6801.sif	Direction, Circuits, Mag, CompB, ResultOutput, Circuits Output, sv
+mgdyn2D_em	mgdyn2D_em/konesec.sif	MeshDeform, Mag, ComputeB
+mgdyn2D_em_conforming	mgdyn2D_em_conforming/konesec.sif	MeshDeform, Mag, ComputeB
+mgdyn2D_em_conforming	mgdyn2D_em_conforming/ref.sif	MeshDeform, Mag, ComputeB
+mgdyn2D_em_harmonic	mgdyn2D_em_harmonic/konesec.sif	MeshDeform, Mag, ComputeB, Result Output
+mgdyn2D_harmonic_anisotropic_permeability	mgdyn2D_harmonic_anisotropic_permeability/sif/7557.sif	Direction, Mag, CompB, ResultOutput
+mgdyn2D_pm	mgdyn2D_pm/ptest.sif	MeshDeform, Vecpot, MgDynCalcFields
+mgdyn2D_scan_homogenization_elementary_solutions	mgdyn2D_scan_homogenization_elementary_solutions/sif/6801.sif	Direction, Circuits, Mag, CompB, Circuits Output, sv, ResultOutput
+mgdyn2D_steady_wire	mgdyn2D_steady_wire/case.sif	MGDynamics2D, MGDynamicsCalc, ResultOutput, SaveLine
+mgdyn_3phase	mgdyn_3phase/kiskot.sif	MGDynamics, MGDynamicsCalc, Result Output
+mgdyn_airgap	mgdyn_airgap/airgap.sif	MGDynamics, MGDynamicsCalc, scalars
+mgdyn_airgap2	mgdyn_airgap2/airgap.sif	MGDynamics, MGDynamicsCalc, scalars
+mgdyn_airgap_force	mgdyn_airgap_force/case.sif	mgdyn, MGDynamicsCalc, Result Output, Savedata
+mgdyn_airgap_force	mgdyn_airgap_force/modeldata.sif	
+mgdyn_airgap_harmonic	mgdyn_airgap_harmonic/airgap.sif	MGDynamics, MGDynamicsCalc
+mgdyn_angular_steady	mgdyn_angular_steady/case.sif	mgdyn, MGDynamicsCalc, result output
+mgdyn_anisotropic_cond	mgdyn_anisotropic_cond/toroidalcoil.sif	MGDynamics, MGDynamicsCalc
+mgdyn_anisotropic_rel	mgdyn_anisotropic_rel/cyl-case.sif	Mag, ComputeB, result output
+mgdyn_anisotropic_rel2	mgdyn_anisotropic_rel2/cyl-case.sif	Mag, ComputeB, result output
+mgdyn_bh	mgdyn_bh/case.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, ResultOutput, scalars
+mgdyn_bh	mgdyn_bh/with_projection.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, ResultOutput, scalars, Helmholtz projection, Remove kernel component
+mgdyn_bh_gauge	mgdyn_bh_gauge/case.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, resultoutput, scalars, scalars2
+mgdyn_bh_gauge	mgdyn_bh_gauge/with_projection.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, ResultOutput, scalars, Helmholtz projection, Remove kernel component
+mgdyn_bh_gauge2	mgdyn_bh_gauge2/block.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, resultoutput, scalars, scalars2
+mgdyn_bh_relfun	mgdyn_bh_relfun/case.sif	Stat Current Solver, MGDynamics, MGDynamicsCalc, ResultOutput, scalars, lines
+mgdyn_core_wire_line_element	mgdyn_core_wire_line_element/sif/wires_and_core.sif	MGDynamics, MGDynamicsCalc, ResultOutput, sv
+mgdyn_core_wire_line_element	mgdyn_core_wire_line_element/wires_and_core/entities.sif	
+mgdyn_dg_b_velocity	mgdyn_dg_b_velocity/airgap.sif	MGDynamics, MGDynamicsCalc, scalars
+mgdyn_faraday_disc	mgdyn_faraday_disc/faraday_disc.sif	mgdyn, MGDynamicsCalc, result output
+mgdyn_faraday_disc	mgdyn_faraday_disc/with_projection.sif	mgdyn, MGDynamicsCalc, result output, Helmholtz projection, Remove kernel component
+mgdyn_faraday_disc_transient	mgdyn_faraday_disc_transient/disc_transient.sif	MeshDeform, mgdyn, MGDynamicsCalc, result output
+mgdyn_faraday_disc_transient	mgdyn_faraday_disc_transient/transient_with_projection.sif	MeshDeform, mgdyn, MGDynamicsCalc, result output, Helmholtz projection, Remove kernel component
+mgdyn_faraday_wheel	mgdyn_faraday_wheel/transient_with_projection.sif	MeshDeform, MGDynamics, CalcFields, result output
+mgdyn_faraday_wheel	mgdyn_faraday_wheel/wheel.sif	MGDynamics, MGDynamicsCalc, result output
+mgdyn_faraday_wheel	mgdyn_faraday_wheel/with_projection.sif	MGDynamics, MGDynamicsCalc, result output, Helmholtz projection, Remove kernel component
+mgdyn_harmonic	mgdyn_harmonic/MGDynamicsHarmonic.sif	MGDynamics, MGDynamicsCalc
+mgdyn_harmonic_loss	mgdyn_harmonic_loss/MGDynamicsHarmonic.sif	MGDynamics, MGDynamicsCalc
+mgdyn_harmonic_wire	mgdyn_harmonic_wire/case.sif	MGDynamics, MGDynamicsCalc, ResultOutput, SaveLine, SaveScalars
+mgdyn_harmonic_wire_Cgauge	mgdyn_harmonic_wire_Cgauge/case.sif	MGDynamics, MGDynamics P, MGDynamics AVM, MGDynamicsCalc, ResultOutput, SaveLine, SaveScalars
+mgdyn_harmonic_wire_Cgauge_automatic	mgdyn_harmonic_wire_Cgauge_automatic/case.sif	MGDynamics, MGDynamicsCalc, ResultOutput, SaveLine, SaveScalars
+mgdyn_harmonic_wire_impedanceBC	mgdyn_harmonic_wire_impedanceBC/IBC.sif	MGDynamics, MGDynamicsCalc, ResultOutput, SaveLine, SaveScalars
+mgdyn_harmonic_wire_impedanceBC2	mgdyn_harmonic_wire_impedanceBC2/IBC.sif	MGDynamics, MGDynamicsCalc, ResultOutput, SaveScalars
+mgdyn_harmonic_wire_impedanceBC2	mgdyn_harmonic_wire_impedanceBC2/IBC_currdens.sif	MGDynamics, MGDynamicsCalc, ResultOutput, SaveScalars
+mgdyn_harmonic_wire_impedanceBC_circuit	mgdyn_harmonic_wire_impedanceBC_circuit/IBC_circuit.sif	Wire direction, Circuits, MGDynamics, MGDynamicsCalc, Circuits Output, ResultOutput
+mgdyn_hypre_ams	mgdyn_hypre_ams/case.sif	Mag, ComputeB, result output
+mgdyn_hypre_ams2	mgdyn_hypre_ams2/case.sif	Mag, ComputeB, result output
+mgdyn_hypre_ams_many	mgdyn_hypre_ams_many/case.sif	Mag, ComputeB
+mgdyn_hypre_ams_quadratic	mgdyn_hypre_ams_quadratic/case.sif	Mag, ComputeB, result output
+mgdyn_lamstack_lowfreq_harmonic	mgdyn_lamstack_lowfreq_harmonic/lamstack_lowfreq.sif	MGDynamics, MGDynamicsCalc, ResultOutput, SaveScalars
+mgdyn_lamstack_lowfreq_transient	mgdyn_lamstack_lowfreq_transient/lamstack.sif	MGDynamics, MGDynamicsCalc, ResultOutput, SaveScalars
+mgdyn_lamstack_widefreq_harmonic	mgdyn_lamstack_widefreq_harmonic/lamstack_widefreq.sif	MGDynamics, MGDynamicsCalc, ResultOutput, SaveScalars
+mgdyn_mfd	mgdyn_mfd/box/entities.sif	
+mgdyn_mfd	mgdyn_mfd/sif/box.sif	MGDynamics, MGDynamicsCalc, ResultOutput, sv
+mgdyn_nodalforce2d	mgdyn_nodalforce2d/konesec.sif	MeshDeform, Mag, ComputeB, result output
+mgdyn_steady	mgdyn_steady/MGDynamicsSteady.sif	MGDynamics, MGDynamicsCalc, scalars
+mgdyn_steady_2ndorder	mgdyn_steady_2ndorder/ZCurrent.sif	MGDynamics, MGDynamicsCalc, ResultOutput
+mgdyn_steady_coils	mgdyn_steady_coils/case.sif	CoilSolver, MGDynamics, MGDynamicsCalc, ResultOutput
+mgdyn_steady_periodic	mgdyn_steady_periodic/sector.sif	MGDynamics, MGDynamicsCalc, ResultOutput
+mgdyn_steady_piolaversion	mgdyn_steady_piolaversion/ZCurrent.sif	MGDynamics, MGDynamicsCalc
+mgdyn_steady_plate	mgdyn_steady_plate/case.sif	MGDynamics, MGDynamicsCalc, ResultOutput
+mgdyn_steady_plate	mgdyn_steady_plate/ref.sif	MGDynamics, MGDynamicsCalc, ResultOutput
+mgdyn_steady_quad_extruded	mgdyn_steady_quad_extruded/case.sif	MGDynamics, MGDynamicsCalc, ResultOutput, SaveScalars
+mgdyn_steady_quad_extruded_restart	mgdyn_steady_quad_extruded_restart/case.sif	MapCoordinates, NodeToEdge, MGDynamics, MGDynamicsCalc, ResultOutput, SaveScalars
+mgdyn_steady_quad_extruded_restart	mgdyn_steady_quad_extruded_restart/case2d.sif	MGDynamics2D, MGDynamicsCalc, ResultOutput, SaveScalars
+mgdyn_steady_wire	mgdyn_steady_wire/case.sif	CoilSolver, MGDynamics, MGDynamicsCalc, ResultOutput, SaveLine
+mgdyn_steady_wire2	mgdyn_steady_wire2/case.sif	MGDynamics, MGDynamicsCalc, ResultOutput, SaveLine
+mgdyn_steady_wire_conforming	mgdyn_steady_wire_conforming/case.sif	MGDynamicsSolve, MGDynamicsCalc
+mgdyn_steady_wire_periodic	mgdyn_steady_wire_periodic/case.sif	MGDynamics, MGDynamicsCalc, ResultOutput, SaveLine
+mgdyn_steady_wire_periodic	mgdyn_steady_wire_periodic/case_nonperiodic.sif	CoilSolver, MGDynamics, MGDynamicsCalc, ResultOutput, SaveLine
+mgdyn_stump_jfix	mgdyn_stump_jfix/stump.sif	MGDynamics, MGDynamicsCalc, ResultOutput
+mgdyn_stump_jfix2	mgdyn_stump_jfix2/stump.sif	MGDynamics, MGDynamicsCalc, ResultOutput
+mgdyn_thinsheet_harmonic	mgdyn_thinsheet_harmonic/thinsheet.sif	MGDynamics, MGDynamicsCalc, ResultOutput
+mgdyn_torus	mgdyn_torus/case.sif	MGDynamicsCalc, MGDynamics
+mgdyn_torus_harmonic	mgdyn_torus_harmonic/case.sif	MGDynamics, MGDynamicsCalc
+mgdyn_transient	mgdyn_transient/MGDynamicsTransient.sif	MGDynamics, MGDynamicsCalc
+mgdyn_transient_loss	mgdyn_transient_loss/MGDynamicsTransient.sif	MGDynamics, MGDynamicsCalc, Losses
+mgdyn_wave_eigen	mgdyn_wave_eigen/case.sif	emwave solve, emwave calc, save scalars
+mgdyn_wave_harmonic	mgdyn_wave_harmonic/case.sif	Poisson, Poisson2
+mgdyn_wave_td	mgdyn_wave_td/case.sif	emwave, emwave calc
+mgdyn_wire_dbdt_line_element	mgdyn_wire_dbdt_line_element/sif/thinline.sif	MGDynamics, MGDynamicsCalc, ResultOutput, sv
+mgdyn_wire_dbdt_line_element	mgdyn_wire_dbdt_line_element/sif/thinline_tet.sif	MGDynamics, MGDynamicsCalc, ResultOutput, sv
+mgdyn_wire_dbdt_line_element	mgdyn_wire_dbdt_line_element/wire_pair/entities.sif	
+mgdyn_wire_dbdt_line_element	mgdyn_wire_dbdt_line_element/wire_pair_tet/entities.sif	
+mgdyn_wire_line_element	mgdyn_wire_line_element/cable1d/entities.sif	
+mgdyn_wire_line_element	mgdyn_wire_line_element/sif/nothinline.sif	Wire direction, MGDynamics, MGDynamicsCalc, ResultOutput, sv
+mgdyn_wire_line_element	mgdyn_wire_line_element/sif/thinline.sif	MGDynamics, MGDynamicsCalc, ResultOutput, sv
+MgDynDiscontBCs	MgDynDiscontBCs/case.sif	mgdyn, MGDynamicsCalc, result output
+RotatingBCMagnetoDynamics	RotatingBCMagnetoDynamics/case.sif	MeshDeform, MGDynamics, MGDynamicsCalc, SaveScalars, SaveLine, VtuOutput
+RotatingBCMagnetoDynamics2	RotatingBCMagnetoDynamics2/case.sif	MeshDeform, MGDynamics, MGDynamicsCalc, SaveScalars, SaveLine, VtuOutput
+RotatingBCMagnetoDynamicsConforming	RotatingBCMagnetoDynamicsConforming/case.sif	MeshDeform, MGDynamics, MGDynamicsCalc, SaveScalars, SaveLine, VtuOutput
+RotatingBCMagnetoDynamicsConforming	RotatingBCMagnetoDynamicsConforming/ref.sif	MeshDeform, MGDynamics, MGDynamicsCalc, SaveScalars, SaveLine, VtuOutput
+RotatingBCMagnetoDynamicsConformingAnti	RotatingBCMagnetoDynamicsConformingAnti/case.sif	MeshDeform, MGDynamics, MGDynamicsCalc, SaveScalars, SaveLine, VtuOutput
+RotatingBCMagnetoDynamicsConformingAnti	RotatingBCMagnetoDynamicsConformingAnti/ref.sif	MeshDeform, MGDynamics, MGDynamicsCalc, SaveScalars, SaveLine, VtuOutput
+RotatingBCMagnetoDynamicsConfRelease	RotatingBCMagnetoDynamicsConfRelease/case.sif	MeshDeform, MGDynamics, MGDynamicsCalc, SaveScalars, SaveLine, VtuOutput, CoilSolver
+RotatingBCMagnetoDynamicsGeneric	RotatingBCMagnetoDynamicsGeneric/case.sif	MeshDeform, MGDynamics, MGDynamicsCalc, SaveScalars, SaveLine, VtuOutput
+ShoeboxFsiHarmonic	ShoeboxFsiHarmonic/case.sif	Helmholtz, Navier Solver, SaveScalars
+ShoeboxFsiHarmonic2D	ShoeboxFsiHarmonic2D/case.sif	Helmholtz, Navier Solver, SaveScalars
+ShoeboxFsiHarmonicPlate	ShoeboxFsiHarmonicPlate/case.sif	Helmholtz, Plate Solver, SaveScalars
+ShoeboxFsiHarmonicPlateMonolithic	ShoeboxFsiHarmonicPlateMonolithic/case.sif	Helmholtz, Plate Solver, SaveScalars
+TEAM30a_3ph_slip_bf	TEAM30a_3ph_slip_bf/TEAM30a_3ph_slip_bf.sif	MgDyn2D, CalcFields, ResultOutput
+TEAM30a_3ph_transient	TEAM30a_3ph_transient/TEAM30a_3ph_harmonic.sif	MgDyn2DHarm, CalcFields, ResultOutput
+TEAM30a_3ph_transient	TEAM30a_3ph_transient/TEAM30a_3ph_transient.sif	MgDyn2D, CalcFields, ResultOutput
+TEAM30a_3ph_transient_par	TEAM30a_3ph_transient_par/TEAM30a_3ph_harmonic.sif	MgDyn2DHarm, CalcFields, ResultOutput
+TEAM30a_3ph_transient_par	TEAM30a_3ph_transient_par/TEAM30a_3ph_transient.sif	MgDyn2D, CalcFields, ResultOutput
+TEAM30a_3ph_w_bf	TEAM30a_3ph_w_bf/TEAM30a_3ph_w_bf.sif	MgDyn2D, CalcFields, ResultOutput
+VectorHelmholtzImpMatrix	VectorHelmholtzImpMatrix/case2.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzImpMatrix	VectorHelmholtzImpMatrix/case3.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzImpMatrix	VectorHelmholtzImpMatrix/case4.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide	VectorHelmholtzWaveguide/av_gauged.sif	VectorHelmholtz, calcfields, SaveScalars, result output
+VectorHelmholtzWaveguide	VectorHelmholtzWaveguide/nested.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide	VectorHelmholtzWaveguide/vectorhelmholtz_av.sif	VectorHelmholtz, calcfields, SaveScalars, result output
+VectorHelmholtzWaveguide	VectorHelmholtzWaveguide/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars, result output
+VectorHelmholtzWaveguide2	VectorHelmholtzWaveguide2/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide3	VectorHelmholtzWaveguide3/nested.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide3	VectorHelmholtzWaveguide3/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide4	VectorHelmholtzWaveguide4/horver.sif	
+VectorHelmholtzWaveguide4	VectorHelmholtzWaveguide4/nodalprec_curlcurlform.sif	VectorHelmholtz, VectorHelmholtzNodal, calcfields, VtuOutput
+VectorHelmholtzWaveguide4	VectorHelmholtzWaveguide4/nodalprec_pec_walls.sif	VectorHelmholtz, VectorHelmholtzNodal, calcfields, VtuOutput
+VectorHelmholtzWaveguide4	VectorHelmholtzWaveguide4/pmult.sif	
+VectorHelmholtzWaveguide4	VectorHelmholtzWaveguide4/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide5	VectorHelmholtzWaveguide5/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguide_TM	VectorHelmholtzWaveguide_TM/waveguideTM.sif	VectorHelmholtz, calcfields, SaveScalars, result output
+VectorHelmholtzWaveguide_TM	VectorHelmholtzWaveguide_TM/waveguideTM_block.sif	VectorHelmholtz, calcfields, SaveScalars, result output
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/edge.sif	VectorHelmholtz, calcfields
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/mono.sif	VectorHelmholtzNodal, MeshDeform
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/nodal.sif	VectorHelmholtzNodal
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/nodalprec_additive.sif	VectorHelmholtz, VectorHelmholtzNodal, Complex Poisson, calcfields, VtuOutput
+VectorHelmholtzWaveguideNodal	VectorHelmholtzWaveguideNodal/nodalprec_pec_walls.sif	VectorHelmholtz, VectorHelmholtzNodal, calcfields, VtuOutput
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/block.sif	
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/block4.sif	
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/pmult.sif	
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/ref.sif	VectorHelmholtz, calcfields, SaveScalars
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/reim.sif	
+VectorHelmholtzWaveguideQuadBlock	VectorHelmholtzWaveguideQuadBlock/waveguide.sif	VectorHelmholtz, calcfields, SaveScalars
+Zirka	Zirka/case.sif	mgdyn2d, calcfields, resultoutput, scalars, zirkatest

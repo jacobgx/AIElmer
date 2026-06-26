@@ -1,0 +1,108 @@
+beam-springs	beam-springs/beam.sif	Stress Analysis
+Beam_3D_Cantilever	Beam_3D_Cantilever/constant_pressure_load.sif	Timoshenko Beam Equations, Save Scalars
+Beam_3D_Cantilever	Beam_3D_Cantilever/periodic.sif	Timoshenko Beam Equations, Save Scalars
+Beam_3D_Cantilever_Eigen	Beam_3D_Cantilever_Eigen/case.sif	Timoshenko Beam Equations, Save Scalars
+Beam_3D_Cantilever_Orientation	Beam_3D_Cantilever_Orientation/constant_pressure_load.sif	Timoshenko Beam Equations, Save Scalars
+Beam_3D_Spring	Beam_3D_Spring/case.sif	Timoshenko Beam Equations
+beamer3d_box	beamer3d_box/beamer3d.sif	Heat Equation, SaveScalars, SaveScalars2
+beamer3d_box2	beamer3d_box2/beamer3d.sif	Heat Equation, SaveScalars, SaveScalars2
+BeamSolidSolidCoupling	BeamSolidSolidCoupling/case.sif	LinElastA, LinElastB, SaveScalars
+BeamSolidSolidCoupling	BeamSolidSolidCoupling/ref.sif	LinElast, SaveScalars
+BeamSolidSolidCouplingEigen	BeamSolidSolidCouplingEigen/case.sif	LinElastA, LinElastB, SaveScalars
+BeamSolidSolidCouplingEigen	BeamSolidSolidCouplingEigen/ref.sif	LinElast, SaveScalars
+BeamSolidSolidCouplingMono	BeamSolidSolidCouplingMono/case.sif	LinElastA, LinElastB, SaveScalars
+BeamSolidSolidCouplingMono	BeamSolidSolidCouplingMono/ref.sif	LinElast, SaveScalars
+Classical2DShell	Classical2DShell/cylindrical_shell.sif	Shell equation, save line, result output
+contrib	contrib/ShellMultiCantileverBodyForceDistLoad/case.sif	Shell Solver
+contrib	contrib/ShellMultiCantileverEdgeLoad/case.sif	Shell Solver
+contrib	contrib/ShellMultiCantileverEdgeMomentAboutYaxis/case.sif	Shell Solver
+contrib	contrib/ShellMultiCantileverPointLoad/case.sif	Shell Solver
+contrib	contrib/ShellMultiCantileverPointMoment-y/case.sif	Shell Solver
+contrib	contrib/ShellMultiCantileverPressureDistLoad/case.sif	Shell Solver
+contrib	contrib/ShellMultiWeldDistortionAnalysis/case.sif	Shell Solver
+CubeHarmonicShell	CubeHarmonicShell/case.sif	Shell equations, SaveScalars
+ElastElstat1DBeam	ElastElstat1DBeam/case.sif	LinearDisp, SaveScalars
+ElastElstatBeam	ElastElstatBeam/case.sif	StatElecSolver, Electric Force, LinearDisp, SaveScalars
+ElastElstatBeamNodal	ElastElstatBeamNodal/case.sif	StatElecSolver, Electric Force, LinearDisp, SaveScalars
+ElasticBeam2DDampingBeta	ElasticBeam2DDampingBeta/case.sif	StressSolver, ElasticitySolver
+ElasticBeam2DDampingBetaP2	ElasticBeam2DDampingBetaP2/case.sif	StressSolver, ElasticitySolver
+ElasticBeamHinged	ElasticBeamHinged/hinge.sif	Displacement analysis
+ElasticBeamHinged2	ElasticBeamHinged2/hinge.sif	Displacement analysis
+ElasticBeamHinged3D	ElasticBeamHinged3D/hinge.sif	Displacement analysis
+ElasticBeamRestart	ElasticBeamRestart/ref.sif	Stress Analysis
+ElasticBeamRestart	ElasticBeamRestart/restart.sif	Stress Analysis
+FacetShell	FacetShell/shell.sif	Shell Solver
+FacetShell2	FacetShell2/shell.sif	Shell Solver
+fsi_beam	fsi_beam/fsi.sif	Navier-Stokes, Elasticity Solver, Mesh Update
+fsi_beam_nodalforce	fsi_beam_nodalforce/fsi.sif	Navier-Stokes, Elasticity Solver, Mesh Update
+fsi_beam_optimize	fsi_beam_optimize/case.sif	Navier-Stokes, Elasticity Solver, Optimize, MeshU, SaveCost, SaveLine, ResultOutput
+HeatPlateSym	HeatPlateSym/case.sif	Linear elasticity
+LimitPlate	LimitPlate/case.sif	Plate Solver
+mgdyn_steady_plate	mgdyn_steady_plate/case.sif	MGDynamics, MGDynamicsCalc, ResultOutput
+mgdyn_steady_plate	mgdyn_steady_plate/ref.sif	MGDynamics, MGDynamicsCalc, ResultOutput
+p-FEM_two_solvers	p-FEM_two_solvers/two_solvers.sif	Shell equation, ModelPDE
+p-FEM_with_varying_p	p-FEM_with_varying_p/cylindrical_shell.sif	Shell equation, result output
+plates	plates/plates.sif	Plate Solver
+platesEigen	platesEigen/plates.sif	Plate Solver, SaveScalars
+PlatesEigenComplex	PlatesEigenComplex/plates.sif	Plate Solver, SaveScalars
+PlatesHarmonic	PlatesHarmonic/plates.sif	Plate Solver
+PlatesHarmonic2	PlatesHarmonic2/plates.sif	Plate Solver
+PlatesHarmonic3	PlatesHarmonic3/plates.sif	Plate Solver
+reynolds2	reynolds2/reynolds_cylplate.sif	Reynolds, SaveMaterial
+rot_aniso	rot_aniso/beam.sif	Stress Analysis
+RotatingBeamFlow	RotatingBeamFlow/case.sif	MeshDeform, N-S
+RotatingBeamFlow2	RotatingBeamFlow2/case.sif	MeshDeform, N-S
+SD_Classical2DShell	SD_Classical2DShell/cylindrical_shell.sif	Shell equation, save line, result output
+SD_ElasticBeam2DDampingBetaP2	SD_ElasticBeam2DDampingBetaP2/case.sif	StressSolver, ElasticitySolver
+SD_p-FEM_two_solvers	SD_p-FEM_two_solvers/two_solvers.sif	Shell equation, ModelPDE
+SD_p-FEM_with_varying_p	SD_p-FEM_with_varying_p/cylindrical_shell.sif	Shell equation, result output
+SD_Shell_BenchmarkCase2_High_Order	SD_Shell_BenchmarkCase2_High_Order/shell_cartesian.sif	Shell equation, save line, result output
+SD_Shell_Cantilever_Couple_High_Order	SD_Shell_Cantilever_Couple_High_Order/coupleload.sif	Shell equations, Save Scalars, result output
+SD_Shell_Cantilever_High_Order	SD_Shell_Cantilever_High_Order/shell_cartesian.sif	Shell equations, Save Scalars, result output
+SD_Shell_OpenHemisphere_High_Order	SD_Shell_OpenHemisphere_High_Order/openhemisphere.sif	Shell equations, Save Scalars, result output
+SD_Shell_OpenHemisphere_High_Order_Blending	SD_Shell_OpenHemisphere_High_Order_Blending/openhemisphere.sif	Shell equations, Save Scalars, result output
+Shell_And_Solid	Shell_And_Solid/coupling.sif	Shell equations, 3D Elasticity Equations, Save Scalars
+Shell_And_Solid2	Shell_And_Solid2/coupling.sif	3D Elasticity Equations, Shell equations, Save Scalars
+Shell_BenchmarkCase1_ElementalDirector	Shell_BenchmarkCase1_ElementalDirector/shell_case1.sif	Shell equations
+Shell_BenchmarkCase1_Quad	Shell_BenchmarkCase1_Quad/eigenanalysis.sif	Shell equations, SaveScalars
+Shell_BenchmarkCase1_Quad	Shell_BenchmarkCase1_Quad/shell_case1.sif	Shell equations
+Shell_BenchmarkCase1_Tria	Shell_BenchmarkCase1_Tria/shell_case1.sif	Shell equations
+Shell_BenchmarkCase2_High_Order	Shell_BenchmarkCase2_High_Order/shell_cartesian.sif	Shell equation, save line, result output
+Shell_BenchmarkCase2_Quad	Shell_BenchmarkCase2_Quad/eigenanalysis.sif	Shell equations, SaveScalars
+Shell_BenchmarkCase2_Quad	Shell_BenchmarkCase2_Quad/shell_case2.sif	Shell equations
+Shell_BenchmarkCase2_Tria	Shell_BenchmarkCase2_Tria/shell_case2.sif	Shell equations
+Shell_Cantilever	Shell_Cantilever/pointload.sif	Shell equations, Save Scalars
+Shell_Cantilever_Couple_High_Order	Shell_Cantilever_Couple_High_Order/coupleload.sif	Shell equations, Save Scalars, result output
+Shell_Cantilever_High_Order	Shell_Cantilever_High_Order/shell_cartesian.sif	Shell equations, Save Scalars, result output
+Shell_Eigenanalysis_Cylinder	Shell_Eigenanalysis_Cylinder/eigenanalysis.sif	Shell equations, ResultOutput, SaveScalars
+Shell_Eigenanalysis_L-shaped	Shell_Eigenanalysis_L-shaped/shell_eigenanalysis.sif	Shell equations, ResultOutput, SaveScalars
+Shell_Eigenanalysis_Spherical	Shell_Eigenanalysis_Spherical/eigenanalysis.sif	Shell equations, ResultOutput, SaveScalars
+Shell_OpenHemisphere	Shell_OpenHemisphere/pointload.sif	Shell equations, Save Scalars
+Shell_OpenHemisphere_High_Order	Shell_OpenHemisphere_High_Order/openhemisphere.sif	Shell equations, Save Scalars, result output
+Shell_OpenHemisphere_High_Order_Blending	Shell_OpenHemisphere_High_Order_Blending/openhemisphere.sif	Shell equations, Save Scalars, result output
+Shell_OpenHemisphere_Third_Order_Nodal	Shell_OpenHemisphere_Third_Order_Nodal/Q3.sif	Shell equations, Save Scalars
+Shell_PinchedCylinder	Shell_PinchedCylinder/pointload.sif	Shell equations, Save Scalars
+Shell_PlateCase_Quad	Shell_PlateCase_Quad/shellplate.sif	Shell equations
+Shell_with_Beam_Sections	Shell_with_Beam_Sections/with_beams.sif	Shell equations, Save Scalars
+Shell_With_NormalSolver	Shell_With_NormalSolver/shell_case1.sif	Director field, Shell equations
+Shell_with_Solid_Beam	Shell_with_Solid_Beam/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_Beam	Shell_with_Solid_Beam/mono.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_Beam	Shell_with_Solid_Beam/ref.sif	LinElast, SaveScalars
+Shell_with_Solid_Beam_Eigen	Shell_with_Solid_Beam_Eigen/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_Beam_EigenComplex	Shell_with_Solid_Beam_EigenComplex/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_Beam_Par	Shell_with_Solid_Beam_Par/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_BenchmarkCase1	Shell_with_Solid_BenchmarkCase1/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_BenchmarkCase1	Shell_with_Solid_BenchmarkCase1/eigenanalysis.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_BenchmarkCase1b	Shell_with_Solid_BenchmarkCase1b/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_BenchmarkCase2	Shell_with_Solid_BenchmarkCase2/case.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_Eigenanalysis	Shell_with_Solid_Eigenanalysis/eigenanalysis.sif	Navier Equations, Shell equations, SaveScalars
+Shell_with_Solid_EigenanalysisPar	Shell_with_Solid_EigenanalysisPar/eigenanalysis.sif	Navier Equations, Shell equations, SaveScalars
+ShoeboxFsiHarmonicPlate	ShoeboxFsiHarmonicPlate/case.sif	Helmholtz, Plate Solver, SaveScalars
+ShoeboxFsiHarmonicPlateMonolithic	ShoeboxFsiHarmonicPlateMonolithic/case.sif	Helmholtz, Plate Solver, SaveScalars
+ShoeboxFsiStaticPlate	ShoeboxFsiStaticPlate/case.sif	Container, Plate Solver, SaveScalars
+ShoeboxFsiStaticShell	ShoeboxFsiStaticShell/case.sif	Container, Shell equations, SaveScalars
+ShoeboxHarmonicPlate	ShoeboxHarmonicPlate/case.sif	Plate Solver, SaveScalars
+ShoeboxHarmonicShell	ShoeboxHarmonicShell/case.sif	Shell equations, SaveScalars
+ShoeboxStaticPlate	ShoeboxStaticPlate/case.sif	Plate Solver, SaveScalars
+ShoeboxStaticShell	ShoeboxStaticShell/case.sif	Shell equations, SaveScalars
+StrainCalculation03	StrainCalculation03/plate.sif	Displacement analysis, ResultOutput

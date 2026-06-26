@@ -1,0 +1,21 @@
+CutFEMPoisson1Lib	CutFEMPoisson1Lib/case.sif	postprocessing
+CutFEMPoisson1LibLim	CutFEMPoisson1LibLim/case.sif	postprocessing
+FourierLoss	FourierLoss/case.sif	poisson, postprocessing
+ModelPDE	ModelPDE/case.sif	other
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/case.sif	navier_stokes, heat
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/init.sif	navier_stokes, heat
+p-FEM_two_solvers	p-FEM_two_solvers/two_solvers.sif	beam_shell_plate
+QuadraturesBrick	QuadraturesBrick/case.sif	other
+QuadraturesWedge	QuadraturesWedge/case.sif	other
+RotatingBlockRemeshMMG2D_H	RotatingBlockRemeshMMG2D_H/case.sif	heat, mesh_partitioning
+SD_ModelPDE	SD_ModelPDE/case.sif	other
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/case.sif	navier_stokes, heat
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/init.sif	navier_stokes, heat
+SD_p-FEM_two_solvers	SD_p-FEM_two_solvers/two_solvers.sif	beam_shell_plate
+SD_QuadraturesBrick	SD_QuadraturesBrick/case.sif	other
+SD_QuadraturesWedge	SD_QuadraturesWedge/case.sif	other
+ShoeboxFsiStatic	ShoeboxFsiStatic/case.sif	elasticity, postprocessing
+ShoeboxFsiStaticPlate	ShoeboxFsiStaticPlate/case.sif	beam_shell_plate, postprocessing
+ShoeboxFsiStaticShell	ShoeboxFsiStaticShell/case.sif	beam_shell_plate, postprocessing
+SlaveSolverSlots	SlaveSolverSlots/case.sif	other
+SlaveSolverSlotsScan	SlaveSolverSlotsScan/case.sif	other

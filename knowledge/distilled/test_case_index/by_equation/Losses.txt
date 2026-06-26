@@ -1,0 +1,1 @@
+mgdyn_transient_loss	mgdyn_transient_loss/MGDynamicsTransient.sif	electromagnetics

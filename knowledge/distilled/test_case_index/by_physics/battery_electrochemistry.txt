@@ -1,0 +1,2 @@
+BatteryDischarge	BatteryDischarge/case.sif	SolidphasePot, ElectrolytePot, ElectrolyteCons, SolidphaseCons, BatteryPost, SaveScalars, SaveBatterProfile, SaveSubmodel
+BatteryDischarge	BatteryDischarge/opt.sif	SolidPhasePot, ElectrolytePot, SolidPhaseCons, ElectrolyteCons, BatteryPost, SaveScalars, SaveBatterProfile, SaveSubmodel

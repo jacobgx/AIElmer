@@ -1,0 +1,7 @@
+mgdyn_airgap_force	mgdyn_airgap_force/case.sif	electromagnetics, postprocessing
+mgdyn_angular_steady	mgdyn_angular_steady/case.sif	electromagnetics, postprocessing
+mgdyn_faraday_disc	mgdyn_faraday_disc/faraday_disc.sif	electromagnetics, postprocessing
+mgdyn_faraday_disc	mgdyn_faraday_disc/with_projection.sif	electromagnetics, acoustics_wave, postprocessing
+mgdyn_faraday_disc_transient	mgdyn_faraday_disc_transient/disc_transient.sif	electromagnetics, postprocessing
+mgdyn_faraday_disc_transient	mgdyn_faraday_disc_transient/transient_with_projection.sif	electromagnetics, acoustics_wave, postprocessing
+MgDynDiscontBCs	MgDynDiscontBCs/case.sif	electromagnetics, postprocessing

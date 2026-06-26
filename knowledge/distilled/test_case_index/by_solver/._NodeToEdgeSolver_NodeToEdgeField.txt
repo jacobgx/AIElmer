@@ -1,0 +1,1 @@
+mgdyn_steady_quad_extruded_restart	mgdyn_steady_quad_extruded_restart/case.sif	electromagnetics, postprocessing

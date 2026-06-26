@@ -1,0 +1,86 @@
+adaptivity3	adaptivity3/Step.sif	navier_stokes
+adv_diff3	adv_diff3/ad3.sif	navier_stokes, advection_diffusion
+adv_diff4	adv_diff4/ad4.sif	navier_stokes, advection_diffusion
+AdvDiffFluxes	AdvDiffFluxes/case.sif	navier_stokes, advection_diffusion, postprocessing
+ArteryOutlet	ArteryOutlet/case.sif	fsi, navier_stokes, elasticity, postprocessing
+bodydir2	bodydir2/case.sif	navier_stokes
+CavityLid	CavityLid/case.sif	navier_stokes
+CavityLid2	CavityLid2/case.sif	navier_stokes
+channel_v2f	channel_v2f/channel_v2f.sif	navier_stokes, postprocessing
+ChannelFlowCoulomb	ChannelFlowCoulomb/case.sif	navier_stokes
+coating	coating/coat.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+CompressIdealGas	CompressIdealGas/case.sif	fsi, navier_stokes, heat, postprocessing
+CompressIdealGas2	CompressIdealGas2/case.sif	fsi, navier_stokes, postprocessing
+CurvedPipeHalf	CurvedPipeHalf/case.sif	navier_stokes, heat
+diffuser_sa	diffuser_sa/channel_sa.sif	navier_stokes, postprocessing
+diffuser_sa	diffuser_sa/diffuser_sa.sif	navier_stokes, postprocessing
+diffuser_sst	diffuser_sst/channel_sst.sif	navier_stokes, postprocessing
+diffuser_sst	diffuser_sst/diffuser_sst.sif	navier_stokes, postprocessing
+diffuser_v2f	diffuser_v2f/diffuser_v2f.sif	navier_stokes, postprocessing
+ElasticLubrication	ElasticLubrication/case.sif	fsi, navier_stokes, elasticity, postprocessing
+Electrokinetics	Electrokinetics/inject.sif	navier_stokes, advection_diffusion, electrostatics_current
+ExtrusionStructured2D	ExtrusionStructured2D/extrude.sif	navier_stokes, postprocessing
+FilmFlowLine	FilmFlowLine/ns.sif	navier_stokes, postprocessing
+FilmFlowPipe	FilmFlowPipe/ns.sif	navier_stokes, postprocessing
+FilmFlowPlane	FilmFlowPlane/ns.sif	navier_stokes, postprocessing
+freesurf	freesurf/Free.sif	fsi, navier_stokes, levelset_free_surface
+freesurf_axi	freesurf_axi/Free.sif	navier_stokes, levelset_free_surface
+freesurf_int	freesurf_int/Free.sif	navier_stokes, levelset_free_surface
+freesurf_ltd	freesurf_ltd/Free_ltd.sif	fsi, navier_stokes, levelset_free_surface
+fsi_beam	fsi_beam/fsi.sif	fsi, navier_stokes, elasticity, beam_shell_plate
+fsi_beam_nodalforce	fsi_beam_nodalforce/fsi.sif	fsi, navier_stokes, elasticity, beam_shell_plate
+fsi_beam_optimize	fsi_beam_optimize/case.sif	navier_stokes, elasticity, beam_shell_plate, optimization_control, postprocessing
+fsi_box	fsi_box/box.sif	fsi, navier_stokes, elasticity, postprocessing
+fsi_box2	fsi_box2/box.sif	fsi, navier_stokes, elasticity, postprocessing
+IntegralConstraintFlow	IntegralConstraintFlow/case.sif	navier_stokes, postprocessing
+IntegralConstraintHartmann	IntegralConstraintHartmann/case.sif	navier_stokes, postprocessing
+levelset1	levelset1/round.sif	navier_stokes, levelset_free_surface, postprocessing
+levelset2	levelset2/fill.sif	navier_stokes, levelset_free_surface
+levelset3	levelset3/case.sif	navier_stokes, particles, levelset_free_surface, postprocessing
+levelset3b	levelset3b/case.sif	navier_stokes, particles, levelset_free_surface, postprocessing
+LevelsetFallingDrop	LevelsetFallingDrop/drop.sif	navier_stokes, levelset_free_surface, postprocessing
+marangoni	marangoni/skeleton.sif	navier_stokes, heat
+MeshRefineGrading	MeshRefineGrading/Step.sif	navier_stokes
+mhd	mhd/mhd.sif	navier_stokes
+mhd2	mhd2/mhd2.sif	navier_stokes
+NaturalConvection	NaturalConvection/case.sif	navier_stokes, heat
+NonconformingRestart2	NonconformingRestart2/coarse.sif	navier_stokes
+NonconformingRestart2	NonconformingRestart2/fine.sif	navier_stokes, postprocessing
+NonconformingRestart2par	NonconformingRestart2par/coarse.sif	navier_stokes
+NonconformingRestart2par	NonconformingRestart2par/fine.sif	navier_stokes, postprocessing
+NonnewtonianChannelFlow	NonnewtonianChannelFlow/case.sif	navier_stokes
+NonnewtonianChannelFlow_vec	NonnewtonianChannelFlow_vec/case.sif	navier_stokes, postprocessing
+NonnewtonianChannelFlow_vec	NonnewtonianChannelFlow_vec/ref.sif	navier_stokes
+NormalTangentialBC	NormalTangentialBC/cavity.sif	navier_stokes
+ParticleAdvector2	ParticleAdvector2/case.sif	navier_stokes, particles
+ParticleAdvector3	ParticleAdvector3/case.sif	navier_stokes, particles, postprocessing
+ParticleAdvector3dg	ParticleAdvector3dg/case.sif	navier_stokes, particles
+ParticleAdvector3elemental	ParticleAdvector3elemental/case.sif	navier_stokes, particles
+ParticleAdvector3ip	ParticleAdvector3ip/case.sif	navier_stokes, particles
+periodic_explicit	periodic_explicit/case.sif	navier_stokes, heat
+periodic_normal	periodic_normal/case.sif	navier_stokes, postprocessing
+periodic_offset2	periodic_offset2/case.sif	navier_stokes
+periodic_rot	periodic_rot/case.sif	navier_stokes
+pointload2	pointload2/case.sif	navier_stokes
+PoissonBoltzmann	PoissonBoltzmann/pbe.sif	navier_stokes, electrostatics_current
+PorousPipe	PorousPipe/Pipe.sif	navier_stokes, porous_richards
+PredictorCorrector	PredictorCorrector/case.sif	navier_stokes, levelset_free_surface
+reload	reload/ad.sif	navier_stokes, advection_diffusion
+RotatingFlow	RotatingFlow/rotating.sif	navier_stokes
+rotflow	rotflow/rotflow.sif	navier_stokes
+SD_FilmFlowPlane	SD_FilmFlowPlane/ns.sif	navier_stokes, postprocessing
+SD_NonnewtonianChannelFlow_vec	SD_NonnewtonianChannelFlow_vec/case.sif	navier_stokes
+SD_NonnewtonianChannelFlow_vec	SD_NonnewtonianChannelFlow_vec/ref.sif	navier_stokes
+SinusFlowTunedVelo	SinusFlowTunedVelo/cavity.sif	navier_stokes, postprocessing
+Step_ke	Step_ke/Step_ke.sif	navier_stokes
+Step_ns	Step_ns/Step.sif	navier_stokes
+Step_sa	Step_sa/Step_sa.sif	navier_stokes, postprocessing
+Step_sst-kw-wf	Step_sst-kw-wf/Step_sst-kw-wf.sif	navier_stokes
+Step_stokes	Step_stokes/Step.sif	navier_stokes
+Step_stokes_heat	Step_stokes_heat/Step.sif	navier_stokes, heat
+Step_v2f	Step_v2f/Step_v2f.sif	navier_stokes, postprocessing
+streamlines	streamlines/streamlines.sif	navier_stokes
+ThermalCompress	ThermalCompress/ThermalCompress.sif	navier_stokes, heat
+TwelveSolvers2D	TwelveSolvers2D/case.sif	navier_stokes, heat, postprocessing
+vortex2d	vortex2d/Step.sif	navier_stokes
+vortex3d	vortex3d/Step3d.sif	navier_stokes

@@ -1,0 +1,3 @@
+ShoeboxFsiEigen2D	ShoeboxFsiEigen2D/case.sif	elasticity, acoustics_wave, postprocessing
+WaveEquEigen	WaveEquEigen/case.sif	acoustics_wave, postprocessing
+WaveEquEigenDampedDirect	WaveEquEigenDampedDirect/case.sif	acoustics_wave, postprocessing

@@ -1,0 +1,18 @@
+AnalyticalTest	AnalyticalTest/case.sif	heat
+ContactFrictionHeating	ContactFrictionHeating/case.sif	heat, elasticity, contact
+ConvergenceControl	ConvergenceControl/case.sif	heat, optimization_control, postprocessing
+CoupledPoisson1b	CoupledPoisson1b/case.sif	heat, postprocessing
+CoupledPoisson2b	CoupledPoisson2b/case.sif	heat, postprocessing
+CoupledPoisson2c	CoupledPoisson2c/case.sif	heat, postprocessing
+heateq_infty	heateq_infty/case.sif	heat
+HeatSolveVecCondMatrix	HeatSolveVecCondMatrix/case.sif	heat, postprocessing
+poisson_steady_conforming	poisson_steady_conforming/case.sif	heat
+poisson_steady_conforming	poisson_steady_conforming/ref.sif	heat
+poisson_steady_conforming_anti	poisson_steady_conforming_anti/case.sif	heat
+poisson_steady_conforming_anti	poisson_steady_conforming_anti/ref.sif	heat
+poisson_transient_conforming_anti	poisson_transient_conforming_anti/case.sif	heat
+poisson_transient_conforming_anti	poisson_transient_conforming_anti/ref.sif	heat
+RunControlStructured	RunControlStructured/case.sif	heat, optimization_control
+ThermalActuator	ThermalActuator/thermal_actuator.sif	heat, elasticity, electrostatics_current, postprocessing
+TopoOptHeat2DCompMin	TopoOptHeat2DCompMin/case.sif	heat, optimization_control, postprocessing
+TopoOptHeat2DCompMin2	TopoOptHeat2DCompMin2/case2.sif	heat, optimization_control, postprocessing

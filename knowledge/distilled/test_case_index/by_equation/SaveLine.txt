@@ -1,0 +1,79 @@
+channel_v2f	channel_v2f/channel_v2f.sif	navier_stokes, postprocessing
+coating	coating/coat.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+ContactBlunt2D	ContactBlunt2D/case.sif	elasticity, contact, postprocessing
+ContactBlunt2Delim	ContactBlunt2Delim/case.sif	elasticity, contact, postprocessing
+ContactBlunt2Djump	ContactBlunt2Djump/case.sif	elasticity, contact, postprocessing
+ContactBlunt2Dresmode	ContactBlunt2Dresmode/case.sif	elasticity, contact, postprocessing
+ContactBlunt2Dslide	ContactBlunt2Dslide/case.sif	elasticity, contact, postprocessing
+ContactBlunt2Dstick	ContactBlunt2Dstick/case.sif	elasticity, contact, postprocessing
+ContactPatch2D	ContactPatch2D/case.sif	elasticity, contact, postprocessing
+ContactPatch2Delim	ContactPatch2Delim/case.sif	elasticity, contact, postprocessing
+ContactPatch2DIncompressible	ContactPatch2DIncompressible/case.sif	elasticity, contact, postprocessing
+ContactPatch2Dnt	ContactPatch2Dnt/case.sif	elasticity, contact, postprocessing
+ContactPatch2DntQuadratic	ContactPatch2DntQuadratic/case.sif	elasticity, contact, postprocessing
+ContactPatch2Dtie	ContactPatch2Dtie/case.sif	elasticity, contact, postprocessing
+ContactPatch2Dtwo	ContactPatch2Dtwo/case.sif	elasticity, contact, postprocessing
+ContactPatch2Dtwo	ContactPatch2Dtwo/stick.sif	elasticity, contact, postprocessing
+ContactPatch3D	ContactPatch3D/case.sif	elasticity, contact, postprocessing
+ContactPatch3Delim	ContactPatch3Delim/case.sif	elasticity, contact, postprocessing
+ContactPatch3DNames	ContactPatch3DNames/case.sif	elasticity, contact, postprocessing
+ContactPatch3DNamesAndAutonum	ContactPatch3DNamesAndAutonum/case.sif	elasticity, contact, postprocessing
+ContactPatch3DNamesAndAutonum2	ContactPatch3DNamesAndAutonum2/case.sif	elasticity, contact, postprocessing
+ContactPatch3DNamesAndAutonum3	ContactPatch3DNamesAndAutonum3/case.sif	elasticity, contact, postprocessing
+ContactPatch3DNormalProj	ContactPatch3DNormalProj/case.sif	elasticity, contact, postprocessing
+ContactPatch3DZoltan	ContactPatch3DZoltan/case.sif	elasticity, contact, mesh_partitioning, postprocessing
+diffuser_sa	diffuser_sa/channel_sa.sif	navier_stokes, postprocessing
+diffuser_sa	diffuser_sa/diffuser_sa.sif	navier_stokes, postprocessing
+diffuser_sst	diffuser_sst/channel_sst.sif	navier_stokes, postprocessing
+diffuser_sst	diffuser_sst/diffuser_sst.sif	navier_stokes, postprocessing
+diffuser_v2f	diffuser_v2f/diffuser_v2f.sif	navier_stokes, postprocessing
+DisContBoundaryMortarJump	DisContBoundaryMortarJump/discont.sif	heat, postprocessing
+DisContBoundaryMortarJumpB	DisContBoundaryMortarJumpB/discont.sif	heat, postprocessing
+DisContBoundaryMortarJumpC	DisContBoundaryMortarJumpC/discont.sif	heat, postprocessing
+DisContBoundaryNodalJump	DisContBoundaryNodalJump/discont.sif	heat, postprocessing
+DisContBoundaryNodalJumpB	DisContBoundaryNodalJumpB/discont.sif	heat, postprocessing
+FluxIntegralBCInduction	FluxIntegralBCInduction/case.sif	electromagnetics, postprocessing
+fluxsolver	fluxsolver/flux.sif	heat, postprocessing
+freesurf_sloshing_2d	freesurf_sloshing_2d/case.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+fsi_beam_optimize	fsi_beam_optimize/case.sif	navier_stokes, elasticity, beam_shell_plate, optimization_control, postprocessing
+HelmholtzPlaneWaves	HelmholtzPlaneWaves/case.sif	electromagnetics, acoustics_wave, postprocessing
+HelmholtzPlaneWavesAxis	HelmholtzPlaneWavesAxis/case.sif	electromagnetics, acoustics_wave, postprocessing
+IntegralConstraintFlow	IntegralConstraintFlow/case.sif	navier_stokes, postprocessing
+IntegralConstraintHartmann	IntegralConstraintHartmann/case.sif	navier_stokes, postprocessing
+IntegralConstraintPoisson	IntegralConstraintPoisson/case.sif	heat, postprocessing
+IntegralConstraintPoissonBF	IntegralConstraintPoissonBF/case.sif	heat, postprocessing
+IntersectionBCs	IntersectionBCs/case.sif	heat, postprocessing
+MagnetoDynamicsNodalPrec	MagnetoDynamicsNodalPrec/case.sif	electromagnetics, postprocessing
+mgdyn2D_steady_wire	mgdyn2D_steady_wire/case.sif	electromagnetics, postprocessing
+mgdyn_harmonic_wire	mgdyn_harmonic_wire/case.sif	electromagnetics, postprocessing
+mgdyn_harmonic_wire_Cgauge	mgdyn_harmonic_wire_Cgauge/case.sif	electromagnetics, acoustics_wave, postprocessing
+mgdyn_harmonic_wire_Cgauge_automatic	mgdyn_harmonic_wire_Cgauge_automatic/case.sif	electromagnetics, postprocessing
+mgdyn_harmonic_wire_impedanceBC	mgdyn_harmonic_wire_impedanceBC/IBC.sif	electromagnetics, postprocessing
+mgdyn_steady_wire	mgdyn_steady_wire/case.sif	electromagnetics, postprocessing
+mgdyn_steady_wire2	mgdyn_steady_wire2/case.sif	electromagnetics, postprocessing
+mgdyn_steady_wire_periodic	mgdyn_steady_wire_periodic/case.sif	electromagnetics, postprocessing
+mgdyn_steady_wire_periodic	mgdyn_steady_wire_periodic/case_nonperiodic.sif	electromagnetics, postprocessing
+ParticleAdvectorPathIntegral	ParticleAdvectorPathIntegral/case.sif	particles, postprocessing
+PhaseChange2	PhaseChange2/PhaseChangeSS.sif	fsi, heat, phase_change, postprocessing
+PhaseChange3	PhaseChange3/PhaseChangeTrans.sif	fsi, heat, phase_change, postprocessing
+PhaseChange4	PhaseChange4/PhaseChangeTrans.sif	fsi, heat, phase_change, postprocessing
+RotatingBCMagnetoDynamics	RotatingBCMagnetoDynamics/case.sif	electromagnetics, postprocessing
+RotatingBCMagnetoDynamics2	RotatingBCMagnetoDynamics2/case.sif	electromagnetics, postprocessing
+RotatingBCMagnetoDynamicsConforming	RotatingBCMagnetoDynamicsConforming/case.sif	electromagnetics, postprocessing
+RotatingBCMagnetoDynamicsConforming	RotatingBCMagnetoDynamicsConforming/ref.sif	electromagnetics, postprocessing
+RotatingBCMagnetoDynamicsConformingAnti	RotatingBCMagnetoDynamicsConformingAnti/case.sif	electromagnetics, postprocessing
+RotatingBCMagnetoDynamicsConformingAnti	RotatingBCMagnetoDynamicsConformingAnti/ref.sif	electromagnetics, postprocessing
+RotatingBCMagnetoDynamicsConfRelease	RotatingBCMagnetoDynamicsConfRelease/case.sif	electromagnetics, postprocessing
+RotatingBCMagnetoDynamicsGeneric	RotatingBCMagnetoDynamicsGeneric/case.sif	electromagnetics, postprocessing
+RotatingBCPoisson3DGeneric	RotatingBCPoisson3DGeneric/case.sif	heat, postprocessing
+RotatingBCPoisson3DGenericTets	RotatingBCPoisson3DGenericTets/case.sif	heat, postprocessing
+RotatingBCPoisson3DSymmSkew	RotatingBCPoisson3DSymmSkew/case.sif	heat, postprocessing
+RotatingBCPoisson3DSymmSkew	RotatingBCPoisson3DSymmSkew/level_strong.sif	heat, postprocessing
+RotatingBCPoisson3DSymmSkew	RotatingBCPoisson3DSymmSkew/level_weak.sif	heat, postprocessing
+SaveCircle	SaveCircle/case.sif	heat, postprocessing
+Step_sa	Step_sa/Step_sa.sif	navier_stokes, postprocessing
+Step_v2f	Step_v2f/Step_v2f.sif	navier_stokes, postprocessing
+TimeProfileBC	TimeProfileBC/case.sif	heat, postprocessing
+TravellingHeater	TravellingHeater/case.sif	heat, postprocessing
+TravellingHeater2	TravellingHeater2/case2.sif	heat, postprocessing
+WeightComputation	WeightComputation/case.sif	heat, postprocessing

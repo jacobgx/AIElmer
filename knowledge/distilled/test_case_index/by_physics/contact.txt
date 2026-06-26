@@ -1,0 +1,31 @@
+ContactBlunt2D	ContactBlunt2D/case.sif	NonlinElast, SaveLine, result output
+ContactBlunt2Delim	ContactBlunt2Delim/case.sif	NonlinElast, SaveLine, result output
+ContactBlunt2Djump	ContactBlunt2Djump/case.sif	NonlinElast, SaveLine, result output
+ContactBlunt2Dresmode	ContactBlunt2Dresmode/case.sif	NonlinElast, SaveLine, result output
+ContactBlunt2Dslide	ContactBlunt2Dslide/case.sif	NonlinElast, SaveLine, SaveScalars, result output
+ContactBlunt2Dstick	ContactBlunt2Dstick/case.sif	NonlinElast, SaveLine, result output
+ContactBlunt3DLevelProj	ContactBlunt3DLevelProj/case.sif	NonlinElast, result output
+ContactBlunt3DNormalProj	ContactBlunt3DNormalProj/case.sif	NonlinElast, result output
+ContactFriction	ContactFriction/case.sif	Linear elasticity
+ContactFriction	ContactFriction/implicit.sif	Linear elasticity
+ContactFrictionHeating	ContactFrictionHeating/case.sif	Nonlinear elasticity, HeatEq
+ContactFrictionNonlin	ContactFrictionNonlin/implicit.sif	Nonlinear elasticity
+ContactFrictionNonlin	ContactFrictionNonlin/nonlin.sif	Nonlinear elasticity
+ContactPatch2D	ContactPatch2D/case.sif	Nonlinear elasticity, SaveLine
+ContactPatch2Delim	ContactPatch2Delim/case.sif	Nonlinear elasticity, SaveLine
+ContactPatch2DIncompressible	ContactPatch2DIncompressible/case.sif	Nonlinear elasticity, SaveLine
+ContactPatch2Dnt	ContactPatch2Dnt/case.sif	MeshDeform, Nonlinear elasticity, SaveLine
+ContactPatch2DntQuadratic	ContactPatch2DntQuadratic/case.sif	MeshDeform, Nonlinear elasticity, SaveLine
+ContactPatch2Dtie	ContactPatch2Dtie/case.sif	Nonlinear elasticity, SaveLine, result output
+ContactPatch2Dtwo	ContactPatch2Dtwo/case.sif	MeshDeform, Nonlinear elasticity, SaveLine
+ContactPatch2Dtwo	ContactPatch2Dtwo/stick.sif	NonlinElast, SaveLine, result output
+ContactPatch3D	ContactPatch3D/case.sif	Elasticity, SaveLine
+ContactPatch3Delim	ContactPatch3Delim/case.sif	Nonlinear elasticity, SaveLine
+ContactPatch3DNames	ContactPatch3DNames/case.sif	Elasticity, SaveLine
+ContactPatch3DNamesAndAutonum	ContactPatch3DNamesAndAutonum/case.sif	Elasticity, SaveLine
+ContactPatch3DNamesAndAutonum2	ContactPatch3DNamesAndAutonum2/case.sif	Elasticity, SaveLine
+ContactPatch3DNamesAndAutonum3	ContactPatch3DNamesAndAutonum3/case.sif	Elasticity, SaveLine
+ContactPatch3DNormalProj	ContactPatch3DNormalProj/case.sif	Elasticity, SaveLine
+ContactPatch3DZoltan	ContactPatch3DZoltan/case.sif	Elasticity, SaveLine
+FrictionElasticCube	FrictionElasticCube/case.sif	Linear elasticity
+SD_FrictionElasticCube	SD_FrictionElasticCube/case.sif	Linear elasticity

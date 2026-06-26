@@ -1,0 +1,3 @@
+mgdyn_wave_eigen	mgdyn_wave_eigen/case.sif	electromagnetics, postprocessing
+mgdyn_wave_harmonic	mgdyn_wave_harmonic/case.sif	poisson, electromagnetics
+mgdyn_wave_td	mgdyn_wave_td/case.sif	electromagnetics

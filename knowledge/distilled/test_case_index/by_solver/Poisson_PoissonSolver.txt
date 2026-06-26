@@ -1,0 +1,20 @@
+1dtests	1dtests/1d.sif	poisson
+1dtests_MeshLevels	1dtests_MeshLevels/1d.sif	poisson
+circuits2D_harmonic_foil	circuits2D_harmonic_foil/sif/1383-components-foilwinding.sif	poisson, electromagnetics, postprocessing
+circuits2D_harmonic_massive	circuits2D_harmonic_massive/sif/1381-components-massive.sif	poisson, electromagnetics, postprocessing
+circuits2D_harmonic_stranded	circuits2D_harmonic_stranded/sif/1381-components-stranded.sif	poisson, electromagnetics, postprocessing
+circuits2D_harmonic_stranded_explicit_coil_resistance	circuits2D_harmonic_stranded_explicit_coil_resistance/sif/1381-components-stranded.sif	poisson, electromagnetics, postprocessing
+ExtrudedMesh	ExtrudedMesh/ptest.sif	poisson
+ExtrudedMeshBaseline1	ExtrudedMeshBaseline1/case_baseline.sif	heat, poisson
+mgdyn2D_compute_average_b	mgdyn2D_compute_average_b/sif/6801.sif	poisson, electromagnetics, postprocessing
+mgdyn2D_compute_bodycurrent	mgdyn2D_compute_bodycurrent/sif/6801.sif	poisson, electromagnetics, postprocessing
+mgdyn2D_compute_complex_power	mgdyn2D_compute_complex_power/sif/6801.sif	poisson, electromagnetics, postprocessing
+mgdyn2D_harmonic_anisotropic_permeability	mgdyn2D_harmonic_anisotropic_permeability/sif/7557.sif	poisson, electromagnetics, postprocessing
+mgdyn2D_scan_homogenization_elementary_solutions	mgdyn2D_scan_homogenization_elementary_solutions/sif/6801.sif	poisson, electromagnetics, postprocessing
+PoissonPFEM	PoissonPFEM/ptest.sif	poisson
+RotatingBCPoisson2Dp2	RotatingBCPoisson2Dp2/case.sif	heat, poisson, postprocessing
+RotatingBCPoisson3Dp2	RotatingBCPoisson3Dp2/case.sif	poisson
+SD_PoissonPFEM	SD_PoissonPFEM/ptest.sif	poisson
+SD_RotatingBCPoisson3Dp2	SD_RotatingBCPoisson3Dp2/case.sif	poisson
+SD_SolverSpecificMeshes	SD_SolverSpecificMeshes/ptest.sif	poisson
+SolverSpecificMeshes	SolverSpecificMeshes/ptest.sif	poisson

@@ -1,0 +1,54 @@
+# Local build and solver outputs
+build/
+dist/
+tmp/
+results/
+**/results/
+**/results_raw/
+**/logs/
+**/visualizations/
+**/__pycache__/
+*.pyc
+
+# Elmer generated meshes and fields
+**/mesh/
+*.vtu
+*.pvtu
+*.pvd
+*.ep
+*.result
+*.dat
+*.log
+*.out
+*.err
+*.wsl.log
+*.exitcode
+
+# COMSOL/Java build artifacts
+*.mph
+*.class
+*.class.status
+*.class.recovery
+
+# Compressed archives
+*.tgz
+*.tar.gz
+*.zip
+*.7z
+
+# Node / environment
+node_modules/
+.env
+
+# Large media generated during studies
+*.gif
+*.mp4
+*.avi
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+!.gitignore

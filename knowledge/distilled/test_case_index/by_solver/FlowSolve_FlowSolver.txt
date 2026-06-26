@@ -1,0 +1,39 @@
+Adios2FlowResNoslip	Adios2FlowResNoslip/flow_res_noslip.sif	navier_stokes, postprocessing
+bodydir2	bodydir2/case.sif	navier_stokes
+ChannelFlowCoulomb	ChannelFlowCoulomb/case.sif	navier_stokes
+CurvedPipeHalf	CurvedPipeHalf/case.sif	navier_stokes, heat
+ExtrusionStructured2D	ExtrusionStructured2D/extrude.sif	navier_stokes, postprocessing
+FilmFlowLine	FilmFlowLine/ns.sif	navier_stokes, postprocessing
+FilmFlowPipe	FilmFlowPipe/ns.sif	navier_stokes, postprocessing
+FilmFlowPlane	FilmFlowPlane/ns.sif	navier_stokes, postprocessing
+FlowResNoslip	FlowResNoslip/flow_res_noslip.sif	navier_stokes, postprocessing
+FlowResSlip	FlowResSlip/flow_res_slip.sif	navier_stokes, postprocessing
+freesurf_sloshing_2d	freesurf_sloshing_2d/case.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+freesurf_sloshing_2d	freesurf_sloshing_2d/case_iterative.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+fsi_beam_optimize	fsi_beam_optimize/case.sif	navier_stokes, elasticity, beam_shell_plate, optimization_control, postprocessing
+IntegralConstraintHartmann	IntegralConstraintHartmann/case.sif	navier_stokes, postprocessing
+LubricationTunedForce	LubricationTunedForce/case.sif	fsi, navier_stokes, optimization_control, postprocessing
+marangoni	marangoni/skeleton.sif	navier_stokes, heat
+NaturalConvection2	NaturalConvection2/case.sif	navier_stokes, heat
+NaturalConvection3	NaturalConvection3/case.sif	navier_stokes, heat
+NaturalConvectionRestart	NaturalConvectionRestart/case.sif	navier_stokes, heat
+NaturalConvectionRestart	NaturalConvectionRestart/init.sif	navier_stokes, heat
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/case.sif	navier_stokes, heat
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/init.sif	navier_stokes, heat
+ParticleAdvector	ParticleAdvector/case.sif	navier_stokes, particles, postprocessing
+ParticleAdvector2	ParticleAdvector2/case.sif	navier_stokes, particles
+ParticleAdvector3	ParticleAdvector3/case.sif	navier_stokes, particles, postprocessing
+ParticleAdvector3dg	ParticleAdvector3dg/case.sif	navier_stokes, particles
+ParticleAdvector3elemental	ParticleAdvector3elemental/case.sif	navier_stokes, particles
+ParticleAdvector3ip	ParticleAdvector3ip/case.sif	navier_stokes, particles
+ParticleFallingBlock	ParticleFallingBlock/case.sif	navier_stokes, particles, postprocessing
+periodic_rot	periodic_rot/case.sif	navier_stokes
+pointload2	pointload2/case.sif	navier_stokes
+RotatingBeamFlow	RotatingBeamFlow/case.sif	navier_stokes, beam_shell_plate, postprocessing
+RotatingBeamFlow2	RotatingBeamFlow2/case.sif	navier_stokes, beam_shell_plate, postprocessing
+RotatingFlow	RotatingFlow/rotating.sif	navier_stokes
+RotatingHT2D	RotatingHT2D/case.sif	navier_stokes, heat, postprocessing
+SD_FilmFlowPlane	SD_FilmFlowPlane/ns.sif	navier_stokes, postprocessing
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/case.sif	navier_stokes, heat
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/init.sif	navier_stokes, heat
+TwelveSolvers2D	TwelveSolvers2D/case.sif	navier_stokes, heat, postprocessing

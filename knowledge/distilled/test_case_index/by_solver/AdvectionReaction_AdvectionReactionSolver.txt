@@ -1,0 +1,6 @@
+AdvReactDB	AdvReactDB/AdvReactDB.sif	advection_reaction
+AdvReactDBmap	AdvReactDBmap/AdvReactDB.sif	advection_reaction
+AdvReactDBmaster	AdvReactDBmaster/AdvReactDB.sif	advection_reaction
+AdvReactDG	AdvReactDG/AdvReactDG.sif	advection_reaction
+AdvReactDGZoltan	AdvReactDGZoltan/AdvReactDG.sif	advection_reaction, mesh_partitioning
+ExtrudedMeshDG	ExtrudedMeshDG/AdvReactDG.sif	advection_reaction

@@ -1,0 +1,3 @@
+mgdyn2D_em_harmonic	mgdyn2D_em_harmonic/konesec.sif	electromagnetics, postprocessing
+mgdyn_3phase	mgdyn_3phase/kiskot.sif	electromagnetics, postprocessing
+mgdyn_airgap_force	mgdyn_airgap_force/case.sif	electromagnetics, postprocessing

@@ -1,0 +1,4 @@
+ElmerGridConvertComsol	ElmerGridConvertComsol/case.sif	heat, mesh_partitioning
+ElmerGridConvertFvcom	ElmerGridConvertFvcom/case.sif	heat, mesh_partitioning
+ElmerGridConvertGmshBinary	ElmerGridConvertGmshBinary/case.sif	heat, mesh_partitioning
+ElmerGridConvertUnv	ElmerGridConvertUnv/case.sif	heat, mesh_partitioning

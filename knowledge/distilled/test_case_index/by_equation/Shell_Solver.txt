@@ -1,0 +1,9 @@
+contrib	contrib/ShellMultiCantileverBodyForceDistLoad/case.sif	beam_shell_plate
+contrib	contrib/ShellMultiCantileverEdgeLoad/case.sif	beam_shell_plate
+contrib	contrib/ShellMultiCantileverEdgeMomentAboutYaxis/case.sif	beam_shell_plate
+contrib	contrib/ShellMultiCantileverPointLoad/case.sif	beam_shell_plate
+contrib	contrib/ShellMultiCantileverPointMoment-y/case.sif	beam_shell_plate
+contrib	contrib/ShellMultiCantileverPressureDistLoad/case.sif	beam_shell_plate
+contrib	contrib/ShellMultiWeldDistortionAnalysis/case.sif	beam_shell_plate
+FacetShell	FacetShell/shell.sif	beam_shell_plate
+FacetShell2	FacetShell2/shell.sif	beam_shell_plate

@@ -1,0 +1,9 @@
+Adios2FlowResNoslip	Adios2FlowResNoslip/flow_res_noslip.sif	navier_stokes, postprocessing
+FlowResNoslip	FlowResNoslip/flow_res_noslip.sif	navier_stokes, postprocessing
+FlowResSlip	FlowResSlip/flow_res_slip.sif	navier_stokes, postprocessing
+freesurf_sloshing_2d	freesurf_sloshing_2d/case.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+NaturalConvection2	NaturalConvection2/case.sif	navier_stokes, heat
+NaturalConvection3	NaturalConvection3/case.sif	navier_stokes, heat
+RotatingBeamFlow	RotatingBeamFlow/case.sif	navier_stokes, beam_shell_plate, postprocessing
+RotatingBeamFlow2	RotatingBeamFlow2/case.sif	navier_stokes, beam_shell_plate, postprocessing
+RotatingHT2D	RotatingHT2D/case.sif	navier_stokes, heat, postprocessing

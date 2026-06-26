@@ -1,0 +1,132 @@
+adaptivity3	adaptivity3/Step.sif	Navier-Stokes
+Adios2FlowResNoslip	Adios2FlowResNoslip/flow_res_noslip.sif	N-S, Fluidic Force, SaveScalars, saveadios
+adv_diff3	adv_diff3/ad3.sif	Advection Diffusion, Navier-Stokes
+adv_diff4	adv_diff4/ad4.sif	Advection Diffusion, Navier-Stokes
+AdvDiffFluxes	AdvDiffFluxes/case.sif	Navier-Stokes, AdvDiff, saverange
+ArteryOutlet	ArteryOutlet/case.sif	Artery Outlet Solver, Navier-Stokes, Elasticity Solver, Mesh Update, SaveScalars, ResultOutput
+bodydir2	bodydir2/case.sif	Navier-Stokes
+CavityLid	CavityLid/case.sif	Navier-Stokes
+CavityLid2	CavityLid2/case.sif	Navier-Stokes
+channel_v2f	channel_v2f/channel_v2f.sif	V2-F, K-Epsilon, Navier-Stokes, SaveLine
+ChannelFlowCoulomb	ChannelFlowCoulomb/case.sif	Navier-Stokes
+coating	coating/coat.sif	Navier-Stokes, Free Surface Reduced, Mesh Update, Fluidic Force, SaveScalars, SaveLine
+CompressIdealGas	CompressIdealGas/case.sif	MeshSolver, Navier-Stokes, Heat Equation, SaveScalars
+CompressIdealGas2	CompressIdealGas2/case.sif	MeshSolver, Navier-Stokes, SaveScalars
+CurvedPipeHalf	CurvedPipeHalf/case.sif	Navier-Stokes, Heat Equation
+diffuser_sa	diffuser_sa/channel_sa.sif	Distance, Spalart-Allmaras, Navier-Stokes, SaveLine
+diffuser_sa	diffuser_sa/diffuser_sa.sif	Distance, Spalart-Allmaras, Navier-Stokes, SaveLine
+diffuser_sst	diffuser_sst/channel_sst.sif	Distance, K-omega, Navier-Stokes, SaveLine
+diffuser_sst	diffuser_sst/diffuser_sst.sif	Distance, K-omega, Navier-Stokes, SaveLine
+diffuser_v2f	diffuser_v2f/diffuser_v2f.sif	V2-F, K-Epsilon, Navier-Stokes, SaveLine
+ElasticLubrication	ElasticLubrication/case.sif	Navier-Stokes, Elasticity Solver, Mesh Update, SaveScalars, ResultOutput
+Electrokinetics	Electrokinetics/inject.sif	Stat Elec Solver, Navier-Stokes, Analyte transfer
+ExtrusionStructured2D	ExtrusionStructured2D/extrude.sif	FlowLine, IterativeMeshUpdate, Navier-Stokes, SaveConvergenceInfo
+FilmFlow2DFsi	FilmFlow2DFsi/case.sif	FilmFlow, Linear elasticity
+FilmFlowLine	FilmFlowLine/film.sif	Navier-Stokes-1D, SaveMaterial, SaveScalars
+FilmFlowLine	FilmFlowLine/ns.sif	MeshDeform, Navier-Stokes, SaveScalars
+FilmFlowPipe	FilmFlowPipe/film.sif	Navier-Stokes-1D, SaveMaterial, SaveScalars
+FilmFlowPipe	FilmFlowPipe/ns.sif	MeshDeform, Navier-Stokes, SaveScalars
+FilmFlowPlane	FilmFlowPlane/film.sif	FilmFlow, SaveMaterial, SaveScalars
+FilmFlowPlane	FilmFlowPlane/ns.sif	MeshDeform, Navier-Stokes, SaveScalars
+FilmFlowPlane2	FilmFlowPlane2/film.sif	FilmFlow, SaveMaterial, SaveScalars
+FilmFlowPlane3	FilmFlowPlane3/film.sif	FilmFlow, SaveMaterial, SaveScalars
+FilmFlowPlane4	FilmFlowPlane4/film.sif	FilmFlow, SaveMaterial, SaveScalars
+FilmFlowPlane5	FilmFlowPlane5/film.sif	FilmFlow, SaveMaterial, SaveScalars
+FixTangentVelo	FixTangentVelo/case.sif	MapCoordinate, Stokes, FixTangent
+FlowResNoslip	FlowResNoslip/flow_res_noslip.sif	N-S, Fluidic Force, SaveScalars
+FlowResSlip	FlowResSlip/flow_res_slip.sif	N-S, Fluidic Force, SaveScalars
+freesurf	freesurf/Free.sif	Navier-Stokes, Free, Mesh Update
+freesurf_axi	freesurf_axi/Free.sif	Navier-Stokes
+freesurf_int	freesurf_int/Free.sif	Navier-Stokes
+freesurf_ltd	freesurf_ltd/Free_ltd.sif	Navier-Stokes, Free, Mesh Update
+freesurf_sloshing_2d	freesurf_sloshing_2d/case.sif	Mesh Update, N-S, FreeSurf, SaveFree, SaveLine
+freesurf_sloshing_2d	freesurf_sloshing_2d/case_iterative.sif	Stokes, FreeSurf, Mesh Update, SaveFree
+fsi_beam	fsi_beam/fsi.sif	Navier-Stokes, Elasticity Solver, Mesh Update
+fsi_beam_nodalforce	fsi_beam_nodalforce/fsi.sif	Navier-Stokes, Elasticity Solver, Mesh Update
+fsi_beam_optimize	fsi_beam_optimize/case.sif	Navier-Stokes, Elasticity Solver, Optimize, MeshU, SaveCost, SaveLine, ResultOutput
+fsi_box	fsi_box/box.sif	Navier-Stokes, Elasticity Solver, Mesh Update, CompressibilityScale, SaveData
+fsi_box2	fsi_box2/box.sif	Navier-Stokes, Elasticity Solver, Mesh Update, ArtificialCompressibilitySolve, SaveData
+HydrostaticNSVec-ISMIP-HOM-C	HydrostaticNSVec-ISMIP-HOM-C/ISMIP-HOM-C_1stO.sif	MapCoordinate, 1st Order Stokes, Save Scalars
+IntegralConstraintFlow	IntegralConstraintFlow/case.sif	Navier-Stokes, SaveLine
+IntegralConstraintHartmann	IntegralConstraintHartmann/case.sif	Navier-Stokes, Magnetic field solver, SaveLine
+levelset1	levelset1/round.sif	Level Set, Reinitialize, Integrate, Curvature, Navier-Stokes, SaveScalars
+levelset2	levelset2/fill.sif	Level Set, Reinitialize, Navier-Stokes
+levelset3	levelset3/case.sif	Level Set, ParticleAdvector, Reinitialize, Navier-Stokes, ResultOutput
+levelset3b	levelset3b/case.sif	Level Set, ParticleAdvector, Reinitialize, Navier-Stokes, ResultOutput
+LevelsetFallingDrop	LevelsetFallingDrop/drop.sif	Level Set, Reinitialize, Integrate, Curvature, Navier-Stokes, SaveScalars
+LubricationTunedForce	LubricationTunedForce/case.sif	Optimize, MeshSolver, FlowSolver, SaveScalars, ResultOutput
+marangoni	marangoni/skeleton.sif	Navier-Stokes, Heat Equation
+MeshRefineGrading	MeshRefineGrading/Step.sif	Navier-Stokes
+mhd	mhd/mhd.sif	Navier-Stokes, Magnetic field solver
+mhd2	mhd2/mhd2.sif	Navier-Stokes, Magnetic field solver
+NaturalConvection	NaturalConvection/case.sif	Heat Equation, Navier-Stokes
+NaturalConvection2	NaturalConvection2/case.sif	Heat Equation, N-S
+NaturalConvection3	NaturalConvection3/case.sif	Heat Equation, N-S
+NaturalConvectionRestart	NaturalConvectionRestart/case.sif	Energy, Flow
+NaturalConvectionRestart	NaturalConvectionRestart/init.sif	Energy, Flow
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/case.sif	Energy, Flow, ModelPDE
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/init.sif	Energy, Flow, ModelPDE
+NonconformingRestart2	NonconformingRestart2/coarse.sif	Navier-Stokes
+NonconformingRestart2	NonconformingRestart2/fine.sif	Navier-Stokes, ISolver, SaveScalars
+NonconformingRestart2par	NonconformingRestart2par/coarse.sif	Navier-Stokes
+NonconformingRestart2par	NonconformingRestart2par/fine.sif	Navier-Stokes, ISolver, SaveScalars
+NonnewtonianChannelFlow	NonnewtonianChannelFlow/case.sif	Navier-Stokes
+NonnewtonianChannelFlow_vec	NonnewtonianChannelFlow_vec/case.sif	Navier-Stokes, SaveScalars
+NonnewtonianChannelFlow_vec	NonnewtonianChannelFlow_vec/ref.sif	Navier-Stokes
+NormalTangentialBC	NormalTangentialBC/cavity.sif	Navier-Stokes
+ParStokes_ISMIP_HOM_A010	ParStokes_ISMIP_HOM_A010/parstokes.sif	Velocity Preconditioning, Pressure Preconditioning, Stokes eqs
+ParStokes_NormalTangentialBC	ParStokes_NormalTangentialBC/cavity_parstokes.sif	Velocity Preconditioning, Pressure Preconditioning, Stokes
+ParStokes_NormalTangentialBC3D	ParStokes_NormalTangentialBC3D/3dcavity_parstokes.sif	Velocity Preconditioning, Pressure Preconditioning, Stokes eqs
+ParticleAdvector	ParticleAdvector/case.sif	Flow, ParticleAdvector, ResultOutput
+ParticleAdvector2	ParticleAdvector2/case.sif	Navier-Stokes, ParticleAdvector
+ParticleAdvector3	ParticleAdvector3/case.sif	Navier-Stokes, ParticleAdvector, result output
+ParticleAdvector3dg	ParticleAdvector3dg/case.sif	Navier-Stokes, ParticleAdvector
+ParticleAdvector3elemental	ParticleAdvector3elemental/case.sif	Navier-Stokes, ParticleAdvector
+ParticleAdvector3ip	ParticleAdvector3ip/case.sif	Navier-Stokes, ParticleAdvector
+ParticleFallingBlock	ParticleFallingBlock/case.sif	ParticleDynamics, Fraction, Flow, ResultOutput, ParticleOutput
+periodic_explicit	periodic_explicit/case.sif	Navier-Stokes, HeatSolver
+periodic_normal	periodic_normal/case.sif	Navier-Stokes, Save Line
+periodic_offset2	periodic_offset2/case.sif	Navier-Stokes
+periodic_rot	periodic_rot/case.sif	Navier-Stokes
+pointload2	pointload2/case.sif	Navier-Stokes
+PoissonBoltzmann	PoissonBoltzmann/pbe.sif	PBE, StatElecSolver, Navier-Stokes
+PorousPipe	PorousPipe/Pipe.sif	Navier-Stokes
+PredictorCorrector	PredictorCorrector/case.sif	Free Surface Top, MapCoordinate, Navier-Stokes
+Q1Q0	Q1Q0/Q1Q0.sif	Stokes
+reload	reload/ad.sif	restarting, Mass transfer, Navier-Stokes
+RotatingBeamFlow	RotatingBeamFlow/case.sif	MeshDeform, N-S
+RotatingBeamFlow2	RotatingBeamFlow2/case.sif	MeshDeform, N-S
+RotatingFlow	RotatingFlow/rotating.sif	Navier-Stokes
+RotatingHT2D	RotatingHT2D/case.sif	MeshDeform, N-S, Heat Equation, ComputeFlux
+rotflow	rotflow/rotflow.sif	$NST, Navier-Stokes
+SD_FilmFlowPlane	SD_FilmFlowPlane/film.sif	FilmFlow, SaveMaterial, SaveScalars
+SD_FilmFlowPlane	SD_FilmFlowPlane/ns.sif	MeshDeform, Navier-Stokes, SaveScalars
+SD_FilmFlowPlane2	SD_FilmFlowPlane2/film.sif	FilmFlow, SaveMaterial, SaveScalars
+SD_FilmFlowPlane3	SD_FilmFlowPlane3/film.sif	FilmFlow, SaveMaterial, SaveScalars
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/case.sif	Energy, Flow, ModelPDE
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/init.sif	Energy, Flow, ModelPDE
+SD_NonnewtonianChannelFlow_vec	SD_NonnewtonianChannelFlow_vec/case.sif	Navier-Stokes
+SD_NonnewtonianChannelFlow_vec	SD_NonnewtonianChannelFlow_vec/ref.sif	Navier-Stokes
+SD_Step_stokes_block	SD_Step_stokes_block/Step.sif	Stokes
+SD_Step_stokes_heat_vec	SD_Step_stokes_heat_vec/Step.sif	NS-Vec, Heat
+SD_Step_stokes_vec	SD_Step_stokes_vec/Step.sif	NS-Vec
+SD_Step_stokes_vec_blockprec	SD_Step_stokes_vec_blockprec/Step.sif	NS-Vec
+SinusFlowTunedVelo	SinusFlowTunedVelo/cavity.sif	Navier-Stokes, SaveScalars
+Step_ke	Step_ke/Step_ke.sif	Kepsilon, Navier-Stokes
+Step_ns	Step_ns/Step.sif	Navier-Stokes
+Step_sa	Step_sa/Step_sa.sif	sp, Navier-Stokes, SaveLine, Distance
+Step_sst-kw-wf	Step_sst-kw-wf/Step_sst-kw-wf.sif	Distance, Navier-Stokes, SST K-Omega
+Step_stokes	Step_stokes/Step.sif	Navier-Stokes
+Step_stokes_block	Step_stokes_block/Step.sif	Stokes
+Step_stokes_heat	Step_stokes_heat/Step.sif	Navier-Stokes, Heat
+Step_stokes_heat_vec	Step_stokes_heat_vec/Step.sif	NS-Vec, Heat
+Step_stokes_vec	Step_stokes_vec/Step.sif	NS-Vec
+Step_stokes_vec_blockprec	Step_stokes_vec_blockprec/Step.sif	NS-Vec
+Step_v2f	Step_v2f/Step_v2f.sif	V2-F, Kepsilon, Navier-Stokes, SaveLine
+StokesPFEM	StokesPFEM/ptest.sif	Stokes
+StokesProj	StokesProj/ns.sif	Pressure, Velocity
+streamlines	streamlines/streamlines.sif	Navier-Stokes, StreamSolver
+ThermalCompress	ThermalCompress/ThermalCompress.sif	Heat Equation, Navier-Stokes
+TwelveSolvers2D	TwelveSolvers2D/case.sif	Heat Equation, Navier-Stokes, flux compute, streamlines, vorticity, div, ShearrateSolver, isoline, result output, SaveGrid, save line, save scalars
+vortex2d	vortex2d/Step.sif	Navier-Stokes, VortisitySolver
+vortex3d	vortex3d/Step3d.sif	Navier-Stokes, VortisitySolver

@@ -1,0 +1,2 @@
+BatteryDischarge	BatteryDischarge/case.sif	battery_electrochemistry, postprocessing
+BatteryDischarge	BatteryDischarge/opt.sif	battery_electrochemistry, postprocessing

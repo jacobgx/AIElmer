@@ -1,0 +1,1 @@
+StatElecSolveVecMMG2D	StatElecSolveVecMMG2D/case.sif	electrostatics_current, postprocessing

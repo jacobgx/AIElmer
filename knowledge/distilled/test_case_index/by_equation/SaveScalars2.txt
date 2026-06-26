@@ -1,0 +1,4 @@
+beamer3d_box	beamer3d_box/beamer3d.sif	heat, beam_shell_plate, postprocessing
+beamer3d_box2	beamer3d_box2/beamer3d.sif	heat, beam_shell_plate, postprocessing
+radiation_box_in_box	radiation_box_in_box/case.sif	heat, radiation, postprocessing
+savescalars_many	savescalars_many/case.sif	heat, postprocessing

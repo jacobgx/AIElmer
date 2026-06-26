@@ -1,0 +1,1 @@
+Shell_With_NormalSolver	Shell_With_NormalSolver/shell_case1.sif	beam_shell_plate

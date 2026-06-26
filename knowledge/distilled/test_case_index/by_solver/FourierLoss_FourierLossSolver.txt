@@ -1,0 +1,2 @@
+FourierLoss	FourierLoss/case.sif	poisson, postprocessing
+mgdyn_transient_loss	mgdyn_transient_loss/MGDynamicsTransient.sif	electromagnetics

@@ -1,0 +1,75 @@
+1sttime	1sttime/1d.sif	Time Integration Tests
+2ndtime	2ndtime/1d.sif	Time Integration Tests
+a-posteriori-recovery-2D	a-posteriori-recovery-2D/bar.sif	ModelPDE, Flux reconstruction
+BlockLinElast1	BlockLinElast1/case.sif	lin.elast
+coordinate_transform	coordinate_transform/1966/entities.sif	
+DivergenceAnalytic2D	DivergenceAnalytic2D/case.sif	Divergence Solver
+DNS_WaveSimulation	DNS_WaveSimulation/dns.sif	Compressible NS
+EdgeElementInterpolation	EdgeElementInterpolation/interpolationtest.sif	Interpolation test
+ElementUnitTest_edge	ElementUnitTest_edge/case.sif	Test
+ElementUnitTest_edge_piola	ElementUnitTest_edge_piola/case.sif	Test
+ElementUnitTest_edge_quadratic	ElementUnitTest_edge_quadratic/case.sif	Test
+ElementUnitTest_h1	ElementUnitTest_h1/case.sif	Test
+ElementUnitTest_p1	ElementUnitTest_p1/case.sif	Test
+FaceElement2D_BCs	FaceElement2D_BCs/interpolationtest.sif	Interpolation test
+FaceElement3D_BCs	FaceElement3D_BCs/interpolationtest.sif	Interpolation test
+FaceElement3D_BCs	FaceElement3D_BCs/interpolationtest_2nd_kind.sif	Interpolation test
+FilmFlowLine	FilmFlowLine/params.sif	
+FilmFlowPipe	FilmFlowPipe/params.sif	
+FilmFlowPlane	FilmFlowPlane/params.sif	
+FilmFlowPlane2	FilmFlowPlane2/params.sif	
+FilmFlowPlane3	FilmFlowPlane3/params.sif	
+H1BasisEvaluation	H1BasisEvaluation/h1basistest.sif	H1BasisEvaluation
+InductionHeating	InductionHeating/crucible.sif	Potential Solver
+KeywordCompare	KeywordCompare/case.sif	KeywordTimer
+KeywordCompare2	KeywordCompare2/case.sif	KeywordTimer
+KeywordCompare3	KeywordCompare3/case.sif	KeywordTimer
+KeywordCompare4	KeywordCompare4/case.sif	KeywordTimer
+KeywordCompare5	KeywordCompare5/case.sif	KeywordTimer
+KeywordUnitTestLua	KeywordUnitTestLua/case.sif	KeywordTimer
+L2ndDerivatives	L2ndDerivatives/test.sif	Test 2nd derivaties
+LinearFormsAssembly	LinearFormsAssembly/linearftest.sif	LinearFormsAssembly
+Lua	Lua/case.sif	# eqnum, ModelPDEhandle, ModelPDEevol
+MarchingODE1	MarchingODE1/case.sif	MarchingOde
+MarchingODE3	MarchingODE3/case.sif	MarchingOde
+MeshColour	MeshColour/colourtest.sif	Colour
+MeshSolverCubeToSphere	MeshSolverCubeToSphere/case.sif	SmoothMeshUpdate
+ModelPDE	ModelPDE/case.sif	ModelPDE
+ModelPDEevol	ModelPDEevol/case.sif	ModelPDEthreaded
+ModelPDEhandle	ModelPDEhandle/case.sif	ModelPDE
+ModelPDEipadapt	ModelPDEipadapt/case.sif	ModelPDE
+ModelPDEsplitted	ModelPDEsplitted/case.sif	ModelPDE
+ModelPDEthreaded	ModelPDEthreaded/case.sif	ModelPDEthreaded
+P2ndDerivatives	P2ndDerivatives/ptest.sif	Test P2nd derivaties p-1, Test P2nd derivaties p-2, Test P2nd derivaties p-3, Test P2nd derivaties p-4, Test P2nd derivaties p-5, Test P2nd derivaties p-6, Test P2nd derivaties p-7
+QuadraturesBrick	QuadraturesBrick/case.sif	ModelPDE
+QuadraturesWedge	QuadraturesWedge/case.sif	ModelPDE
+reynolds1	reynolds1/reynolds_cylinder.sif	Reynolds, SaveMaterial
+reynolds3	reynolds3/reynolds_cylinder.sif	ReynoldsSolve, ReynoldsPost, SaveMaterial
+reynolds3b	reynolds3b/reynolds_cylinder.sif	Reynolds, SaveMaterial
+reynolds_flux	reynolds_flux/case.sif	Reynolds, ReynoldsPost, SaveMaterial
+reynolds_robin	reynolds_robin/case.sif	Reynolds, ReynoldsPost, SaveMaterial
+SaveDependenceSpline	SaveDependenceSpline/case.sif	SaveDep
+SD_BlockLinElast1	SD_BlockLinElast1/case.sif	lin.elast
+SD_DNS_WaveSimulation	SD_DNS_WaveSimulation/dns.sif	Compressible NS
+SD_ElementUnitTest_p1	SD_ElementUnitTest_p1/case.sif	Test
+SD_FilmFlowPlane	SD_FilmFlowPlane/params.sif	
+SD_FilmFlowPlane2	SD_FilmFlowPlane2/params.sif	
+SD_FilmFlowPlane3	SD_FilmFlowPlane3/params.sif	
+SD_H1BasisEvaluation	SD_H1BasisEvaluation/h1basistest.sif	H1BasisEvaluation
+SD_LinearFormsAssembly	SD_LinearFormsAssembly/linearftest.sif	LinearFormsAssembly
+SD_ModelPDE	SD_ModelPDE/case.sif	ModelPDE
+SD_ModelPDEevol	SD_ModelPDEevol/case.sif	ModelPDEthreaded
+SD_ModelPDEsplitted	SD_ModelPDEsplitted/case.sif	ModelPDE
+SD_ModelPDEthreaded	SD_ModelPDEthreaded/case.sif	ModelPDEthreaded
+SD_P2ndDerivatives	SD_P2ndDerivatives/ptest.sif	Test P2nd derivaties p-1, Test P2nd derivaties p-2, Test P2nd derivaties p-3, Test P2nd derivaties p-4, Test P2nd derivaties p-5, Test P2nd derivaties p-6, Test P2nd derivaties p-7, Test P2nd derivaties p-8
+SD_QuadraturesBrick	SD_QuadraturesBrick/case.sif	ModelPDE
+SD_QuadraturesWedge	SD_QuadraturesWedge/case.sif	ModelPDE
+SecondOrderEdgeElement2D	SecondOrderEdgeElement2D/convergencetest.sif	Interpolation test
+SecondOrderEdgeElement2D_BCs	SecondOrderEdgeElement2D_BCs/interpolationtest.sif	Interpolation test
+SecondOrderEdgeElement3D	SecondOrderEdgeElement3D/convergencetest.sif	Interpolation test
+SecondOrderEdgeElement3D_BCs	SecondOrderEdgeElement3D_BCs/interpolationtest.sif	Interpolation test
+ShallowWaterNS	ShallowWaterNS/ptest.sif	Shallow
+SlaveSolverSlots	SlaveSolverSlots/case.sif	ModelPDE, CountSolver
+SlaveSolverSlotsScan	SlaveSolverSlotsScan/case.sif	ModelPDE, CountSolver
+Step_RockSaddlePrec	Step_RockSaddlePrec/Step.sif	ns
+SunAngle	SunAngle/case.sif	SunAngle

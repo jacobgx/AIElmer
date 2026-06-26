@@ -1,0 +1,3 @@
+current	current/stat_curr.sif	electrostatics_current
+current_heat_control	current_heat_control/case.sif	heat, electrostatics_current, optimization_control
+JouleHeatToOpenFOAM	JouleHeatToOpenFOAM/case.sif	electrostatics_current

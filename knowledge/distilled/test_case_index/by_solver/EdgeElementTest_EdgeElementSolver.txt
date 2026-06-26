@@ -1,0 +1,2 @@
+SecondOrderEdgeElement2D	SecondOrderEdgeElement2D/convergencetest.sif	other
+SecondOrderEdgeElement3D	SecondOrderEdgeElement3D/convergencetest.sif	other

@@ -1,0 +1,2 @@
+KeywordCompare5	KeywordCompare5/case.sif	other
+KeywordUnitTestLua	KeywordUnitTestLua/case.sif	other

@@ -1,0 +1,177 @@
+a-posteriori-recovery-2D	a-posteriori-recovery-2D/recovery_adapt.sif	heat, electromagnetics, acoustics_wave
+adaptivity1	adaptivity1/Ldomain.sif	heat
+adaptivity1-mmg2d	adaptivity1-mmg2d/Ldomain.sif	heat
+adaptivity1-mmg3d	adaptivity1-mmg3d/case-par.sif	heat, postprocessing
+adaptivity1-mmg3d	adaptivity1-mmg3d/case.sif	heat, postprocessing
+adaptivity2	adaptivity2/Ldomain.sif	heat
+AnalyticalTest	AnalyticalTest/case.sif	heat
+AngleMetisLayer	AngleMetisLayer/case.sif	heat, mesh_partitioning, postprocessing
+AnglePartitionLayer	AnglePartitionLayer/case.sif	heat, mesh_partitioning, postprocessing
+BlockDomainsFourHeaters	BlockDomainsFourHeaters/case.sif	heat, postprocessing
+BlockDomainsFourHeaters	BlockDomainsFourHeaters/ref.sif	heat, postprocessing
+BlockDomainsVtuParts	BlockDomainsVtuParts/case.sif	heat
+BlockRotatingBCPoisson3D	BlockRotatingBCPoisson3D/case.sif	heat, postprocessing
+CompressIdealGas	CompressIdealGas/case.sif	fsi, navier_stokes, heat, postprocessing
+ConstantBCTemperature	ConstantBCTemperature/case.sif	heat, postprocessing
+ConstantParamFunc	ConstantParamFunc/case.sif	heat
+ContactFrictionHeating	ContactFrictionHeating/case.sif	heat, elasticity, contact
+ConvergenceControl	ConvergenceControl/case.sif	heat, optimization_control, postprocessing
+CoordinateScaling	CoordinateScaling/case.sif	heat
+CoupledPoisson1b	CoupledPoisson1b/case.sif	heat, postprocessing
+CoupledPoisson2b	CoupledPoisson2b/case.sif	heat, postprocessing
+CoupledPoisson2c	CoupledPoisson2c/case.sif	heat, postprocessing
+current_heat_control	current_heat_control/case.sif	heat, electrostatics_current, optimization_control
+CurvedPipeHalf	CurvedPipeHalf/case.sif	navier_stokes, heat
+DirichletNeumann	DirichletNeumann/case.sif	heat
+DirichletNeumannSlave	DirichletNeumannSlave/case.sif	heat
+DirichletNeumannZoltan	DirichletNeumannZoltan/case.sif	heat, mesh_partitioning
+ElmerGridCloneZ	ElmerGridCloneZ/case.sif	heat, mesh_partitioning
+ElmerGridConvertComsol	ElmerGridConvertComsol/case.sif	heat, mesh_partitioning
+ElmerGridConvertFvcom	ElmerGridConvertFvcom/case.sif	heat, mesh_partitioning
+ElmerGridConvertGmshBinary	ElmerGridConvertGmshBinary/case.sif	heat, mesh_partitioning
+ElmerGridConvertUnv	ElmerGridConvertUnv/case.sif	heat, mesh_partitioning
+ElmerGridExtrudeHelicity	ElmerGridExtrudeHelicity/case.sif	heat, mesh_partitioning
+ElmerGridExtrudeMaterial	ElmerGridExtrudeMaterial/case.sif	heat, mesh_partitioning
+ElmerGridExtrudeMaterial2	ElmerGridExtrudeMaterial2/case.sif	heat, mesh_partitioning
+ElmerGridExtrudeOffset	ElmerGridExtrudeOffset/case.sif	heat, mesh_partitioning
+FluxIntegralBCTemperature	FluxIntegralBCTemperature/case.sif	heat, postprocessing
+HeatControl	HeatControl/case.sif	heat, optimization_control, postprocessing
+HeatControl2	HeatControl2/case.sif	heat, optimization_control, postprocessing
+HeatControlExplicit	HeatControlExplicit/case.sif	heat, optimization_control, postprocessing
+heateq	heateq/TempDist.sif	heat
+heateq_bdf2	heateq_bdf2/TempDist.sif	heat, postprocessing
+heateq_bdf3	heateq_bdf3/TempDist.sif	heat, postprocessing
+heateq_infty	heateq_infty/case.sif	heat
+heateq_newmark	heateq_newmark/TempDist.sif	heat, postprocessing
+heateq_newmark_global	heateq_newmark_global/TempDist.sif	heat, postprocessing
+heateq_resmode	heateq_resmode/TempDist.sif	heat, postprocessing
+heateq_spline_table	heateq_spline_table/TempDist.sif	heat, postprocessing
+heateq_steady_start	heateq_steady_start/TempDist.sif	heat, postprocessing
+HeatEqExitCondition	HeatEqExitCondition/case.sif	heat, postprocessing
+InductionHeating2	InductionHeating2/crucible.sif	heat, postprocessing
+LimitTemperature	LimitTemperature/case.sif	heat
+LimitTemperature2	LimitTemperature2/case.sif	heat
+LimitTemperature3	LimitTemperature3/case.sif	heat
+LimitTemperature_MPRGP1	LimitTemperature_MPRGP1/case.sif	heat
+LimitTemperature_MPRGP2	LimitTemperature_MPRGP2/case.sif	heat
+marangoni	marangoni/skeleton.sif	navier_stokes, heat
+MatDepMat	MatDepMat/case.sif	heat
+MeshLevelsRestart	MeshLevelsRestart/case.sif	heat
+MeshLevelsRestart	MeshLevelsRestart/init.sif	heat
+MeshSplitLevelset2d	MeshSplitLevelset2d/case.sif	heat, levelset_free_surface
+MeshSwap1	MeshSwap1/case.sif	heat, postprocessing
+MinimalExample	MinimalExample/case.sif	heat
+MonolithicSlave	MonolithicSlave/case.sif	heat
+MonolithicSlave2	MonolithicSlave2/case.sif	heat
+MortarAndPeriodicPoisson2D	MortarAndPeriodicPoisson2D/case.sif	heat, postprocessing
+MortarMixedDimensions	MortarMixedDimensions/case.sif	heat, postprocessing
+MortarPoisson2D	MortarPoisson2D/case.sif	heat, postprocessing
+MortarPoisson2D	MortarPoisson2D/ref.sif	heat, postprocessing
+MortarPoisson2Dpriority	MortarPoisson2Dpriority/case.sif	heat, postprocessing
+MortarPoisson2Dsum	MortarPoisson2Dsum/case.sif	heat, postprocessing
+MortarPoisson2Dsum	MortarPoisson2Dsum/ref.sif	heat, postprocessing
+MortarPoissonPartz3D	MortarPoissonPartz3D/case.sif	heat, postprocessing
+MortarPoissonZoltan3D	MortarPoissonZoltan3D/case.sif	heat, mesh_partitioning, postprocessing
+MortarSaveProjection	MortarSaveProjection/case.sif	heat
+multimesh	multimesh/multimesh.sif	heat
+NaturalConvection	NaturalConvection/case.sif	navier_stokes, heat
+NaturalConvection2	NaturalConvection2/case.sif	navier_stokes, heat
+NaturalConvection3	NaturalConvection3/case.sif	navier_stokes, heat
+NaturalConvectionRestart	NaturalConvectionRestart/case.sif	navier_stokes, heat
+NaturalConvectionRestart	NaturalConvectionRestart/init.sif	navier_stokes, heat
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/case.sif	navier_stokes, heat
+NaturalConvectionRestartCycle	NaturalConvectionRestartCycle/init.sif	navier_stokes, heat
+NonconformingRestart	NonconformingRestart/coarse.sif	heat
+NonconformingRestart	NonconformingRestart/fine.sif	heat
+NonconformingRestart3	NonconformingRestart3/case.sif	heat
+NonconformingRestart3	NonconformingRestart3/case_a.sif	heat
+NonconformingRestart3	NonconformingRestart3/case_b.sif	heat
+NonconformingRestart4	NonconformingRestart4/case.sif	heat
+NonconformingRestart4	NonconformingRestart4/plane.sif	heat
+NonconformingRestartStructmap	NonconformingRestartStructmap/case.sif	heat
+NonconformingRestartStructmap	NonconformingRestartStructmap/init.sif	heat
+NonlinControlFourHeaters	NonlinControlFourHeaters/case.sif	heat, optimization_control
+OptimizeBobyqaFourHeaters	OptimizeBobyqaFourHeaters/case.sif	heat, optimization_control
+OptimizeNewuoaFourHeaters	OptimizeNewuoaFourHeaters/case.sif	heat, optimization_control
+OptimizeSimplexFourHeaters	OptimizeSimplexFourHeaters/case.sif	heat, optimization_control
+OptimizeSimplexFourHeatersInt	OptimizeSimplexFourHeatersInt/case.sif	heat, optimization_control
+Outlet2InletBC	Outlet2InletBC/case_a.sif	heat, postprocessing
+Outlet2InletBC	Outlet2InletBC/case_b.sif	heat
+Outlet2InletBCv2	Outlet2InletBCv2/case_a.sif	heat, postprocessing
+Outlet2InletBCv2	Outlet2InletBCv2/case_b.sif	heat
+ParallelBoundaryMapGmsh	ParallelBoundaryMapGmsh/case_a.sif	heat, postprocessing
+ParallelBoundaryMapGmsh	ParallelBoundaryMapGmsh/case_b.sif	heat
+ParamFourHeaters	ParamFourHeaters/case.sif	heat
+ParticleHeating	ParticleHeating/case.sif	heat, particles, postprocessing
+passive	passive/temp.sif	heat
+periodic1	periodic1/test.sif	heat
+periodic2	periodic2/test.sif	heat
+periodic3	periodic3/case.sif	heat
+periodic_explicit	periodic_explicit/case.sif	navier_stokes, heat
+periodic_homogenize	periodic_homogenize/case.sif	heat, postprocessing
+periodic_nonconforming	periodic_nonconforming/test.sif	heat
+periodic_offset	periodic_offset/test.sif	heat
+PeriodicTime	PeriodicTime/case.sif	heat, postprocessing
+poisson_steady_conforming	poisson_steady_conforming/case.sif	heat
+poisson_steady_conforming	poisson_steady_conforming/ref.sif	heat
+poisson_steady_conforming_anti	poisson_steady_conforming_anti/case.sif	heat
+poisson_steady_conforming_anti	poisson_steady_conforming_anti/ref.sif	heat
+poisson_transient_conforming_anti	poisson_transient_conforming_anti/case.sif	heat
+poisson_transient_conforming_anti	poisson_transient_conforming_anti/ref.sif	heat
+PoissonToroid3D	PoissonToroid3D/case.sif	heat
+PrevValuesKeyword	PrevValuesKeyword/case.sif	heat, postprocessing
+ProfileBCTemperature	ProfileBCTemperature/case.sif	heat, postprocessing
+ProfileBCTemperatureRobin	ProfileBCTemperatureRobin/case.sif	heat, postprocessing
+radiation	radiation/radiation.sif	heat, radiation
+radiation2	radiation2/radiation2.sif	heat, radiation
+radiation2d	radiation2d/radiation.sif	heat, radiation
+radiation2dsymm	radiation2dsymm/radiation.sif	heat, radiation
+radiation_bin	radiation_bin/radiation.sif	heat, radiation
+RigidMeshMapper1	RigidMeshMapper1/case.sif	heat
+RigidMeshMapper2	RigidMeshMapper2/case.sif	heat
+RigidMeshMapperCatenary	RigidMeshMapperCatenary/case.sif	heat
+RotatingBCPoisson2D	RotatingBCPoisson2D/case.sif	heat, postprocessing
+RotatingBCPoisson2D	RotatingBCPoisson2D/case_ref.sif	heat, postprocessing
+RotatingBCPoisson2D	RotatingBCPoisson2D/case_steady.sif	heat, postprocessing
+RotatingBCPoisson2Dnormal	RotatingBCPoisson2Dnormal/case.sif	heat, postprocessing
+RotatingBCPoisson3D	RotatingBCPoisson3D/case.sif	heat, postprocessing
+RotatingBCPoisson3Daxial	RotatingBCPoisson3Daxial/case.sif	heat, postprocessing
+RotatingBCPoisson3DGeneric	RotatingBCPoisson3DGeneric/case.sif	heat, postprocessing
+RotatingBCPoisson3DGenericTets	RotatingBCPoisson3DGenericTets/case.sif	heat, postprocessing
+RotatingBCPoisson3DNT	RotatingBCPoisson3DNT/case.sif	heat, postprocessing
+RotatingBCPoisson3DSymmSkew	RotatingBCPoisson3DSymmSkew/case.sif	heat, postprocessing
+RotatingBCPoisson3DSymmSkew	RotatingBCPoisson3DSymmSkew/level_strong.sif	heat, postprocessing
+RotatingBCPoisson3DSymmSkew	RotatingBCPoisson3DSymmSkew/level_weak.sif	heat, postprocessing
+RotatingBCPoissonNitsche	RotatingBCPoissonNitsche/case.sif	heat, postprocessing
+RotatingBCPoissonNitsche	RotatingBCPoissonNitsche/ref.sif	heat, postprocessing
+RotatingBlockRemeshMMG2D	RotatingBlockRemeshMMG2D/case.sif	heat, mesh_partitioning
+RotatingBlockRemeshMMG2D_H	RotatingBlockRemeshMMG2D_H/case.sif	heat, mesh_partitioning
+RotatingBlockRemeshMMG2Dtransient	RotatingBlockRemeshMMG2Dtransient/case.sif	heat, mesh_partitioning
+RotatingBlockRemeshMMG3D	RotatingBlockRemeshMMG3D/case.sif	heat, mesh_partitioning
+RotatingHT2D	RotatingHT2D/case.sif	navier_stokes, heat, postprocessing
+RunControlStructured	RunControlStructured/case.sif	heat, optimization_control
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/case.sif	navier_stokes, heat
+SD_NaturalConvectionRestartCycle	SD_NaturalConvectionRestartCycle/init.sif	navier_stokes, heat
+SensTemperature	SensTemperature/case.sif	heat
+staged_sim	staged_sim/disp.sif	heat, elasticity
+Step_stokes_heat	Step_stokes_heat/Step.sif	navier_stokes, heat
+structmap4	structmap4/case.sif	heat
+structmap5	structmap5/case.sif	heat
+structmap6	structmap6/case.sif	heat
+structmap7	structmap7/case.sif	heat
+TemperatureCyclic	TemperatureCyclic/case.sif	heat, postprocessing
+TemperatureCyclicParallel	TemperatureCyclicParallel/case.sif	heat, postprocessing
+ThermalActuator	ThermalActuator/thermal_actuator.sif	heat, elasticity, electrostatics_current, postprocessing
+ThermalBiMetal2	ThermalBiMetal2/case.sif	heat, elasticity, postprocessing
+ThermalCompress	ThermalCompress/ThermalCompress.sif	navier_stokes, heat
+ThermalPipe2D	ThermalPipe2D/case.sif	heat
+ThermalPipe3D	ThermalPipe3D/case3d.sif	heat
+TimeFunc	TimeFunc/case.sif	heat
+TransientCostFourHeaters	TransientCostFourHeaters/case.sif	heat, optimization_control
+TransientCostFourHeaters	TransientCostFourHeaters/ref.sif	heat, optimization_control, postprocessing
+TwelveSolvers2D	TwelveSolvers2D/case.sif	navier_stokes, heat, postprocessing
+WeightComputation	WeightComputation/case.sif	heat, postprocessing
+WinkelPoissonMetisKwayDual	WinkelPoissonMetisKwayDual/case.sif	heat, mesh_partitioning, postprocessing, linear_solver_benchmark
+WinkelPoissonMetisKwayNodal	WinkelPoissonMetisKwayNodal/case.sif	heat, mesh_partitioning, postprocessing, linear_solver_benchmark
+WinkelPoissonPartitionRecursive	WinkelPoissonPartitionRecursive/case.sif	heat, mesh_partitioning, postprocessing, linear_solver_benchmark
+WinkelPoissonPartitionUniform	WinkelPoissonPartitionUniform/case.sif	heat, mesh_partitioning, postprocessing, linear_solver_benchmark

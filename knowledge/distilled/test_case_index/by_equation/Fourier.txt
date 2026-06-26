@@ -1,0 +1,1 @@
+FourierLoss	FourierLoss/case.sif	poisson, postprocessing

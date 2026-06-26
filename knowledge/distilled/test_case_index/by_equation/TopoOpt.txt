@@ -1,0 +1,7 @@
+TopoOptElast2DCompMin	TopoOptElast2DCompMin/case.sif	elasticity, optimization_control, postprocessing
+TopoOptElast2DCompMin2	TopoOptElast2DCompMin2/case.sif	elasticity, optimization_control, postprocessing
+TopoOptElast2DCompMin3	TopoOptElast2DCompMin3/case.sif	elasticity, optimization_control, postprocessing
+TopoOptElast2DCompMin3	TopoOptElast2DCompMin3/case3d.sif	elasticity, optimization_control, postprocessing
+TopoOptForceInverter	TopoOptForceInverter/case.sif	elasticity, optimization_control, postprocessing
+TopoOptHeat2DCompMin	TopoOptHeat2DCompMin/case.sif	heat, optimization_control, postprocessing
+TopoOptHeat2DCompMin2	TopoOptHeat2DCompMin2/case2.sif	heat, optimization_control, postprocessing

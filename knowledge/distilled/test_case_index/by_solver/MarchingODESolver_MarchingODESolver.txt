@@ -1,0 +1,4 @@
+MarchingODE1	MarchingODE1/case.sif	other
+MarchingODE2	MarchingODE2/case.sif	heat
+MarchingODE3	MarchingODE3/case.sif	other
+MarchingODE4	MarchingODE4/case.sif	heat

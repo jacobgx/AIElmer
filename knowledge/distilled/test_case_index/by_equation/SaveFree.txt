@@ -1,0 +1,2 @@
+freesurf_sloshing_2d	freesurf_sloshing_2d/case.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+freesurf_sloshing_2d	freesurf_sloshing_2d/case_iterative.sif	fsi, navier_stokes, levelset_free_surface, postprocessing

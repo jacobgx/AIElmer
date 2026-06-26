@@ -1,0 +1,13 @@
+HelmholtzPlaneWaves	HelmholtzPlaneWaves/case.sif	electromagnetics, acoustics_wave, postprocessing
+HelmholtzPlaneWavesAxis	HelmholtzPlaneWavesAxis/case.sif	electromagnetics, acoustics_wave, postprocessing
+HelmholtzPlaneWavesParam	HelmholtzPlaneWavesParam/case.sif	electromagnetics, acoustics_wave, postprocessing
+HelmholtzPlaneWavesScan	HelmholtzPlaneWavesScan/case.sif	electromagnetics, acoustics_wave, postprocessing
+HelmholtzSolveImpMatrix	HelmholtzSolveImpMatrix/case.sif	electromagnetics, acoustics_wave
+HelmholtzStructure	HelmholtzStructure/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+HelmholtzStructure2	HelmholtzStructure2/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+HelmholtzStructure3	HelmholtzStructure3/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+linearsolvers_cmplx	linearsolvers_cmplx/HelmholtzFEM.sif	electromagnetics, acoustics_wave, linear_solver_benchmark
+ShoeboxFsiHarmonic	ShoeboxFsiHarmonic/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+ShoeboxFsiHarmonic2D	ShoeboxFsiHarmonic2D/case.sif	elasticity, electromagnetics, acoustics_wave, postprocessing
+ShoeboxFsiHarmonicPlate	ShoeboxFsiHarmonicPlate/case.sif	beam_shell_plate, electromagnetics, acoustics_wave, postprocessing
+ShoeboxFsiHarmonicPlateMonolithic	ShoeboxFsiHarmonicPlateMonolithic/case.sif	beam_shell_plate, electromagnetics, acoustics_wave, postprocessing

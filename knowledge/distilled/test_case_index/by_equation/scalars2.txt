@@ -1,0 +1,2 @@
+mgdyn_bh_gauge	mgdyn_bh_gauge/case.sif	electrostatics_current, electromagnetics, postprocessing
+mgdyn_bh_gauge2	mgdyn_bh_gauge2/block.sif	electrostatics_current, electromagnetics, postprocessing

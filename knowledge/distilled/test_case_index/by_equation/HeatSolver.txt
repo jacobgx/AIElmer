@@ -1,0 +1,39 @@
+AngleMetisLayer	AngleMetisLayer/case.sif	heat, mesh_partitioning, postprocessing
+AnglePartitionLayer	AnglePartitionLayer/case.sif	heat, mesh_partitioning, postprocessing
+CoordinateScaling	CoordinateScaling/case.sif	heat
+ElmerGridCloneZ	ElmerGridCloneZ/case.sif	heat, mesh_partitioning
+ElmerGridExtrudeHelicity	ElmerGridExtrudeHelicity/case.sif	heat, mesh_partitioning
+ElmerGridExtrudeMaterial	ElmerGridExtrudeMaterial/case.sif	heat, mesh_partitioning
+ElmerGridExtrudeMaterial2	ElmerGridExtrudeMaterial2/case.sif	heat, mesh_partitioning
+ElmerGridExtrudeOffset	ElmerGridExtrudeOffset/case.sif	heat, mesh_partitioning
+HeatControl	HeatControl/case.sif	heat, optimization_control, postprocessing
+HeatControl2	HeatControl2/case.sif	heat, optimization_control, postprocessing
+HeatControlExplicit	HeatControlExplicit/case.sif	heat, optimization_control, postprocessing
+LimitTemperature	LimitTemperature/case.sif	heat
+LimitTemperature2	LimitTemperature2/case.sif	heat
+LimitTemperature3	LimitTemperature3/case.sif	heat
+LimitTemperature_MPRGP1	LimitTemperature_MPRGP1/case.sif	heat
+LimitTemperature_MPRGP2	LimitTemperature_MPRGP2/case.sif	heat
+LinControlCoordHeat	LinControlCoordHeat/case.sif	heat, optimization_control
+LinControlFourHeaters	LinControlFourHeaters/case.sif	heat, optimization_control
+LinControlMaxHeat	LinControlMaxHeat/case.sif	heat, optimization_control
+MinpackControlFourHeaters	MinpackControlFourHeaters/case.sif	heat, optimization_control
+NonlinControlFourHeaters	NonlinControlFourHeaters/case.sif	heat, optimization_control
+Outlet2InletBC	Outlet2InletBC/case_a.sif	heat, postprocessing
+Outlet2InletBC	Outlet2InletBC/case_b.sif	heat
+Outlet2InletBCv2	Outlet2InletBCv2/case_a.sif	heat, postprocessing
+Outlet2InletBCv2	Outlet2InletBCv2/case_b.sif	heat
+ParallelBoundaryMapGmsh	ParallelBoundaryMapGmsh/case_a.sif	heat, postprocessing
+ParallelBoundaryMapGmsh	ParallelBoundaryMapGmsh/case_b.sif	heat
+ParticleHeating	ParticleHeating/case.sif	heat, particles, postprocessing
+periodic_explicit	periodic_explicit/case.sif	navier_stokes, heat
+RigidMeshMapper1	RigidMeshMapper1/case.sif	heat
+RigidMeshMapper2	RigidMeshMapper2/case.sif	heat
+RigidMeshMapperCatenary	RigidMeshMapperCatenary/case.sif	heat
+SensTemperature	SensTemperature/case.sif	heat
+ThermalBiMetal2	ThermalBiMetal2/case.sif	heat, elasticity, postprocessing
+TimeFunc	TimeFunc/case.sif	heat
+WinkelPoissonMetisKwayDual	WinkelPoissonMetisKwayDual/case.sif	heat, mesh_partitioning, postprocessing, linear_solver_benchmark
+WinkelPoissonMetisKwayNodal	WinkelPoissonMetisKwayNodal/case.sif	heat, mesh_partitioning, postprocessing, linear_solver_benchmark
+WinkelPoissonPartitionRecursive	WinkelPoissonPartitionRecursive/case.sif	heat, mesh_partitioning, postprocessing, linear_solver_benchmark
+WinkelPoissonPartitionUniform	WinkelPoissonPartitionUniform/case.sif	heat, mesh_partitioning, postprocessing, linear_solver_benchmark

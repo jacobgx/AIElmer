@@ -1,0 +1,7 @@
+CompressIdealGas	CompressIdealGas/case.sif	fsi, navier_stokes, heat, postprocessing
+CompressIdealGas2	CompressIdealGas2/case.sif	fsi, navier_stokes, postprocessing
+freesurf_sloshing_2d	freesurf_sloshing_2d/case.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+freesurf_sloshing_2d	freesurf_sloshing_2d/case_iterative.sif	fsi, navier_stokes, levelset_free_surface, postprocessing
+HybridMeshMap	HybridMeshMap/case.sif	fsi, heat, postprocessing
+LubricationTunedForce	LubricationTunedForce/case.sif	fsi, navier_stokes, optimization_control, postprocessing
+mgdyn2D_pm	mgdyn2D_pm/ptest.sif	fsi, electromagnetics

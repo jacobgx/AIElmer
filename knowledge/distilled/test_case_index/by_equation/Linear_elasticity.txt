@@ -1,0 +1,34 @@
+ConformingDisplacementCube	ConformingDisplacementCube/case.sif	elasticity
+ContactFriction	ContactFriction/case.sif	elasticity, contact
+ContactFriction	ContactFriction/implicit.sif	elasticity, contact
+ContractElasticCube	ContractElasticCube/case.sif	elasticity
+ContractElasticCube2	ContractElasticCube2/case.sif	elasticity
+CylComAxi	CylComAxi/case.sif	elasticity, postprocessing
+CylComStruct	CylComStruct/case.sif	elasticity, postprocessing
+DisplacementPlaneBC	DisplacementPlaneBC/case.sif	elasticity
+DisplacementPlaneBC	DisplacementPlaneBC/ref.sif	elasticity
+ElastPelem	ElastPelem/case.sif	elasticity, postprocessing
+ElastPelem2dPmultg	ElastPelem2dPmultg/case.sif	elasticity, postprocessing
+ElastPelem2dPmultgBoomer	ElastPelem2dPmultgBoomer/case.sif	elasticity, postprocessing
+ElastPelem2dPmultgMumps	ElastPelem2dPmultgMumps/case.sif	elasticity, postprocessing
+ElastPelem2dQuad	ElastPelem2dQuad/case.sif	elasticity, postprocessing
+ElastPelem2dTri	ElastPelem2dTri/case.sif	elasticity, postprocessing
+FilmFlow2DFsi	FilmFlow2DFsi/case.sif	navier_stokes, elasticity
+FrictionElasticCube	FrictionElasticCube/case.sif	elasticity, contact
+HeatPlateSym	HeatPlateSym/case.sif	elasticity, beam_shell_plate
+L2norm	L2norm/case.sif	elasticity
+LimitDisplacement	LimitDisplacement/case.sif	elasticity
+LimitDisplacement2	LimitDisplacement2/case.sif	elasticity
+LimitDisplacement2Mesh	LimitDisplacement2Mesh/case.sif	elasticity
+LimitDisplacement3	LimitDisplacement3/case.sif	elasticity
+LimitDisplacement4MeshTrans	LimitDisplacement4MeshTrans/case.sif	elasticity
+LimitDisplacementAdjoint	LimitDisplacementAdjoint/case.sif	elasticity, postprocessing
+LinControlCoordDisp	LinControlCoordDisp/case.sif	elasticity, optimization_control
+LinControlLoadDisp	LinControlLoadDisp/case.sif	elasticity, optimization_control
+SD_CylComStruct	SD_CylComStruct/case.sif	elasticity, postprocessing
+SD_ElastPelem2dPmultg	SD_ElastPelem2dPmultg/case.sif	elasticity, postprocessing
+SD_ElastPelem2dQuad	SD_ElastPelem2dQuad/case.sif	elasticity, postprocessing
+SD_FrictionElasticCube	SD_FrictionElasticCube/case.sif	elasticity, contact
+SD_SinPlane	SD_SinPlane/case.sif	elasticity, postprocessing
+SinPlane	SinPlane/case.sif	elasticity, postprocessing
+TankAst	TankAst/tank.sif	elasticity

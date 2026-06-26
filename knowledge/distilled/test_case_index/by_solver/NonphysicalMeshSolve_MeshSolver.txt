@@ -1,0 +1,3 @@
+ExtrusionStructured2D	ExtrusionStructured2D/extrude.sif	navier_stokes, postprocessing
+fsi_beam_optimize	fsi_beam_optimize/case.sif	navier_stokes, elasticity, beam_shell_plate, optimization_control, postprocessing
+MeshSolverCubeToSphere	MeshSolverCubeToSphere/case.sif	other

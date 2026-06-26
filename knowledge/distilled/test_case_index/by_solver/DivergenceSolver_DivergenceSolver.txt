@@ -1,0 +1,11 @@
+circuits_harmonic_foil_wvector	circuits_harmonic_foil_wvector/sif/6459.sif	electromagnetics, postprocessing
+CoilSolver1	CoilSolver1/case.sif	electromagnetics
+CoilSolver2	CoilSolver2/case.sif	electromagnetics
+CoilSolver3	CoilSolver3/case.sif	electromagnetics
+CoilSolver4	CoilSolver4/case.sif	electromagnetics
+CoilSolver5	CoilSolver5/case.sif	electromagnetics
+CoilSolver6	CoilSolver6/case.sif	electromagnetics
+CoilSolverLoop	CoilSolverLoop/case.sif	electromagnetics
+CoilSolverTwoLoops	CoilSolverTwoLoops/case.sif	electromagnetics
+DivergenceAnalytic2D	DivergenceAnalytic2D/case.sif	other
+TwelveSolvers2D	TwelveSolvers2D/case.sif	navier_stokes, heat, postprocessing

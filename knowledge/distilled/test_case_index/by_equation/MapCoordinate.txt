@@ -1,0 +1,15 @@
+ExtrudedMesh2	ExtrudedMesh2/case.sif	heat
+ExtrudedMesh5	ExtrudedMesh5/map.sif	heat
+ExtrudedMeshBaseline1	ExtrudedMeshBaseline1/case_baseline.sif	heat, poisson
+ExtrudedMeshSlices	ExtrudedMeshSlices/case.sif	heat
+FixTangentVelo	FixTangentVelo/case.sif	navier_stokes
+HybridMeshMap	HybridMeshMap/case.sif	fsi, heat, postprocessing
+HydrostaticNSVec-ISMIP-HOM-C	HydrostaticNSVec-ISMIP-HOM-C/ISMIP-HOM-C_1stO.sif	navier_stokes, postprocessing
+PredictorCorrector	PredictorCorrector/case.sif	navier_stokes, levelset_free_surface
+SD_structmap_p2	SD_structmap_p2/map.sif	heat, postprocessing
+structmap	structmap/map.sif	heat
+structmap2	structmap2/case.sif	heat
+structmap3	structmap3/case.sif	heat, postprocessing
+structmap_meshupdate	structmap_meshupdate/map.sif	heat
+structmap_multilayer	structmap_multilayer/case.sif	heat
+structmap_p2	structmap_p2/map.sif	heat, postprocessing

@@ -1,0 +1,2 @@
+streamlines	streamlines/streamlines.sif	navier_stokes
+TwelveSolvers2D	TwelveSolvers2D/case.sif	navier_stokes, heat, postprocessing

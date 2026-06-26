@@ -1,0 +1,1 @@
+mgdyn_bh_relfun	mgdyn_bh_relfun/case.sif	electrostatics_current, electromagnetics, postprocessing

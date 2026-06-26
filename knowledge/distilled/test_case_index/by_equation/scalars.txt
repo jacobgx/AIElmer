@@ -1,0 +1,11 @@
+mgdyn_airgap	mgdyn_airgap/airgap.sif	electromagnetics, postprocessing
+mgdyn_airgap2	mgdyn_airgap2/airgap.sif	electromagnetics, postprocessing
+mgdyn_bh	mgdyn_bh/case.sif	electrostatics_current, electromagnetics, postprocessing
+mgdyn_bh	mgdyn_bh/with_projection.sif	electrostatics_current, electromagnetics, acoustics_wave, postprocessing
+mgdyn_bh_gauge	mgdyn_bh_gauge/case.sif	electrostatics_current, electromagnetics, postprocessing
+mgdyn_bh_gauge	mgdyn_bh_gauge/with_projection.sif	electrostatics_current, electromagnetics, acoustics_wave, postprocessing
+mgdyn_bh_gauge2	mgdyn_bh_gauge2/block.sif	electrostatics_current, electromagnetics, postprocessing
+mgdyn_bh_relfun	mgdyn_bh_relfun/case.sif	electrostatics_current, electromagnetics, postprocessing
+mgdyn_dg_b_velocity	mgdyn_dg_b_velocity/airgap.sif	electromagnetics, postprocessing
+mgdyn_steady	mgdyn_steady/MGDynamicsSteady.sif	electromagnetics, postprocessing
+Zirka	Zirka/case.sif	electromagnetics, postprocessing

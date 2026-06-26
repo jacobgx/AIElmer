@@ -1,0 +1,2 @@
+Shell_And_Solid	Shell_And_Solid/coupling.sif	elasticity, beam_shell_plate, postprocessing
+Shell_And_Solid2	Shell_And_Solid2/coupling.sif	elasticity, beam_shell_plate, postprocessing

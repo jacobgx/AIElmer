@@ -1,0 +1,2 @@
+JouleHeatToOpenFOAM	JouleHeatToOpenFOAM/case.sif	electrostatics_current
+TemperatureFromOpenFOAM	TemperatureFromOpenFOAM/case.sif	heat

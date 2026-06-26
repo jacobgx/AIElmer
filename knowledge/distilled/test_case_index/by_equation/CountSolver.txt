@@ -1,0 +1,2 @@
+SlaveSolverSlots	SlaveSolverSlots/case.sif	other
+SlaveSolverSlotsScan	SlaveSolverSlotsScan/case.sif	other

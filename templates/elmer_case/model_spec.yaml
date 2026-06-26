@@ -1,0 +1,51 @@
+schema_version: 1
+case_id: {{CASE_ID}}
+status: DRAFT
+
+provenance:
+  created: {{DATE}}
+  reference_files: []
+  reference_software: null
+  evidence_notes: null
+
+objective:
+  question: TODO
+  dimensions: TODO
+  study_type: TODO
+  requested_outputs: []
+
+geometry:
+  coordinate_system: TODO
+  parameters_si: {}
+  source_file: geometry.geo
+
+physics:
+  active_equations: []
+  dependent_variables: []
+  coupling: TODO
+  assumptions: []
+
+materials: []
+initial_conditions: []
+boundary_conditions: []
+sources: []
+
+discretization:
+  element_family: TODO
+  element_order: null
+  stabilization: TODO
+  mesh_strategy: TODO
+  time_method: TODO
+  time_step_s: null
+  end_time_s: null
+
+solvers: []
+
+validation:
+  reference_quantities: []
+  conservation_checks: []
+  mesh_tolerance_percent: null
+  timestep_tolerance_percent: null
+
+unresolved: []
+

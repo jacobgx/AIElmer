@@ -1,0 +1,2 @@
+InductionHeating3	InductionHeating3/crucible.sif	electromagnetics
+InductionHeating4	InductionHeating4/crucible.sif	electromagnetics

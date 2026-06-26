@@ -1,0 +1,3 @@
+CutFEMPoisson1	CutFEMPoisson1/case.sif	postprocessing
+CutFEMPoisson2	CutFEMPoisson2/case.sif	postprocessing
+CutFEMPoisson3	CutFEMPoisson3/case.sif	postprocessing

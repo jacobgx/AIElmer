@@ -1,0 +1,7 @@
+mgdyn_bh	mgdyn_bh/case.sif	electrostatics_current, electromagnetics, postprocessing
+mgdyn_bh	mgdyn_bh/with_projection.sif	electrostatics_current, electromagnetics, acoustics_wave, postprocessing
+mgdyn_bh_gauge	mgdyn_bh_gauge/case.sif	electrostatics_current, electromagnetics, postprocessing
+mgdyn_bh_gauge	mgdyn_bh_gauge/with_projection.sif	electrostatics_current, electromagnetics, acoustics_wave, postprocessing
+mgdyn_bh_gauge2	mgdyn_bh_gauge2/block.sif	electrostatics_current, electromagnetics, postprocessing
+mgdyn_bh_relfun	mgdyn_bh_relfun/case.sif	electrostatics_current, electromagnetics, postprocessing
+ThermalActuator	ThermalActuator/thermal_actuator.sif	heat, elasticity, electrostatics_current, postprocessing

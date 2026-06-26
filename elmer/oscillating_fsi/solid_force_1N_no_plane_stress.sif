@@ -1,0 +1,106 @@
+Header
+  CHECK KEYWORDS Warn
+  Mesh DB "." "mesh"
+  Results Directory "results_raw/solid_force_1N_no_plane_stress"
+End
+
+Simulation
+  Max Output Level = 5
+  Coordinate System = Cartesian 2D
+  Simulation Type = Transient
+  Timestepping Method = BDF
+  BDF Order = 2
+  Timestep Intervals = 300
+  Timestep Sizes = 0.01
+  Steady State Max Iterations = 1
+  Output Intervals = 1
+End
+
+Constants
+  Gravity(4) = 0 -1 0 0
+End
+
+Body 1
+  Target Bodies(1) = 1
+  Name = "Inactive fluid"
+  Equation = 1
+  Material = 1
+End
+
+Body 2
+  Target Bodies(1) = 2
+  Name = "Elastic beam"
+  Equation = 2
+  Material = 2
+  Initial Condition = 1
+End
+
+Equation 1
+  Name = "No active fluid solver"
+End
+
+Equation 2
+  Name = "Dynamic default 2D beam"
+  Active Solvers(2) = 1 2
+End
+
+Solver 1
+  Equation = Elasticity Solver
+  Procedure = "ElasticSolve" "ElasticSolver"
+  Variable = Displacement
+  Variable DOFs = 2
+  Time Derivative Order = 2
+  Large Deflection = True
+  Linear System Solver = Direct
+  Linear System Direct Method = Mumps
+  Nonlinear System Max Iterations = 8
+  Nonlinear System Convergence Tolerance = 1.0e-8
+  Nonlinear System Newton After Iterations = 1
+  Nonlinear System Newton After Tolerance = 1.0e-4
+  Nonlinear System Relaxation Factor = 1.0
+End
+
+Solver 2
+  Exec Solver = After Timestep
+  Exec Interval = 1
+  Exec Intervals Offset = -1
+  Equation = "Result output"
+  Procedure = "ResultOutputSolve" "ResultOutputSolver"
+  Output File Name = "solid_force_1N_no_plane_stress"
+  Vtu Format = True
+  Vtu Time Collection = True
+  Save Geometry IDs = True
+End
+
+Material 1
+  Name = "Inactive fluid"
+  Density = 1000.0
+  Viscosity = 1.0
+End
+
+Material 2
+  Name = "COMSOL beam default 2D"
+  Density = 1000.0
+  Youngs Modulus = 5.6e6
+  Poisson Ratio = 0.4
+End
+
+Initial Condition 1
+  Displacement 1 = 0.0
+  Displacement 2 = 0.0
+End
+
+Boundary Condition 1
+  Target Boundaries(1) = 6
+  Name = "Fixed beam root"
+  Displacement 1 = 0.0
+  Displacement 2 = 0.0
+End
+
+Boundary Condition 2
+  Target Boundaries(1) = 7
+  Name = "1-newton Gaussian trigger distributed over 0.02 m tip"
+  Surface Traction 1 = 0.0
+  Surface Traction 2 = Variable Time
+    Real MATC "50.0*exp(-0.5*((tx-1.5)/0.05)^2)"
+End
